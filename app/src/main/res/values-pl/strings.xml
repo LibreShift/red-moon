@@ -85,7 +85,7 @@
     <!-- Currently unused -->
     <string name="add_new_profile_dialog_title">Wpisz nazwę profilu</string>
     <string name="add_new_profile_edit_hint">Nazwa profilu</string>
-    <string name="remove_profile_dialog_title">Usunąć profil?</string>
+    <string name="remove_profile_dialog_title">Usunąć profil\?</string>
     <string name="action_next_profile">Następny profil</string>
     <string name="pref_title_appearance">Profil</string>
     <string name="pref_category_button_backlight_disclaimer">Brak efektu na niektórych urządzeniach</string>
