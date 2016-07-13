@@ -73,7 +73,7 @@
     <!-- Currently unused -->
     <string name="add_new_profile_dialog_title">Entrez un nom de profil</string>
     <string name="add_new_profile_edit_hint">Nom du profil</string>
-    <string name="remove_profile_dialog_title">Supprimer ce profil ?</string>
+    <string name="remove_profile_dialog_title">Supprimer ce profil \?</string>
     <string name="pref_title_appearance">Profil</string>
     <string name="searching_location">Recherche de l\'emplacement</string>
     <string name="toast_warning_no_location">Autoriser les services de localisation pour actualiser l\'emplacement</string>
