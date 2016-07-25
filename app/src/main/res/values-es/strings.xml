@@ -62,9 +62,9 @@
     <string name="activity_secure_suspend">Pausar en aplicaciones excluidas</string>
     <string name="pref_title_secure_suspend">Pausar en aplicaciones excluidas</string>
     <string name="pref_summary_secure_suspend">Con esta opción activada la superposición de Red Moon se pausará automáticamente cuando se abran determinadas aplicaciones. Esto incluye de serie aplicaciones que no funcionarían con Red Moon estando encima*, como la pantalla de confirmación de instalación de APKs. Aparte de eso tienes control manual desde la notificación para detener el filtro, por ejemplo; al utilizar la cámara, donde ver los colores bien y sin adulterar es importante.
-\n 
-\nActivarlo puede conllevar un gasto de batería extra en tu dispositivo. 
-\n 
+\n
+\nActivarlo puede conllevar un gasto de batería extra en tu dispositivo.
+\n
 \n*Algunas aplicaciones se protegen de las superposiciones para evitar problemas de seguridad, como engañarte para que aprietes botones falsos alterando lo que ves en pantalla y así poder instalar otros programas fraudulentos... por lo que partes de su interfaz no irán, ya que Red Moon funciona dibujando en todo momento una capa roja semitransparente.</string>
     <string name="text_switch_on">Activado</string>
     <string name="text_switch_off">Desactivado</string>
@@ -92,7 +92,7 @@
     <!-- Currently unused -->
     <string name="add_new_profile_dialog_title">Escribe un nombre de perfil</string>
     <string name="add_new_profile_edit_hint">Nombre del perfil</string>
-    <string name="remove_profile_dialog_title">¿Seguro que quieres borrarlo?</string>
+    <string name="remove_profile_dialog_title">¿Seguro que quieres borrarlo\?</string>
     <string name="action_next_profile">Siguiente perfil</string>
     <string name="pref_title_appearance">Perfil</string>
     <string name="searching_location">Buscando ubicación</string>
