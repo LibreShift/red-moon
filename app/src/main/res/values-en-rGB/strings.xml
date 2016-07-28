@@ -58,7 +58,7 @@
     <!-- Currently unused -->
     <string name="add_new_profile_dialog_title">Enter profile name</string>
     <string name="add_new_profile_edit_hint">Profile name</string>
-    <string name="remove_profile_dialog_title">Delete this profile?</string>
+    <string name="remove_profile_dialog_title">Delete this profile\?</string>
     <string name="pref_title_appearance">Profile</string>
     <string name="searching_location">Searching for location</string>
     <string name="toast_warning_no_location">Enable location services to update location</string>
