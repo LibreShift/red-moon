@@ -74,7 +74,9 @@
     <!-- Add your name or handle here if you would like credit in the app -->
     <string name="pref_summary_translators">Vertalers: ltGuillaume, raatmarien</string>
     <string name="pref_title_integration">Integratie met andere apps</string>
-    <string name="pref_summary_integration">Sommige apps, zoals LibreTasks of Tasker, automatiseren taken na specifieke gebeurtenissen. Red Moon stuurt een openbare notificatie wanneer het in- of uitgeschakeld wordt, zodat dit soort apps hierop kan reageren. Als je dit soort apps niet gebruikt, dan kun je de volgende paragraaf negeren.\n\nRed Moon verstuurt een publieke Intent met de actie `com.jmstudios.redmoon.RED_MOON_TOGGLED`. De Intent bevat een boolean extra met de key `jmstudios.bundle.key.FILTER_IS_ON`, die aangeeft of Red Moon is in- of uitgeschakeld.</string>
+    <string name="pref_summary_integration">Sommige apps, zoals LibreTasks of Tasker, automatiseren taken na specifieke gebeurtenissen. Red Moon stuurt een openbare notificatie wanneer het in- of uitgeschakeld wordt, zodat dit soort apps hierop kan reageren. Als je dit soort apps niet gebruikt, dan kun je de volgende paragraaf negeren.
+\n
+\nRed Moon verstuurt een publieke Intent met de actie `com.jmstudios.redmoon.RED_MOON_TOGGLED`. De Intent bevat een boolean extra met de key `jmstudios.bundle.key.FILTER_IS_ON`, die aangeeft of Red Moon is in- of uitgeschakeld.</string>
     <!-- Toasts -->
     <string name="toast_warning_install">Als Red Moon is ingeschakeld, is het niet mogelijk om APK\'s te installeren.</string>
     <string name="toast_warning_secured">Zolang Red Moon is ingeschakeld, zouden sommige functies van deze app niet kunnen werken.</string>
@@ -119,7 +121,7 @@
     <string name="action_next_profile">Volgend profiel</string>
     <string name="add_new_profile_dialog_title">Voer profielnaam in</string>
     <string name="add_new_profile_edit_hint">Profielnaam</string>
-    <string name="remove_profile_dialog_title">Dit profiel verwijderen?</string>
+    <string name="remove_profile_dialog_title">Dit profiel verwijderen\?</string>
     <string name="pref_title_appearance">Profiel</string>
     <string name="searching_location">Naar locatie zoeken</string>
     <string name="toast_warning_no_location">Schakel Locatie-services in om de locatie te kunnen bijwerken</string>
