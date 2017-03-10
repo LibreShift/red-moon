@@ -60,14 +60,14 @@
     <string name="dialog_title_permission_usage_stats">Приступ статистици коришћења</string>
     <string name="activity_secure_suspend">Заустави у искљученим апликацијама</string>
     <string name="pref_title_secure_suspend">Паузирај у искљученим апликацијама</string>
-    <string name="pref_summary_secure_suspend"/>
+    <string name="pref_summary_secure_suspend"></string>
     <string name="dialog_message_permission_usage_stats">Дозволите Црвеном месецу да приступи статистикама коришћења апликација на следећем екрану да бисте укључили ово. Црвеном месецу је ово потребно да би открио безбедну апликацију и искључио филтер. Црвени месец користи ове податке само да заустави филтер кад је потребно.</string>
     <string name="menu_about">О програму</string>
     <string name="activity_about">О Црвеном месецу</string>
     <!-- Currently unused -->
     <string name="add_new_profile_dialog_title">Унесите назив профила</string>
     <string name="add_new_profile_edit_hint">Назив профила</string>
-    <string name="remove_profile_dialog_title">Обрисати овај профил?</string>
+    <string name="remove_profile_dialog_title">Обрисати овај профил\?</string>
     <string name="pref_title_appearance">Профил</string>
     <string name="action_next_profile">Следећи профил</string>
     <string name="dialog_title_permission_overlay">Исцртавање преко других апликација</string>
