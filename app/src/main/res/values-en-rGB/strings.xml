@@ -48,8 +48,7 @@
     <string name="slide_title_improve_sleep">Improving your sleep</string>
     <string name="slide_text_improve_sleep">Blue light suppresses the production of Melatonin, a hormone that helps you fall asleep at night. Red Moon removes the blue light from your screen, ensuring you can fall asleep easily.</string>
     <string name="slide_title_get_started">Get started!</string>
-    <string name="slide_text_get_started">Turn Red Moon on and off with the switch
- in the top right corner.</string>
+    <string name="slide_text_get_started">Turn Red Moon on and off with the switch in the top right corner.</string>
     <string name="filter_name_custom">Custom</string>
     <string name="filter_name_default">Default</string>
     <string name="filter_name_bed_reading">Reading</string>
