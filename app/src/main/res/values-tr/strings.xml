@@ -116,9 +116,9 @@
     <string name="dialog_title_permission_write_settings">Sistem ayarlarını değiştirme</string>
     <string name="dialog_message_permission_write_settings">Sonraki ekranda Red Moon\'a parlaklık düzeyinizi değiştirme izni vermek için sistem ayarlarını değiştirmeye izin verin.</string>
     <string name="dialog_title_permission_usage_stats">Kullanım erişimi</string>
-    <string name="dialog_message_permission_usage_stats">Bu özelliği etkinleştirmek için sonraki ekranda Red Moon\'un uygulama kullanım bilgilerine erişmesine izin verin.\n
- \n
- Red Moon bu izni sadece hangi uygulamanın içinde olduğunuzu görmek ve güvenli uygulamalarda süzgeci askıya almak için kullanır.</string>
+    <string name="dialog_message_permission_usage_stats">Bu özelliği etkinleştirmek için sonraki ekranda Red Moon\'un uygulama kullanım bilgilerine erişmesine izin verin.
+\n
+\n Red Moon bu izni sadece hangi uygulamanın içinde olduğunuzu görmek ve güvenli uygulamalarda süzgeci askıya almak için kullanır.</string>
     <string name="dialog_button_ok">Tamam</string>
     <string name="dialog_button_cancel">İptal</string>
     <!-- Shortcuts -->
@@ -129,7 +129,7 @@
     <string name="slide_title_protect_eyes">Gözlerinizi korur</string>
     <string name="slide_text_protect_eyes">Geceleri telefonunuza bakmak gözlerinizi rahatsız ettiğinde, ekranınızı karartmak için Red Moon\'u kullanabilirsiniz.</string>
     <string name="slide_title_improve_sleep">Uykunuzu iyileştirir</string>
-    <string name="slide_text_improve_sleep">Mavi ışık geceleri uyumanızı  sağlayan Melatonin hormonu üretimini baskılar.  Red Moon daha kolay uyumanız için ekranınızdaki  mavi ışığı kaldırır.</string>
+    <string name="slide_text_improve_sleep">Mavi ışık geceleri uyumanızı sağlayan Melatonin hormonu üretimini baskılar. Red Moon daha kolay uyumanız için ekranınızdaki mavi ışığı kaldırır.</string>
     <string name="slide_title_get_started">Başlayın!</string>
     <string name="slide_text_get_started">Red Moon\'u sağ üst köşedeki düğmeyle açıp kapatabilirsiniz.</string>
     <!-- Profiles -->
