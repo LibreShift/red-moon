@@ -55,7 +55,11 @@
     <string name="pref_title_stop_time">Stoptijd</string>
     <string name="pref_title_use_location">Zonsondergang tot zonsopgang</string>
     <string name="pref_summary_use_location">Tijden gebaseerd op locatie</string>
-    <string name="pref_summary_secure_suspend">Sommige functies van Android, zoals het installeren van APK\'s of het toekennen van permissies op Android 6.0+, zijn beschermd tegen filters over het scherm en zullen daarom niet werken als Red Moon is geactiveerd. Als deze functie aanstaat zal Red Moon automatisch pauzeren en nadien weer inschakelen. Voor andere apps (Camera, Gallerij) is deze functie per individueel scherm in te schakelen via de Red Moon notificatie.\n\nHet aanzetten van deze functie kan de batterijduur op sommige telefoons wat verkorten.\n\nOp sommige toestellen werkt deze functie helaas niet.</string>
+    <string name="pref_summary_secure_suspend">Sommige functies van Android, zoals het installeren van APK\'s of het toekennen van permissies op Android 6.0+, zijn beschermd tegen filters over het scherm en zullen daarom niet werken als Red Moon is geactiveerd. Als deze functie aanstaat zal Red Moon automatisch pauzeren en nadien weer inschakelen. Voor andere apps (Camera, Gallerij) is deze functie per individueel scherm in te schakelen via de Red Moon notificatie.
+\n
+\nHet aanzetten van deze functie kan de batterijduur op sommige telefoons wat verkorten.
+\n
+\nOp sommige toestellen werkt deze functie helaas niet.</string>
     <!-- Short strings; might be used in multiple places -->
     <string name="button_add_filter">Toevoegen</string>
     <string name="button_remove_filter">Verwijderen</string>
@@ -88,13 +92,15 @@
     <!-- Dialog -->
     <string name="dialog_title_add_filter">Voer profielnaam in</string>
     <string name="edit_hint_add_filter">Profielnaam</string>
-    <string name="dialog_title_remove_filter">Dit profiel verwijderen?</string>
+    <string name="dialog_title_remove_filter">Dit profiel verwijderen\?</string>
     <string name="dialog_title_permission_overlay">Over andere apps tonen</string>
     <string name="dialog_message_permission_overlay">Sta Red Moon in het volgende scherm toe om de filter over andere apps te tonen.</string>
     <string name="dialog_title_permission_write_settings">Systeeminstellingen aanpassen</string>
     <string name="dialog_message_permission_write_settings">Sta Red Moon in het volgende scherm toe om de systeeminstellingen te wijzigen, zodat het de helderheid van het scherm kan aanpassen.</string>
     <string name="dialog_title_permission_usage_stats">Gebruikstoegang</string>
-    <string name="dialog_message_permission_usage_stats">Selecteer Red Moon in het volgende scherm voor gebruikstoegang, zodat de filter automatisch gepauzeerd kan worden in beveiligde apps.\n\nRed Moon zal deze gegevens alleen gebruiken om te bepalen wanneer je functies gebruikt die niet werken als Red Moon is ingeschakeld. Zo kan de filter automatisch gepauzeerd worden indien nodig.</string>
+    <string name="dialog_message_permission_usage_stats">Selecteer Red Moon in het volgende scherm voor gebruikstoegang, zodat de filter automatisch gepauzeerd kan worden in beveiligde apps.
+\n
+\nRed Moon zal deze gegevens alleen gebruiken om te bepalen wanneer je functies gebruikt die niet werken als Red Moon is ingeschakeld. Zo kan de filter automatisch gepauzeerd worden indien nodig.</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_cancel">Annuleren</string>
     <!-- Shortcuts -->
@@ -140,4 +146,7 @@
     <string name="activity_settings">Instellingen</string>
     <string name="pref_title_dark_theme">Donker thema</string>
     <string name="menu_settings">Instellingen</string>
+    <string name="notification_channel_overlay_name"></string>
+    <string name="notification_channel_overlay_description"></string>
+    <string name="pref_title_use_root"></string>
 </resources>
