@@ -110,7 +110,7 @@
     <!-- Dialog -->
     <string name="dialog_title_add_filter">Süzgeç adı girin</string>
     <string name="edit_hint_add_filter">Süzgeç adı</string>
-    <string name="dialog_title_remove_filter">Bu süzgeç silinsin mi?</string>
+    <string name="dialog_title_remove_filter">Bu süzgeç silinsin mi\?</string>
     <string name="dialog_title_permission_overlay">Diğer uygulamalar üzerine çizim</string>
     <string name="dialog_message_permission_overlay">Red Moon\'un açılması için sonraki ekranda diğer uygulamar üzerine çizime izin verin.</string>
     <string name="dialog_title_permission_write_settings">Sistem ayarlarını değiştirme</string>
@@ -145,7 +145,7 @@
     <string name="action_next_profile">Sonraki profil</string>
     <string name="add_new_profile_dialog_title">Profil adı girin</string>
     <string name="add_new_profile_edit_hint">Profil adı</string>
-    <string name="remove_profile_dialog_title">Bu profil silinsin mi?</string>
+    <string name="remove_profile_dialog_title">Bu profil silinsin mi\?</string>
     <string name="pref_title_appearance">Profil</string>
     <string name="searching_location">Konum aranıyor</string>
     <string name="toast_warning_no_location">Konumu güncellemek için konum hizmetlerini aç</string>
