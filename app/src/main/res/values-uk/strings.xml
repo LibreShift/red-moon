@@ -63,7 +63,7 @@
     <string name="help_snackbar_text">Натисніть перемикач, щоб увімкнути Red Moon</string>
     <string name="dialog_title_add_filter">Введіть назву фільтра</string>
     <string name="edit_hint_add_filter">Назва фільтра</string>
-    <string name="dialog_title_remove_filter">Видалити цей фільтр?</string>
+    <string name="dialog_title_remove_filter">Видалити цей фільтр\?</string>
     <string name="dialog_title_permission_overlay">Поверх інших застосунків</string>
     <string name="dialog_message_permission_overlay">Дозволити накладення поверх інших застосунків на наступному екрані, щоб дозволити ввімкнути Red Moon.</string>
     <string name="dialog_title_permission_write_settings">Змінити налаштування системи</string>
@@ -93,7 +93,7 @@
     <string name="action_next_profile">Наступний профіль</string>
     <string name="add_new_profile_dialog_title">Введіть назву профілю</string>
     <string name="add_new_profile_edit_hint">Назва профілю</string>
-    <string name="remove_profile_dialog_title">Видалити цей профіль?</string>
+    <string name="remove_profile_dialog_title">Видалити цей профіль\?</string>
     <string name="pref_title_appearance">Профіль</string>
     <string name="searching_location">Пошук місцеперебування</string>
     <string name="toast_warning_no_location">Увімкнути служби визначення розташування для оновлення місцеперебування</string>
