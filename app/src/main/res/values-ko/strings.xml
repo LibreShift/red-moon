@@ -78,7 +78,7 @@
     <string name="help_snackbar_text">스위치를 눌러 Red Moon 활성화</string>
     <string name="dialog_title_add_filter">필터 이름 입력</string>
     <string name="edit_hint_add_filter">필터 이름</string>
-    <string name="dialog_title_remove_filter">이 필터를 삭제할까요?</string>
+    <string name="dialog_title_remove_filter">이 필터를 삭제할까요\?</string>
     <string name="dialog_title_permission_overlay">다른 앱 위에 그리기</string>
     <string name="dialog_message_permission_overlay">Red Moon이 작동할 수 있도록 다음 화면에서 다른 앱 위에 그리기를 허용하세요.</string>
     <string name="dialog_title_permission_write_settings">시스템 설정 수정</string>
@@ -108,7 +108,7 @@
     <string name="action_next_profile">다음 프로파일</string>
     <string name="add_new_profile_dialog_title">프로파일 이름 입력</string>
     <string name="add_new_profile_edit_hint">프로파일 이름</string>
-    <string name="remove_profile_dialog_title">이 프로파일을 삭제할까요?</string>
+    <string name="remove_profile_dialog_title">이 프로파일을 삭제할까요\?</string>
     <string name="searching_location">위치 검색 중</string>
     <string name="toast_warning_no_location">위치를 갱신하려면 위치 서비스를 활성화 하세요</string>
     <string name="set_dialog">설정</string>
