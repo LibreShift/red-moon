@@ -29,7 +29,7 @@
     <string name="pref_title_time_toggle">Automatischer Filter</string>
     <string name="pref_summary_project_page">Finde mehr Informationen, hinterlasse Feedback, und wirke mit</string>
     <string name="pref_title_project_page">Homepage des Projektes</string>
-    <string name="dialog_title_remove_filter">Diesen Filter löschen?</string>
+    <string name="dialog_title_remove_filter">Diesen Filter löschen\?</string>
     <string name="snackbar_warning_no_location">Ortungsdiensten zur Aktualisierung des Standorts aktivieren</string>
     <string name="shortcut_title_toggle">Red Moon
         ein-/ausschalten</string>
