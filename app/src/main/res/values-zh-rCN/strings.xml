@@ -80,8 +80,8 @@
     <string name="pref_title_version">版本</string>
     <string name="pref_title_integration">与其他应用的整合</string>
     <string name="snackbar_location_updated">找到位置！</string>
-    <string name="pref_summary_integration">某些应用（如 LibreTasks、Tasker）使您能创建特定事件发生时自动运行的任务。红月会在开启或关闭时发送一条公开通知以使这些应用回应。如果您没有使用或开发这类应用，您可以不理会下一段。 
-\n 
+    <string name="pref_summary_integration">某些应用（如 LibreTasks、Tasker）使您能创建特定事件发生时自动运行的任务。红月会在开启或关闭时发送一条公开通知以使这些应用回应。如果您没有使用或开发这类应用，您可以不理会下一段。
+\n
 \n红月会通过操作“com.jmstudios.redmoon.RED_MOON_TOGGLED”广播一个 Intent。该 Intent 包含一个键值为“jmstudios.bundle.key.FILTER_IS_ON”的布尔 extra，用于指示红月的开关状态。</string>
     <string name="dialog_title_permission_overlay">在其他应用上出现</string>
     <string name="dialog_message_permission_overlay">请在下一个窗口授权红月出现在其他应用上。</string>
