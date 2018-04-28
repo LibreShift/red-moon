@@ -34,7 +34,7 @@
     <string name="help_snackbar_text">Red Moonを有効にするにはスイッチを押してください</string>
     <string name="dialog_title_add_filter">フィルター名を入力してください</string>
     <string name="edit_hint_add_filter">フィルター名</string>
-    <string name="dialog_title_remove_filter">このフィルターを削除しますか?</string>
+    <string name="dialog_title_remove_filter">このフィルターを削除しますか\?</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_cancel">キャンセル</string>
     <string name="shortcut_title_toggle">Red Moon の切り替え</string>
