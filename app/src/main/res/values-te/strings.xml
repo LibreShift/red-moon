@@ -11,7 +11,7 @@
     <string name="pref_summary_schedule_none">ఏమీలేదు</string>
     <string name="button_add_filter">చేర్చు</string>
     <string name="button_remove_filter">తొలగించు</string>
-    <string name="dialog_title_remove_filter">ఈ ఫిల్టరును తొలగించాలా?</string>
+    <string name="dialog_title_remove_filter">ఈ ఫిల్టరును తొలగించాలా\?</string>
     <string name="dialog_button_ok">సరే</string>
     <string name="dialog_button_cancel">రద్దుచేయి</string>
     <string name="slide_title_welcome">స్వాగతం!</string>
