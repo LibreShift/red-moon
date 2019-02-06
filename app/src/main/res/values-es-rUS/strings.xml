@@ -77,7 +77,7 @@
     <string name="help_snackbar_text">Presione el switch para habilitar Red Moon</string>
     <string name="dialog_title_add_filter">Ingrese el nombre del filtro</string>
     <string name="edit_hint_add_filter">Nombre del filtro</string>
-    <string name="dialog_title_remove_filter">¿Desea eliminar este filtro?</string>
+    <string name="dialog_title_remove_filter">¿Desea eliminar este filtro\?</string>
     <string name="dialog_title_permission_overlay">Mostrar sobre otras apps</string>
     <string name="dialog_message_permission_overlay">Active mostrar sobre otras aplicaciones en la próxima pantalla para permitir a Red Moon ser activado.</string>
     <string name="dialog_title_permission_write_settings">Configuración del sistema</string>
