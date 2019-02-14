@@ -88,13 +88,11 @@
     <string name="activity_about">Red Moon について</string>
     <string name="pref_title_integration">他のアプリと統合</string>
     <string name="pref_title_version">バージョン</string>
-    <string name="pref_summary_integration">LibreTasks や Tasker のような一部のアプリでは、特定のイベントが発生したときに、タスクを自動化することができます。Red Moon はオンまたはオフになったときに、それらのアプリが応答できるように公開の通知を送信します。使用しない、またはこれらのアプリを開発する場合、次のパラグラフを無視することができます。
-
-        Red Moon は、アクション \'com.jmstudios.redmoon.RED_MOON_TOGGLED\' で公開インテントをブロードキャストします。インテントには、Red Moon がオンまたはオフに切り替えられているかどうかを示すブール値の拡張がキー \'jmstudios.bundle.key.FILTER_IS_ON\' で含まれます。</string>
+    <string name="pref_summary_integration">LibreTasks や Tasker のような一部のアプリでは、特定のイベントが発生したときに、タスクを自動化することができます。Red Moon はオンまたはオフになったときに、それらのアプリが応答できるように公開の通知を送信します。使用しない、またはこれらのアプリを開発する場合、次のパラグラフを無視することができます。 Red Moon は、アクション \'com.jmstudios.redmoon.RED_MOON_TOGGLED\' で公開インテントをブロードキャストします。インテントには、Red Moon がオンまたはオフに切り替えられているかどうかを示すブール値の拡張がキー \'jmstudios.bundle.key.FILTER_IS_ON\' で含まれます。</string>
     <!-- Currently unused -->
     <string name="add_new_profile_dialog_title">プロファイル名を入力してください</string>
     <string name="add_new_profile_edit_hint">プロファイル名</string>
-    <string name="remove_profile_dialog_title">このプロファイルを削除しますか?</string>
+    <string name="remove_profile_dialog_title">このプロファイルを削除しますか\?</string>
     <string name="action_next_profile">次のプロファイル</string>
     <string name="pref_title_appearance">プロファイル</string>
     <string name="pref_category_button_backlight_disclaimer">一部のデバイスでは効果がありません</string>
