@@ -25,7 +25,7 @@
     <string name="location_not_set">స్థానం సెట్ చేయబడలేదు</string>
     <string name="longitude_short">దీర్ఘ</string>
     <string name="pref_summary_email_developer">మమ్మల్ని సంప్రదించడానికి ద్వితీయ మార్గం</string>
-    <string name="toast_warning_secured"/>
+    <string name="toast_warning_secured"></string>
     <string name="snackbar_searching_location">స్థానం కోసం శోధిస్తోంది</string>
     <string name="snackbar_location_updated">స్థానం కనుగొనబడింది</string>
     <string name="dialog_title_permission_usage_stats">వినియోగ ప్రాప్యత</string>
