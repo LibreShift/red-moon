@@ -78,10 +78,10 @@
     <string name="pref_title_secure_suspend">Sospendi nelle app escluse</string>
     <string name="pref_title_button_backlight">Retroilluminazione con pulsante hardware</string>
     <string name="pref_summary_use_location">In base alla tua posizione</string>
-    <string name="pref_summary_secure_suspend">Quando questa funzione è attiva, Red Moon andrà automaticamente in pausa all\'apertura di certe app. Di base, questo include app che non funzionano quando Red Moon è attivo*, ad esempio installando apk. Dalle notifiche puoi cambiare il comportamento per lo schermo attuale dell\'app attuale. Per esempio, potresti voler aggiungere app sensibili al colore, come la fotocamera. 
-\n 
-\nQuesta funzione potrebbe diminuire la durata della batteria del tuo dispositivo. 
-\n 
+    <string name="pref_summary_secure_suspend">Quando questa funzione è attiva, Red Moon andrà automaticamente in pausa all\'apertura di certe app. Di base, questo include app che non funzionano quando Red Moon è attivo*, ad esempio installando apk. Dalle notifiche puoi cambiare il comportamento per lo schermo attuale dell\'app attuale. Per esempio, potresti voler aggiungere app sensibili al colore, come la fotocamera.
+\n
+\nQuesta funzione potrebbe diminuire la durata della batteria del tuo dispositivo.
+\n
 \n*Alcune app sono protette contro la sovrapposizione in modo da prevenire interferenze, come per esempio ingannarti ad installare applicazioni che non vuoi. Non risponderanno al tatto ogni volta che Red Moon è attivo, poiché quest\'ultimo applica uno strato rosso trasparente sullo schermo.</string>
     <string name="text_switch_on">Acceso</string>
     <string name="text_switch_off">Spento</string>
