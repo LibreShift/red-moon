@@ -59,10 +59,10 @@
     <string name="slide_text_get_started">Pour activer Red Moon, appuyez sur le bouton dans le coin supérieur droit.</string>
     <string name="activity_secure_suspend">Suspendre pour les applications exclues</string>
     <string name="pref_title_secure_suspend">Suspendre pour les applications exclues</string>
-    <string name="pref_summary_secure_suspend">Lorsque cette fonctionnalité est activée, Red Moon sera suspendue automatiquement lors de l\'ouverture de certaines applications. Par défaut, ceci inclut les applications qui ne fonctionneront pas lorsque Red Moon est active*, telle que l\'installation d\'applications. Vous pouvez changer ce comportement pour l\'écran actif de l\'application en cours depuis la notification. Ainsi, vous pouvez vouloir ajouter des applications sensibles aux couleurs, telle que l\'appareil photo. 
-\n 
-\nCette fonctionnalité peut réduire légèrement la durée de vie de batterie de votre appareil. 
-\n 
+    <string name="pref_summary_secure_suspend">Lorsque cette fonctionnalité est activée, Red Moon sera suspendue automatiquement lors de l\'ouverture de certaines applications. Par défaut, ceci inclut les applications qui ne fonctionneront pas lorsque Red Moon est active*, telle que l\'installation d\'applications. Vous pouvez changer ce comportement pour l\'écran actif de l\'application en cours depuis la notification. Ainsi, vous pouvez vouloir ajouter des applications sensibles aux couleurs, telle que l\'appareil photo.
+\n
+\nCette fonctionnalité peut réduire légèrement la durée de vie de batterie de votre appareil.
+\n
 \n*Certaines fonctionnalités d\'Android sont protégées contre la superposition d\'écran, notamment pour éviter de vous faire installer une application contre votre gré. Elles ne réagiront pas au toucher tant que Red Moon est activée, car elle superpose une couche rouge transparente à l\'écran.</string>
     <string name="text_switch_on">Activé</string>
     <string name="text_switch_off">Désactivé</string>
