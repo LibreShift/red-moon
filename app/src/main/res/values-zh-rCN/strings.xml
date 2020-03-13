@@ -70,10 +70,10 @@
     <string name="pref_title_secure_suspend">被排除应用运行时暂停红月</string>
     <string name="pref_title_button_backlight">硬件按钮背光</string>
     <string name="pref_summary_use_location">基于您的位置</string>
-    <string name="pref_summary_secure_suspend">本功能启用时，红月将会在特定应用开启时暂停。一般来说，这包括了那些在红月运行时无法工作的应用*，如应用安装器。您可以在通知中改变对当前占据屏幕的应用的应对方式。比如说，您也许希望添加会被颜色变化所影响的应用，如相机应用。 
-\n 
-\n该特性会稍微降低您设备的电池寿命。 
-\n 
+    <string name="pref_summary_secure_suspend">本功能启用时，红月将会在特定应用开启时暂停。一般来说，这包括了那些在红月运行时无法工作的应用*，如应用安装器。您可以在通知中改变对当前占据屏幕的应用的应对方式。比如说，您也许希望添加会被颜色变化所影响的应用，如相机应用。
+\n
+\n该特性会稍微降低您设备的电池寿命。
+\n
 \n*一些应用被保护在覆盖层之外，以防它们受到干扰，如欺骗您安装您不打算安装的应用。它们在红月生效时不会回应触碰操作，因为红月正是通过绘制红色透明覆盖层来工作的。</string>
     <string name="text_switch_on">开启</string>
     <string name="text_switch_off">关闭</string>
