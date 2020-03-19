@@ -111,8 +111,8 @@
     <string name="filter_name_dim_only">Nur abdunkeln</string>
     <string name="pref_entry_button_backlight_system">Automatisch</string>
     <string name="pref_title_location">Standort</string>
-    <string name="pref_summary_integration">Manche Apps wie LibreTasks oder Tasker ermöglichen es Ihnen, Aufgaben zu automatisieren, wenn bestimmte Ereignisse eintreten. Red Moon sendet eine öffentliche Notifikation, wenn es sich ein- und ausschaltet, so dass diese Apps darauf reagieren können. Wenn Sie keine dieser Apps benutzen oder entwickeln, dann können Sie den nächsten Absatz ignorieren. 
-\n 
+    <string name="pref_summary_integration">Manche Apps wie LibreTasks oder Tasker ermöglichen es Ihnen, Aufgaben zu automatisieren, wenn bestimmte Ereignisse eintreten. Red Moon sendet eine öffentliche Notifikation, wenn es sich ein- und ausschaltet, so dass diese Apps darauf reagieren können. Wenn Sie keine dieser Apps benutzen oder entwickeln, dann können Sie den nächsten Absatz ignorieren.
+\n
 \nRed Moon sendet einen Public Intent mit der Aktion „com.jmstudios.redmoon.RED_MOON_TOGGLED“. Der Intent enthält einen Booleschen Wert mit dem Schlüssel „jmstudios.bundle.key.FILTER_IS_ON“, der angibt, ob Red Moon an- oder ausgeschaltet wird.</string>
     <string name="activity_schedule">Zeitplan</string>
     <string name="notification_status_paused_with_info">Pausiert. Zum Beenden Benachrichtigung ausblenden.</string>
