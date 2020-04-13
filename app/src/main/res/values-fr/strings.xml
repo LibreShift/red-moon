@@ -99,8 +99,8 @@
     <string name="action_next_profile">Profil suivant</string>
     <string name="pref_title_use_location">Du coucher au lever du soleil</string>
     <string name="pref_title_button_backlight">Rétro-éclairage des boutons physiques</string>
-    <string name="pref_summary_integration">Certaines applications, comme LibreTasks ou Tasker, vous permettent d’automatiser les tâches lorsque certains évènements se produisent. Red Moon envoie une notification publique lorsqu’il s’allume et s’éteint, donc ces applications peuvent répondre. Si vous n\'utilisez ni développez pas une de ces applications, vous pouvez ignorer le paragraphe suivant. 
-\n 
+    <string name="pref_summary_integration">Certaines applications, comme LibreTasks ou Tasker, vous permettent d’automatiser les tâches lorsque certains évènements se produisent. Red Moon envoie une notification publique lorsqu’il s’allume et s’éteint, donc ces applications peuvent répondre. Si vous n\'utilisez ni développez pas une de ces applications, vous pouvez ignorer le paragraphe suivant.
+\n
 \nRed Moon diffuse une intention publique avec l’action « com.jmstudios.redmoon.RED_MOON_TOGGLED ». L’intention contient un booléen supplémentaire avec la clé « jmstudios.bundle.key.FILTER_IS_ON », qui indique si Red Moon s\'active ou se désactive.</string>
     <string name="dialog_title_permission_overlay">Superposition sur d\'autres applications</string>
     <string name="dialog_message_permission_overlay">Autoriser la superposition sur d\'autres applications pour permettre à Red Moon d\'activer le filtre.</string>
