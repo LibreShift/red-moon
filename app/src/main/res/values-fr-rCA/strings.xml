@@ -32,8 +32,8 @@
     <string name="button_add_filter">Ajouter</string>
     <string name="shortcut_title_toggle">Activer le filtre</string>
     <string name="notification_channel_overlay_description">La notification persistante du contrôle de superposition</string>
-    <string name="pref_summary_integration">Certaines applications, comme LibreTasks ou Tasker, vous permettent d’automatiser les tâches lorsque certains évènements se produisent. Red Moon envoie une notification publique lorsqu’il s’allume et s’éteint, donc ces applications peuvent répondre. Si vous n\'utilisez ni développez pas une de ces applications, vous pouvez ignorer le paragraphe suivant. 
-\n 
+    <string name="pref_summary_integration">Certaines applications, comme LibreTasks ou Tasker, vous permettent d’automatiser les tâches lorsque certains évènements se produisent. Red Moon envoie une notification publique lorsqu’il s’allume et s’éteint, donc ces applications peuvent répondre. Si vous n\'utilisez ni développez pas une de ces applications, vous pouvez ignorer le paragraphe suivant.
+\n
 \nRed Moon diffuse une intention publique avec l’action « com.jmstudios.redmoon.RED_MOON_TOGGLED ». L’intention contient un booléen supplémentaire avec la clé « jmstudios.bundle.key.FILTER_IS_ON », qui indique si Red Moon s\'active ou se désactive.</string>
     <string name="activity_schedule">Planification</string>
     <string name="pref_summary_translators">Traduction : smichel17, raatmarien, Mostafa Ahangarha</string>
@@ -46,10 +46,10 @@
     <string name="menu_show_intro">Rejouer la présentation</string>
     <string name="latitude_short">Latitude</string>
     <string name="add_new_profile_dialog_title">Entrez un nom de profil</string>
-    <string name="pref_summary_secure_suspend">Lorsque cette fonctionnalité est activée, Red Moon sera suspendue automatiquement lors de l\'ouverture de certaines applications. Par défaut, ceci inclut les applications qui ne fonctionneront pas lorsque Red Moon est active*, telle que l\'installation d\'applications. Vous pouvez changer ce comportement pour l\'écran actif de l\'application en cours depuis la notification. Ainsi, vous pouvez vouloir ajouter des applications sensibles aux couleurs, telle que l\'appareil photo. 
-\n 
-\nCette fonctionnalité peut réduire légèrement la durée de vie de batterie de votre appareil. 
-\n 
+    <string name="pref_summary_secure_suspend">Lorsque cette fonctionnalité est activée, Red Moon sera suspendue automatiquement lors de l\'ouverture de certaines applications. Par défaut, ceci inclut les applications qui ne fonctionneront pas lorsque Red Moon est active*, telle que l\'installation d\'applications. Vous pouvez changer ce comportement pour l\'écran actif de l\'application en cours depuis la notification. Ainsi, vous pouvez vouloir ajouter des applications sensibles aux couleurs, telle que l\'appareil photo.
+\n
+\nCette fonctionnalité peut réduire légèrement la durée de vie de batterie de votre appareil.
+\n
 \n*Certaines fonctionnalités d\'Android sont protégées contre la superposition d\'écran, notamment pour éviter de vous faire installer une application contre votre gré. Elles ne réagiront pas au toucher tant que Red Moon est activée, car elle superpose une couche rouge transparente à l\'écran.</string>
     <string name="dialog_title_permission_usage_stats">Autoriser l\'accès aux données d\'utilisation</string>
     <string name="pref_entry_button_backlight_system">Géré par le système</string>
