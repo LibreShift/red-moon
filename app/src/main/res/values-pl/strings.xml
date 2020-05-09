@@ -52,10 +52,10 @@
     <string name="dialog_title_permission_usage_stats">Dostęp do użytkowania</string>
     <string name="text_switch_on">Włączone</string>
     <string name="text_switch_off">Wyłączone</string>
-    <string name="pref_summary_secure_suspend">Gdy ta funkcja jest włączona, Red Moon automatycznie zatrzyma się po otwarciu niektórych aplikacji. Domyślnie są to aplikacje niedziałające* z Red Moonem, np. instalatory aplikacji. Możesz zmienić to zachowanie dla aktualnie uruchomionej aplikacji z paska powiadomień. Przykładowo możesz dodać dodać aplikacje w których barwa ma znaczenie, jak aplikacja aparatu. 
-\n 
-\nTa funkcja może w niewielkim stopniu zmniejszyć żywotność baterii Twojego telefonu. 
-\n 
+    <string name="pref_summary_secure_suspend">Gdy ta funkcja jest włączona, Red Moon automatycznie zatrzyma się po otwarciu niektórych aplikacji. Domyślnie są to aplikacje niedziałające* z Red Moonem, np. instalatory aplikacji. Możesz zmienić to zachowanie dla aktualnie uruchomionej aplikacji z paska powiadomień. Przykładowo możesz dodać dodać aplikacje w których barwa ma znaczenie, jak aplikacja aparatu.
+\n
+\nTa funkcja może w niewielkim stopniu zmniejszyć żywotność baterii Twojego telefonu.
+\n
 \n*Niektóre aplikacje są zabezpieczone przed nakładkami, aby chronić się przed zakłóceniami, na przykład nakłaniając Cię do zainstalowania aplikacji, której nie chcesz. Nie reagują na dotknięcia, gdy włączony jest Red Moon, ponieważ działa on poprzez narysowanie przezroczystej czerwonej warstwy na ekranie.</string>
     <string name="slide_title_welcome">Witaj!</string>
     <string name="slide_text_welcome">Witaj w Red Moon!</string>
