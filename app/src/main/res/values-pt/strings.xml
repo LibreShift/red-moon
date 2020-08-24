@@ -9,10 +9,10 @@
     <string name="activity_main">Red Moon</string>
     <string name="pref_title_schedule">Rodar como programado</string>
     <string name="shortcut_title_toggle">Alternar Red Moon</string>
-    <string name="pref_summary_secure_suspend">Quando este recurso for ativado, o Red Moon irá automaticamente pausar quando certos apps estiverem abertos. Por predefinição, isto inclui apps que não funcionam quando o Red Moon estiver a executar*, como ao instalar APKs. Pode alterar este comportamento para o ecrã atual do app atual na notificação. Por exemplo, pode querer adicionar apps sensíveis a cores, como a câmara. 
-\n 
-\nEste recurso pode diminuir ligeiramente a duração da bateria do seu aparelho. 
-\n 
+    <string name="pref_summary_secure_suspend">Quando este recurso for ativado, o Red Moon irá automaticamente pausar quando certos apps estiverem abertos. Por predefinição, isto inclui apps que não funcionam quando o Red Moon estiver a executar*, como ao instalar APKs. Pode alterar este comportamento para o ecrã atual do app atual na notificação. Por exemplo, pode querer adicionar apps sensíveis a cores, como a câmara.
+\n
+\nEste recurso pode diminuir ligeiramente a duração da bateria do seu aparelho.
+\n
 \n*Algumas apps são protegidos contra sobreposição de ecrã para protegê-los contra interferências, como enganá-lo ao instalar um appp que não deseja. Eles não responderão aos toques quando o Red Moon estiver ativo, já que ele funciona desenhando uma camada vermelha transparente sobre o ecrã.</string>
     <string name="pref_summary_start_time_sunset">Pôr do sol (%s)</string>
     <string name="pref_title_integration">Integração com outros apps</string>
@@ -118,8 +118,8 @@
     <string name="filter_name_bed_reading">Leitura</string>
     <string name="pref_title_secure_suspend">Pausar em apps excluídos</string>
     <string name="longitude_short">Longitude</string>
-    <string name="dialog_message_permission_usage_stats">Permita o acesso às estatísticas de uso na próximo ecrã para que o Red Moon pause em apps protegidas. 
-\n 
+    <string name="dialog_message_permission_usage_stats">Permita o acesso às estatísticas de uso na próximo ecrã para que o Red Moon pause em apps protegidas.
+\n
 \nO Red Moon precisa do acesso ao uso para determinar se está usando um app que não funcionará quando o Red Moon estiver ativo.</string>
     <string name="snackbar_searching_location">Procurando por localização</string>
     <string name="button_add_filter">Adicionar</string>
