@@ -75,7 +75,11 @@
     <string name="pref_title_stop_time">Čas vypnutí</string>
     <string name="pref_title_use_location">V noci</string>
     <string name="pref_summary_use_location">Nastavit podle polohy</string>
-    <string name="pref_summary_secure_suspend">Pokud je tato funkce zapnutá, aplikace Red Moon se automaticky zastaví po otevření určitých aplikací. Ve výchozím nastavení se jedná o aplikace, které nebudou fungovat, když je spuštěn Red Moon*, jako je instalace APK souborů. Toto chování můžete změnit pro aktuální obrazovku aplikace z oznámení. Můžete například přidat aplikace citlivá na barvy, například fotoaparát.\n\nTato funkce může mírně snížit výdrž baterie vašeho zařízení.\n\n* Některé aplikace jsou chráněny před překryvy, aby se zabránilo nechtěné instalaci aplikací, které nechcete. Nebudou reagovat na dotyky, když je Red Moon zapnutý, protože kreslí na obrazovce průhlednou červenou vrstvu.</string>
+    <string name="pref_summary_secure_suspend">Pokud je tato funkce zapnutá, aplikace Red Moon se automaticky zastaví po otevření určitých aplikací. Ve výchozím nastavení se jedná o aplikace, které nebudou fungovat, když je spuštěn Red Moon*, jako je instalace APK souborů. Toto chování můžete změnit pro aktuální obrazovku aplikace z oznámení. Můžete například přidat aplikace citlivá na barvy, například fotoaparát.
+\n
+\nTato funkce může mírně snížit výdrž baterie vašeho zařízení.
+\n
+\n* Některé aplikace jsou chráněny před překryvy, aby se zabránilo nechtěné instalaci aplikací, které nechcete. Nebudou reagovat na dotyky, když je Red Moon zapnutý, protože kreslí na obrazovce průhlednou červenou vrstvu.</string>
     <!-- Short strings; might be used in multiple places -->
     <string name="button_add_filter">Přidat</string>
     <string name="button_remove_filter">Smazat</string>
