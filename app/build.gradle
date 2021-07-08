@@ -38,6 +38,10 @@ android {
         versionCode 38
         versionName "3.5.0"
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -81,6 +85,7 @@ dependencies {
     implementation 'com.luckycatlabs:SunriseSunsetCalculator:1.2'
     implementation 'com.github.paolorotolo:appintro:4.1.0'
     implementation 'org.greenrobot:eventbus:3.2.0'
+    implementation 'com.github.topjohnwu.libsu:core:3.1.1'
     // annotationProcessor 'org.greenrobot:eventbus-annotation-processor:3.0.1'
 
 }

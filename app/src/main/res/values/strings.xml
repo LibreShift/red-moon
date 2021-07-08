@@ -88,6 +88,7 @@
     <string name="pref_summary_use_location">Based on your location</string>
     <string name="pref_title_location">Location</string>
     <string name="pref_title_dark_theme">Dark theme</string>
+    <string name="pref_title_use_root">Use root</string>
 
     <string name="pref_summary_secure_suspend">When this feature is enabled, Red Moon will automatically pause when certain apps are open. By default, this includes apps that won\'t work when Red Moon is running*, like installing apks. You can change this behavior for the current screen of the current app from the notification. For example, you might want to add color-sensitive apps, like the camera.\n\nThis feature may slightly lower the battery life of your device.\n\n*Some apps are secured against overlays to protect themselves from interference, like tricking you into installing an app you don\'t want. They won\'t respond to touches when Red Moon is on, since it works by drawing a transparent red layer over the screen.</string>
 

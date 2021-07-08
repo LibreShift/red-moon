@@ -20,6 +20,7 @@ import com.jmstudios.redmoon.filter.Command
 import com.jmstudios.redmoon.model.Config
 import com.jmstudios.redmoon.schedule.*
 import com.jmstudios.redmoon.util.*
+import com.topjohnwu.superuser.Shell
 
 import org.greenrobot.eventbus.Subscribe
 import org.libreshift.preferences.TimePreference
@@ -40,6 +41,9 @@ class SettingsFragment : PreferenceFragmentCompat() {
 
     private val themePref: SwitchPreference
         get() = pref(R.string.pref_key_dark_theme) as SwitchPreference
+
+    private val rootPref: SwitchPreference
+        get() = pref(R.string.pref_key_use_root) as SwitchPreference
 
     private var mSnackbar: Snackbar? = null
 
@@ -95,6 +99,7 @@ class SettingsFragment : PreferenceFragmentCompat() {
         updatePrefs()
         EventBus.register(this)
         LocationUpdateService.update()
+        rootPref.isVisible = Shell.rootAccess()
     }
 
     override fun onStop() {

@@ -25,6 +25,7 @@
 -->
 <resources>
   <!-- Preference Keys -->
+  <string name="pref_key_use_root" translatable="false">pref_key_use_root</string>
   <string name="pref_key_profile_spinner" translatable="false">pref_key_profile_spinner</string>
   <string name="pref_key_dim" translatable="false">pref_key_shades_dim_level</string>
   <string name="pref_key_intensity" translatable="false">pref_key_shades_intensity_level</string>

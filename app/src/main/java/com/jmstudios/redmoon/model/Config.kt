@@ -205,6 +205,8 @@ object Config : Preferences(appContext) {
             "dim" -> 1 - (dimLevel.toFloat() / 100)
             else -> 0.toFloat()
         }
+
+    var useRoot by BooleanPreference(R.string.pref_key_use_root, false)
     //endregion
 
     //region application

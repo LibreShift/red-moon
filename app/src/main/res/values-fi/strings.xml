@@ -127,4 +127,5 @@
     <string name="pref_summary_start_time_sunset">Auringonlasku (%s)</string>
     <string name="pref_value_stop_time_sunrise">Auringonnousu</string>
     <string name="pref_summary_stop_time_sunrise">Auringonnousu (%s)</string>
+    <string name="pref_title_use_root">Käyttää pääkäyttäjä</string>
 </resources>

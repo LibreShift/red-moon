@@ -31,6 +31,7 @@ import android.content.Intent
 import android.os.IBinder
 
 import com.jmstudios.redmoon.filter.overlay.Overlay
+import com.jmstudios.redmoon.filter.surfaceflinger.SurfaceFlinger
 import com.jmstudios.redmoon.model.Config
 import com.jmstudios.redmoon.model.Profile
 import com.jmstudios.redmoon.securesuspend.CurrentAppMonitor
@@ -51,7 +52,13 @@ class FilterService : Service() {
     override fun onCreate() {
         super.onCreate()
         Log.i("onCreate")
-        mFilter = Overlay(this)
+        if (Config.useRoot) {
+            Log.i("Starting in root mode")
+            mFilter = SurfaceFlinger()
+        } else {
+            Log.i("Starting in overlay mode")
+            mFilter = Overlay(this)
+        }
         mCurrentAppMonitor = CurrentAppMonitor(this, executor)
         mNotification = Notification(this, mCurrentAppMonitor)
         mAnimator = ValueAnimator.ofObject(ProfileEvaluator(), mFilter.profile).apply {
@@ -63,7 +70,7 @@ class FilterService : Service() {
 
     override fun onStartCommand(intent: Intent, flags: Int, startId: Int): Int {
         Log.i("onStartCommand($intent, $flags, $startId)")
-        if (Permission.Overlay.isGranted) {
+        if (Permission.Overlay.isGranted || Config.useRoot) {
             val cmd = Command.getCommand(intent)
             val end = if (cmd.turnOn) activeProfile else mFilter.profile.off
             mAnimator.run {

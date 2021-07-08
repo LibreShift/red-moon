@@ -51,6 +51,17 @@ data class Profile(
     val name: String
         get() = ProfilesModel.nameOf(this) ?: getString(R.string.filter_name_custom)
 
+    val multFilterColor: Int
+        get() {
+            val rgbColor = rgbFromColor(color)
+            val intensityColor = intensity / 100.0f
+            val dim = dimLevel / 100.0f
+            return Color.argb(255,
+                    Math.round((Color.red(rgbColor) * intensityColor + 255.0f * (1.0f - intensityColor)) * (1.0f - dim)),
+                    Math.round((Color.green(rgbColor) * intensityColor + 255.0f * (1.0f - intensityColor)) * (1.0f - dim)),
+                    Math.round((Color.blue(rgbColor) * intensityColor + 255.0f * (1.0f - intensityColor)) * (1.0f - dim)))
+        }
+
     val filterColor: Int
         get() {
             val rgbColor = rgbFromColor(color)

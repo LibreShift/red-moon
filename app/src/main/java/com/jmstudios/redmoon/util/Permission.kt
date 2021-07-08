@@ -16,6 +16,7 @@ import androidx.core.content.ContextCompat
 import androidx.appcompat.app.AlertDialog
 
 import com.jmstudios.redmoon.R
+import com.jmstudios.redmoon.model.Config
 
 private const val REQ_CODE_OVERLAY  = 1111
 private const val REQ_CODE_LOCATION = 2222
