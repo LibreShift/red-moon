@@ -89,25 +89,25 @@
     <string name="pref_title_start_time">開始時間</string>
     <string name="pref_title_stop_time">停止時間</string>
     <string name="pref_summary_use_location">基於您的位置</string>
-    <string name="pref_summary_secure_suspend">本功能啟用時，紅月將會在特定應用程式開啟時暫停。一般來說，這包括那些在紅月運行時無法工作的應用程式*，如應用程式安裝器。您可以在通知中改變對目前佔據螢幕的應用程式的應對方式。比如說，您也許希望添加會被顏色變化所影響的應用程式，如相機應用程式。 
-\n 
-\n該特性會稍微減少您裝置的電池壽命。 
-\n 
+    <string name="pref_summary_secure_suspend">本功能啟用時，紅月將會在特定應用程式開啟時暫停。一般來說，這包括那些在紅月運行時無法工作的應用程式*，如應用程式安裝器。您可以在通知中改變對目前佔據螢幕的應用程式的應對方式。比如說，您也許希望添加會被顏色變化所影響的應用程式，如相機應用程式。
+\n
+\n該特性會稍微減少您裝置的電池壽命。
+\n
 \n*一些應用被保護在覆蓋層之外，以防它們受到干擾，如欺騙您安裝您不打算安裝的應用程式。它們在紅月生效時不會回應觸碰操作，因為紅月正是通過繪製一紅色透明覆蓋層來工作的。</string>
     <string name="text_switch_on">開啟</string>
     <string name="text_switch_off">關閉</string>
     <string name="pref_title_translators">幫助翻譯</string>
     <string name="pref_summary_translators">翻譯者：smichel17、raatmarien</string>
     <string name="pref_title_integration">與其他應用程式的整合</string>
-    <string name="pref_summary_integration">某些應用程式（如LibreTasks、Tasker）能讓您設定在特定事件發生時自動運行任務。紅月會在開啟或關閉時發送一條公開通知以使這些應用程式回應。如果您沒有使用或開發這類應用程式，您可以不理會下一段。 
-\n 
+    <string name="pref_summary_integration">某些應用程式（如LibreTasks、Tasker）能讓您設定在特定事件發生時自動運行任務。紅月會在開啟或關閉時發送一條公開通知以使這些應用程式回應。如果您沒有使用或開發這類應用程式，您可以不理會下一段。
+\n
 \n紅月會通過操作「com.jmstudios.redmoon.RED_MOON_TOGGLED」廣播一個Intent。該Intent包含一個鍵值為「jmstudios.bundle.key.FILTER_IS_ON」的布林extra，用於指示紅月的開關狀態。</string>
     <string name="toast_warning_secured">紅月運行時，此應用程式的某些功能可能會失效。</string>
     <string name="snackbar_location_updated">找到位置！</string>
     <string name="dialog_message_permission_overlay">請在下一個窗口中授權紅月出現在其他應用程式上。</string>
     <string name="dialog_message_permission_write_settings">請在下一個窗口授權紅月修改系統設定。</string>
-    <string name="dialog_message_permission_usage_stats">在下一個窗口中給予紅月使用情況訪問權限，以便在安全應用中暫停。 
-\n 
+    <string name="dialog_message_permission_usage_stats">在下一個窗口中給予紅月使用情況訪問權限，以便在安全應用中暫停。
+\n
 \n紅月僅將相關數據用於判斷您是否在使用紅月運行時無法運作的應用。</string>
     <string name="slide_text_welcome">歡迎使用紅月！</string>
     <string name="slide_title_protect_eyes">保護您的眼睛</string>
@@ -128,4 +128,5 @@
     <string name="pref_value_start_time_sunset">日落</string>
     <string name="menu_settings">設定</string>
     <string name="activity_settings">設定</string>
+    <string name="pref_title_use_root"></string>
 </resources>
