@@ -120,4 +120,10 @@
     <string name="pref_value_start_time_sunset">Napnyugta</string>
     <string name="menu_settings">Beállítások</string>
     <string name="activity_settings">Beállítások</string>
+    <string name="notification_channel_overlay_description"></string>
+    <string name="dialog_message_permission_overlay"></string>
+    <string name="pref_title_use_root"></string>
+    <string name="notification_channel_overlay_name"></string>
+    <string name="shortcut_title_toggle"></string>
+    <string name="dialog_message_permission_usage_stats"></string>
 </resources>
