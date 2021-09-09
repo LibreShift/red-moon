@@ -92,4 +92,32 @@
     <string name="pref_category_other">மற்றவை</string>
     <string name="menu_settings">அமைப்புகள்</string>
     <string name="activity_settings">அமைப்புகள்</string>
+    <string name="notification_status_paused_with_info"></string>
+    <string name="pref_entry_button_backlight_system"></string>
+    <string name="time_toggle_options_array_1"></string>
+    <string name="pref_title_button_backlight"></string>
+    <string name="slide_text_improve_sleep"></string>
+    <string name="pref_title_turn_on"></string>
+    <string name="pref_title_startup"></string>
+    <string name="notification_channel_overlay_name"></string>
+    <string name="dialog_message_permission_overlay"></string>
+    <string name="menu_dark_theme"></string>
+    <string name="pref_title_turn_off"></string>
+    <string name="pref_title_dark_theme"></string>
+    <string name="dialog_title_permission_usage_stats"></string>
+    <string name="filter_name_custom"></string>
+    <string name="dialog_message_permission_write_settings"></string>
+    <string name="notification_channel_overlay_description"></string>
+    <string name="pref_title_use_root"></string>
+    <string name="time_toggle_options_array_0"></string>
+    <string name="pref_summary_schedule_custom" formatted="false"></string>
+    <string name="pref_summary_schedule_sun" formatted="false"></string>
+    <string name="time_toggle_title"></string>
+    <string name="time_toggle_options_array_2"></string>
+    <string name="pref_summary_integration"></string>
+    <string name="pref_summary_secure_suspend"></string>
+    <string name="dialog_title_permission_overlay"></string>
+    <string name="dialog_message_permission_usage_stats"></string>
+    <string name="filter_name_bed_reading"></string>
+    <string name="pref_entry_button_backlight_filter_dim_level"></string>
 </resources>
