@@ -127,4 +127,5 @@
     <string name="pref_title_secure_suspend">Jeda di aplikasi yang dikecualikan</string>
     <string name="pref_title_lower_brightness">Kecerahan sistem yang lebih rendah</string>
     <string name="notification_status_paused_with_info">Dijeda. Singkirkan pemberitahuan untuk berhenti.</string>
+    <string name="pref_title_use_root"></string>
 </resources>
