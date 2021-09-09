@@ -30,7 +30,7 @@
     <string name="help_snackbar_text">Притисните прекидач да укључите Црвени месец</string>
     <string name="dialog_title_add_filter">Унесите назив профила</string>
     <string name="edit_hint_add_filter">Назив профила</string>
-    <string name="dialog_title_remove_filter">Обрисати овај профил?</string>
+    <string name="dialog_title_remove_filter">Обрисати овај профил\?</string>
     <string name="dialog_button_ok">У реду</string>
     <string name="dialog_button_cancel">Одустани</string>
     <string name="slide_title_welcome">Добро дошли!</string>
@@ -44,16 +44,10 @@
     <string name="time_toggle_options_array_0">Ручно</string>
     <string name="time_toggle_options_array_1">Аутоматски (сунце)</string>
     <string name="time_toggle_options_array_2">Аутоматски (прилагођено)</string>
-    <string name="slide_text_get_started">Да укључите Црвени месец
-        притисните прекидач у горњем
-        десном углу.</string>
-    <string name="slide_text_improve_sleep">Плаво светло потискује
-        производњу мелатонина, хормона који помаже да заспите ноћу.
-        Црвени месец уклања плаво светло са екрана, омогућујући тиме
-        да лакше заспите.</string>
+    <string name="slide_text_get_started">Да укључите Црвени месец притисните прекидач у горњем десном углу.</string>
+    <string name="slide_text_improve_sleep">Плаво светло потискује производњу мелатонина, хормона који помаже да заспите ноћу. Црвени месец уклања плаво светло са екрана, омогућујући тиме да лакше заспите.</string>
     <string name="shortcut_title_toggle">Укључи/искључи Црвени месец</string>
-    <string name="slide_text_protect_eyes">Ако вам ноћу екран заслепљује
-        очи, затамните га помоћу Црвеног месеца.</string>
+    <string name="slide_text_protect_eyes">Ако вам ноћу екран заслепљује очи, затамните га помоћу Црвеног месеца.</string>
     <string name="toast_warning_install">Нећете моћи да инсталирате апликације док је Црвени месец укључен.</string>
     <string name="pref_summary_project_page">Пронађите још информација, оставите повратне информације и допринесите</string>
     <string name="pref_summary_email_developer">Други начин да нас контактирате</string>
@@ -67,9 +61,7 @@
     <string name="activity_secure_suspend">Заустави у искљученим апликацијама</string>
     <string name="pref_title_secure_suspend">Паузирај у искљученим апликацијама</string>
     <string name="pref_summary_secure_suspend"/>
-    <string name="dialog_message_permission_usage_stats">Дозволите Црвеном месецу да приступи статистикама коришћења апликација на следећем екрану да бисте укључили ово.
-
-        Црвеном месецу је ово потребно да би открио безбедну апликацију и искључио филтер. Црвени месец користи ове податке само да заустави филтер кад је потребно.</string>
+    <string name="dialog_message_permission_usage_stats">Дозволите Црвеном месецу да приступи статистикама коришћења апликација на следећем екрану да бисте укључили ово. Црвеном месецу је ово потребно да би открио безбедну апликацију и искључио филтер. Црвени месец користи ове податке само да заустави филтер кад је потребно.</string>
     <string name="menu_about">О програму</string>
     <string name="activity_about">О Црвеном месецу</string>
     <!-- Currently unused -->
@@ -81,9 +73,7 @@
     <string name="dialog_title_permission_overlay">Исцртавање преко других апликација</string>
     <string name="dialog_message_permission_overlay">Дозволите исцртавање преко других апликација на следећем екрану да бисте омогућили Црвеном месецу да се укључи.</string>
     <string name="dialog_title_permission_write_settings">Измена системских поставки</string>
-    <string name="dialog_message_permission_write_settings">Дозволите измену системских
-        поставки на следећем екрану да бисте омогућили Црвеном месецу
-        да промени осветљеност екрана.</string>
+    <string name="dialog_message_permission_write_settings">Дозволите измену системских поставки на следећем екрану да бисте омогућили Црвеном месецу да промени осветљеност екрана.</string>
     <string name="notification_status_off">Иск</string>
     <string name="notification_action_turn_on">Укључи</string>
     <string name="notification_action_turn_off">Искључи</string>
@@ -130,4 +120,7 @@
     <string name="pref_value_start_time_sunset">Залазак сунца</string>
     <string name="menu_settings">Поставке</string>
     <string name="activity_settings">Поставке</string>
+    <string name="pref_title_use_root"></string>
+    <string name="notification_channel_overlay_name"></string>
+    <string name="notification_channel_overlay_description"></string>
 </resources>
