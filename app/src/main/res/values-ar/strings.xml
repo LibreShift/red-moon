@@ -41,16 +41,11 @@
     <string name="slide_title_welcome">اهلاً بك!</string>
     <string name="slide_text_welcome">اهلاً بك في التطبيق!</string>
     <string name="slide_title_protect_eyes">حماية عينيك</string>
-    <string name="slide_text_protect_eyes">في الظلام, عندما تقوم بالنظر إلى
-        هاتفك سيؤذي عينيك, يمكنك إستعمال التطبيق لتعتيم الشاشة.</string>
+    <string name="slide_text_protect_eyes">في الظلام, عندما تقوم بالنظر إلى هاتفك سيؤذي عينيك, يمكنك إستعمال التطبيق لتعتيم الشاشة.</string>
     <string name="slide_title_improve_sleep">تحسين نومك</string>
-    <string name="slide_text_improve_sleep">الاشعة الزرقاء يحد
-        إنتاج الميلاتونين, وهو الهرمون الذي يساعد على النوم في
-        الليل. التطبيق يقوم بطرد الاشعة الزرقاء من شاشتك,مما يحقق
-        النوم بسهولة.</string>
+    <string name="slide_text_improve_sleep">الاشعة الزرقاء يحد إنتاج الميلاتونين, وهو الهرمون الذي يساعد على النوم في الليل. التطبيق يقوم بطرد الاشعة الزرقاء من شاشتك,مما يحقق النوم بسهولة.</string>
     <string name="slide_title_get_started">لنبدأ!</string>
-    <string name="slide_text_get_started">لتمكين أو ايقاف التطبيق, قم بالضغط على
-        المُبدل في الزاوية اليمنى العليا.</string>
+    <string name="slide_text_get_started">لتمكين أو ايقاف التطبيق, قم بالضغط على المُبدل في الزاوية اليمنى العليا.</string>
     <string name="filter_name_custom">مخصص</string>
     <string name="filter_name_default">الإفتراضي</string>
     <string name="filter_name_bed_reading">القراءة</string>
@@ -66,9 +61,7 @@
     <string name="text_switch_on">مُفعل</string>
     <string name="text_switch_off">مُغلق</string>
     <string name="dialog_title_permission_usage_stats">إمكانية الوصول</string>
-    <string name="dialog_message_permission_usage_stats">السماح للتطبيق بحالة إمكانية الوصول في النافذة القادمة لتفعيل هذه الخاصية.
-
-        التطبيق يحتاج إمكانية الوصول لرؤية على أي تطبيق تعمل لكي يقوم بإيقاف المرشح في التطبيقات الآمنة. التطبيق سيستخدم هذه البيانات فقط لإيقاف المرشح عند الحاجة.</string>
+    <string name="dialog_message_permission_usage_stats">السماح للتطبيق بحالة إمكانية الوصول في النافذة القادمة لتفعيل هذه الخاصية. التطبيق يحتاج إمكانية الوصول لرؤية على أي تطبيق تعمل لكي يقوم بإيقاف المرشح في التطبيقات الآمنة. التطبيق سيستخدم هذه البيانات فقط لإيقاف المرشح عند الحاجة.</string>
     <!-- Currently unused -->
     <string name="add_new_profile_dialog_title">قم بإدخال اسم الوضع</string>
     <string name="add_new_profile_edit_hint">إسم الوضع</string>
@@ -81,9 +74,7 @@
     <string name="dialog_title_permission_overlay">الظهور على التطبيقات الاخرى</string>
     <string name="dialog_message_permission_overlay">قم بإعطاء صلاحية الظهور على التطبيقات الاخرى في الشاشة القادمة للسماح للتطبيق بالعمل.</string>
     <string name="dialog_title_permission_write_settings">تعديل إعدادات النظام</string>
-    <string name="dialog_message_permission_write_settings">السماح بتعديل إعدادات
-        النظام في الشاشة القادمة للسماح للتطبيق بتغيير
-        مستوى سطوح الشاشة.</string>
+    <string name="dialog_message_permission_write_settings">السماح بتعديل إعدادات النظام في الشاشة القادمة للسماح للتطبيق بتغيير مستوى سطوح الشاشة.</string>
     <string name="notification_status_off">إيقاف</string>
     <string name="notification_action_turn_on">تشغيل</string>
     <string name="notification_action_turn_off">إيقاف</string>
@@ -121,4 +112,14 @@
     <string name="pref_summary_translators">المترجمون: smichel17، raatmarien</string>
     <string name="toast_warning_secured">بعض مزايا هذا التطبيق قد لا تعمل عندما يكون Red Moon نشطًا.</string>
     <string name="filter_name_dim_only">خفض الإضاءة فقط</string>
+    <string name="pref_value_start_time_sunset"></string>
+    <string name="pref_summary_start_time_sunset"></string>
+    <string name="notification_channel_overlay_description"></string>
+    <string name="pref_title_use_root"></string>
+    <string name="pref_title_dark_theme"></string>
+    <string name="menu_settings"></string>
+    <string name="notification_channel_overlay_name"></string>
+    <string name="activity_settings"></string>
+    <string name="pref_value_stop_time_sunrise"></string>
+    <string name="pref_summary_stop_time_sunrise"></string>
 </resources>
