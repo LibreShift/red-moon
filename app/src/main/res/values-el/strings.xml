@@ -54,13 +54,11 @@
     <string name="slide_title_welcome">Καλωσόρισες!</string>
     <string name="slide_text_welcome">Καλωσόρισες στο Κόκκινο Φεγγάρι!</string>
     <string name="slide_title_protect_eyes">Προστατεύστε τα μάτια σας</string>
-    <string name="slide_text_protect_eyes">Το βράδυ, όταν κοιτάτε στο
-        κινητό σας και τα πονάνε τα μάτια σας, μειώσετε την φωτεινότητα στην οθόνη με το Κόκκινο Φεγγάρι.</string>
+    <string name="slide_text_protect_eyes">Το βράδυ, όταν κοιτάτε στο κινητό σας και τα πονάνε τα μάτια σας, μειώσετε την φωτεινότητα στην οθόνη με το Κόκκινο Φεγγάρι.</string>
     <string name="slide_title_improve_sleep">Βελτιώστε τον ύπνο σας</string>
     <string name="slide_text_improve_sleep">Το μπλε φως καταστέλλει την παραγωγή της μελατονίνης, μίας ορμόνης που σας βοηθά να κοιμηθείτε τη νύχτα. Το Κόκκινο Φεγγάρι αφαιρεί το μπλε φως από την οθόνη σας, εξασφαλίζοντάς σας εύκολο ύπνο.</string>
     <string name="slide_title_get_started">Ξεκινήστε!</string>
-    <string name="slide_text_get_started">Για να ενεργοποιήσετε το Κόκκινο Φεγγάρι, πατήστε
-        τον διακόπτη πάνω δεξιά στη γωνία.</string>
+    <string name="slide_text_get_started">Για να ενεργοποιήσετε το Κόκκινο Φεγγάρι, πατήστε τον διακόπτη πάνω δεξιά στη γωνία.</string>
     <string name="filter_name_custom">Προσαρμοσμένο</string>
     <string name="filter_name_default">Προεπιλογή</string>
     <string name="filter_name_bed_reading">Ανάγνωση</string>
@@ -130,4 +128,5 @@
     <string name="pref_value_start_time_sunset">Ηλιοβασίλεμα</string>
     <string name="menu_settings">Ρυθμίσεις</string>
     <string name="activity_settings">Ρυθμίσεις</string>
+    <string name="pref_title_use_root"></string>
 </resources>
