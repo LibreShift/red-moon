@@ -60,7 +60,7 @@
     <!-- Dialog -->
     <string name="dialog_title_add_filter">Įvesti profilio pavadinimo</string>
     <string name="edit_hint_add_filter">Profilio pavadinimas</string>
-    <string name="dialog_title_remove_filter">Ištrinti šį profilį?</string>
+    <string name="dialog_title_remove_filter">Ištrinti šį profilį\?</string>
     <string name="dialog_button_ok">Gerai</string>
     <string name="dialog_button_cancel">Atšaukti</string>
     <!-- Shortcuts -->
@@ -79,7 +79,7 @@
     <!-- Currently unused -->
     <string name="add_new_profile_dialog_title">Įvesti profilio pavadinimą</string>
     <string name="add_new_profile_edit_hint">Profilio pavadinimas</string>
-    <string name="remove_profile_dialog_title">Ištrinti šį profilį?</string>
+    <string name="remove_profile_dialog_title">Ištrinti šį profilį\?</string>
     <string name="pref_title_appearance">Profilis</string>
     <string name="searching_location">Ieškoma vieta</string>
     <string name="toast_warning_no_location">Vietos nustatymo paslauga neįjungta, bus naudojamas pritaikytas laikas. Prašome įjungti vietos nustatymo paslaugą, kad nustatyti saulėtekio ir saulėlydžio laiką</string>
@@ -161,4 +161,5 @@
     <string name="pref_value_start_time_sunset">Saulėlydis</string>
     <string name="menu_settings">Nustatymai</string>
     <string name="activity_settings">Nustatymai</string>
+    <string name="pref_title_use_root"></string>
 </resources>
