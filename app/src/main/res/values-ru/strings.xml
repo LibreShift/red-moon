@@ -41,7 +41,7 @@
     <!-- Dialog -->
     <string name="dialog_title_add_filter">Введите название профиля</string>
     <string name="edit_hint_add_filter">Названия профиля</string>
-    <string name="dialog_title_remove_filter">Удалить этот профиль?</string>
+    <string name="dialog_title_remove_filter">Удалить этот профиль\?</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_cancel">Отмена</string>
     <!-- Shortcuts -->
@@ -77,21 +77,19 @@
     <string name="slide_title_welcome">Добро пожаловать!</string>
     <string name="slide_text_welcome">Добро пожаловать в Red Moon!</string>
     <string name="slide_title_protect_eyes">Защита глаз</string>
-    <string name="slide_text_protect_eyes">Ночью, когда экран вашего телефона
-режет вам глаза, вы можете использовать Red Moon, чтобы затемнить экран.</string>
+    <string name="slide_text_protect_eyes">Ночью, когда экран вашего телефона режет вам глаза, вы можете использовать Red Moon, чтобы затемнить экран.</string>
     <string name="slide_title_improve_sleep">Улучшение сна</string>
     <string name="slide_text_improve_sleep">Синий свет подавляет
 \nпроизводство мелатонина — гормона, который помогает людям
 \nзаснуть ночью. Red Moon убирает синий цвет с вашего экрана,
 \nчтобы вы могли засыпать с лёгкостью.</string>
     <string name="slide_title_get_started">Начать!</string>
-    <string name="slide_text_get_started">Включайте и выключайте Red Moon нажатием на кнопку
-в правом верхнем углу.</string>
+    <string name="slide_text_get_started">Включайте и выключайте Red Moon нажатием на кнопку в правом верхнем углу.</string>
     <string name="dialog_title_permission_usage_stats">Разрешить доступ к запущенным приложениям</string>
     <!-- Currently unused -->
     <string name="add_new_profile_dialog_title">Введите названия профиля</string>
     <string name="add_new_profile_edit_hint">Названия профиля</string>
-    <string name="remove_profile_dialog_title">Удалить этот профиль?</string>
+    <string name="remove_profile_dialog_title">Удалить этот профиль\?</string>
     <string name="pref_title_appearance">Профиль</string>
     <string name="searching_location">Поиск местоположения</string>
     <string name="toast_warning_no_location">Включите службу автоматического определения местоположения</string>
@@ -146,4 +144,5 @@
     <string name="pref_value_start_time_sunset">Закат</string>
     <string name="menu_settings">Настройки</string>
     <string name="activity_settings">Настройки</string>
+    <string name="pref_title_use_root"></string>
 </resources>
