@@ -127,4 +127,5 @@
     <string name="activity_secure_suspend">Pausa i undantagna appar</string>
     <string name="activity_settings">Inställningar</string>
     <string name="activity_shortcut">Röd Måne på/av</string>
+    <string name="pref_title_use_root"></string>
 </resources>
