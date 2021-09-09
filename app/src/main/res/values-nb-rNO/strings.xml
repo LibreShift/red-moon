@@ -31,7 +31,7 @@
     <string name="help_snackbar_text">Trykk på bryteren for å skru på Rød Måne</string>
     <string name="dialog_title_add_filter">Skriv inn profilnavn</string>
     <string name="edit_hint_add_filter">Profilnavn</string>
-    <string name="dialog_title_remove_filter">Slett denne profilen?</string>
+    <string name="dialog_title_remove_filter">Slett denne profilen\?</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_cancel">Avbryt</string>
     <string name="shortcut_title_toggle">Veksle</string>
@@ -58,7 +58,7 @@
     <!-- Currently unused -->
     <string name="add_new_profile_dialog_title">Skriv inn profilnavn</string>
     <string name="add_new_profile_edit_hint">Profilnavn</string>
-    <string name="remove_profile_dialog_title">Slett denne profilen?</string>
+    <string name="remove_profile_dialog_title">Slett denne profilen\?</string>
     <string name="pref_title_appearance">Profil</string>
     <string name="searching_location">Søker etter plassering</string>
     <string name="toast_warning_no_location">Skru på lokasjonstjenester for å bestemme plassering</string>
@@ -68,9 +68,7 @@
     <string name="dialog_title_permission_overlay">Tegning over andre programmer</string>
     <string name="dialog_message_permission_overlay">Tillat tegning over andre programmer i den neste skjermen for å la Rød Måne skru seg på.</string>
     <string name="dialog_title_permission_write_settings">Modifisering av systeminnstillinger</string>
-    <string name="dialog_message_permission_write_settings">Tillat endring av system-
-innstillinger i den neste skjermen for å la Rød Måne endre ditt
-lysstyrkenivå.</string>
+    <string name="dialog_message_permission_write_settings">Tillat endring av system- innstillinger i den neste skjermen for å la Rød Måne endre ditt lysstyrkenivå.</string>
     <string name="notification_status_running_no_warning">Kjører</string>
     <string name="notification_status_off">Avslått</string>
     <string name="notification_action_turn_on">Skru på</string>
@@ -131,4 +129,5 @@ lysstyrkenivå.</string>
     <string name="pref_summary_start_time_sunset">Solnedgang (%s)</string>
     <string name="pref_value_stop_time_sunrise">Soloppgang</string>
     <string name="pref_summary_stop_time_sunrise">Soloppgang (%s)</string>
+    <string name="pref_title_use_root"></string>
 </resources>
