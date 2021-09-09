@@ -29,7 +29,7 @@
     <string name="help_snackbar_text">Activa Red Moon para empezar</string>
     <string name="dialog_title_add_filter">Escribe un nombre de perfil</string>
     <string name="edit_hint_add_filter">Nombre del perfil</string>
-    <string name="dialog_title_remove_filter">¿Seguro que quieres borrarlo?</string>
+    <string name="dialog_title_remove_filter">¿Seguro que quieres borrarlo\?</string>
     <string name="slide_text_welcome">¡Bienvenido a Red Moon!</string>
     <string name="slide_title_protect_eyes">Protege tus ojos</string>
     <string name="slide_title_improve_sleep">Te ayuda a dormir</string>
@@ -47,15 +47,11 @@
     <string name="pref_title_lower_brightness">Reducir brillo del sistema</string>
     <string name="location_not_set">Sin establecer</string>
     <string name="pref_summary_project_page">Para más información, proporcionar comentarios y contribuir a su desarrollo</string>
-    <string name="slide_text_protect_eyes">De noche, cuando mirar al teléfono
-        daña la vista, puedes utilizar Red Moon para limitar el brillo de tu pantalla.</string>
-    <string name="slide_text_get_started">Utiliza el control de la esquina superior
-        derecha para des/activar Red Moon.</string>
+    <string name="slide_text_protect_eyes">De noche, cuando mirar al teléfono daña la vista, puedes utilizar Red Moon para limitar el brillo de tu pantalla.</string>
+    <string name="slide_text_get_started">Utiliza el control de la esquina superior derecha para des/activar Red Moon.</string>
     <string name="pref_title_intensity">Opacidad</string>
     <string name="pref_title_dim_level">Oscuridad</string>
-    <string name="slide_text_improve_sleep">La luz azul inhibe la
-        producción de melatonina, una hormona que ayuda a que nos durmamos
-        por la noche. Red Moon elimina la luz azul de la pantalla para que puedas dormir bien.</string>
+    <string name="slide_text_improve_sleep">La luz azul inhibe la producción de melatonina, una hormona que ayuda a que nos durmamos por la noche. Red Moon elimina la luz azul de la pantalla para que puedas dormir bien.</string>
     <string name="latitude_short">Latitud</string>
     <string name="longitude_short">Longitud</string>
     <string name="time_toggle_options_array_0">Manual</string>
@@ -132,4 +128,5 @@
     <string name="pref_value_start_time_sunset">Puesta del sol</string>
     <string name="menu_settings">Ajustes</string>
     <string name="activity_settings">Ajustes</string>
+    <string name="pref_title_use_root"></string>
 </resources>
