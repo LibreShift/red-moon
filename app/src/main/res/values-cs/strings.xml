@@ -94,7 +94,9 @@
     <!-- Add your name or handle here if you would like credit in the app -->
     <string name="pref_summary_translators">petr.kle.cz</string>
     <string name="pref_title_integration">Propojení s dalšími aplikacemi</string>
-    <string name="pref_summary_integration">Některé aplikace, jako například LibreTasks nebo Tasker, vám umožňují automatizovat úkoly, když nastane určitá událost. Red Moon pošle veřejné upozornění, když se zapne a vypne, takže tyto aplikace mohou reagovat. Pokud nepoužíváte nebo neprogramujete jednu z těchto aplikací, můžete ignorovat další odstavec.\n\nRed Moon vysílá veřejný signál s akcí `com.jmstudios.redmoon.RED_MOON_TOGGLED`. Signál obsahuje klíčem `jmstudios.bundle.key.FILTER_IS_ON`, který označuje, zda se Red Moon zapíná nebo vypíná.</string>
+    <string name="pref_summary_integration">Některé aplikace, jako například LibreTasks nebo Tasker, vám umožňují automatizovat úkoly, když nastane určitá událost. Red Moon pošle veřejné upozornění, když se zapne a vypne, takže tyto aplikace mohou reagovat. Pokud nepoužíváte nebo neprogramujete jednu z těchto aplikací, můžete ignorovat další odstavec.
+\n
+\nRed Moon vysílá veřejný signál s akcí `com.jmstudios.redmoon.RED_MOON_TOGGLED`. Signál obsahuje klíčem `jmstudios.bundle.key.FILTER_IS_ON`, který označuje, zda se Red Moon zapíná nebo vypíná.</string>
     <!-- Toasts -->
     <string name="toast_warning_install">Nebudete moci instalovat soubory APK, pokud je aktivní Red Moon.</string>
     <string name="toast_warning_secured">Některé funkce této aplikace nemusí pracovat při spuštění Red Moon.</string>
@@ -106,7 +108,7 @@
     <!-- Dialog -->
     <string name="dialog_title_add_filter">Zadejte jméno filtru</string>
     <string name="edit_hint_add_filter">Jméno filtru</string>
-    <string name="dialog_title_remove_filter">Smazat tento filtr?</string>
+    <string name="dialog_title_remove_filter">Smazat tento filtr\?</string>
     <string name="dialog_title_permission_overlay">Kreslení přes ostatní aplikace</string>
     <string name="dialog_message_permission_overlay">Povolte na další obrazovce kreslení přes ostatní aplikace, aby mohl Red Moon filtrovat modré světlo.</string>
     <string name="dialog_title_permission_write_settings">Upravit nastavení systému</string>
@@ -121,15 +123,11 @@
     <string name="slide_title_welcome">Vítejte!</string>
     <string name="slide_text_welcome">Vítejte v Red Moon!</string>
     <string name="slide_title_protect_eyes">Chraňte svoje oči</string>
-    <string name="slide_text_protect_eyes">Red Moon v noci sníži jas displeje
-        a šetří tak Vaše oči.</string>
+    <string name="slide_text_protect_eyes">Red Moon v noci sníži jas displeje a šetří tak Vaše oči.</string>
     <string name="slide_title_improve_sleep">Lepe se vyspíte</string>
-    <string name="slide_text_improve_sleep">Modré světlo potlačuje produkci 
-			melatoninu, hormonu, který Vám pomůže usnout v noci. Red Moon odstraňuje 
-			modré světlo z obrazovky, aby jste lépe spali.</string>
+    <string name="slide_text_improve_sleep">Modré světlo potlačuje produkci melatoninu, hormonu, který Vám pomůže usnout v noci. Red Moon odstraňuje modré světlo z obrazovky, aby jste lépe spali.</string>
     <string name="slide_title_get_started">Začínáme!</string>
-    <string name="slide_text_get_started">Zapněte Red Moon přepínačem v pravém 
-			horním rohu.</string>
+    <string name="slide_text_get_started">Zapněte Red Moon přepínačem v pravém horním rohu.</string>
     <!-- Profiles -->
     <string name="filter_name_custom">Uživatelský</string>
     <string name="filter_name_default">Výchozí</string>
@@ -143,7 +141,7 @@
     <string name="action_next_profile">Další profil</string>
     <string name="add_new_profile_dialog_title">Vložte jméno profilu</string>
     <string name="add_new_profile_edit_hint">Jméno profilu</string>
-    <string name="remove_profile_dialog_title">Smazat tento profil?</string>
+    <string name="remove_profile_dialog_title">Smazat tento profil\?</string>
     <string name="pref_title_appearance">Profil</string>
     <string name="searching_location">Vyhledávám pozici</string>
     <string name="toast_warning_no_location">Povolte GPS pro určování polohy</string>
@@ -162,4 +160,7 @@
     <string name="pref_value_start_time_sunset">Západ slunce</string>
     <string name="menu_settings">Nastavení</string>
     <string name="activity_settings">Nastavení</string>
+    <string name="pref_title_use_root"></string>
+    <string name="notification_channel_overlay_name"></string>
+    <string name="notification_channel_overlay_description"></string>
 </resources>
