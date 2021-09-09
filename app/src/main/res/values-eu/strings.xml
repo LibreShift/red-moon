@@ -1,18 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">Red Moon</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Red Moon</string>
     <string name="activity_main">Red Moon</string>
     <string name="activity_shortcut">Aktibatu / Desaktibatu Red Moon</string>
     <string name="activity_intro">Sarrera</string>
     <string name="activity_about">Red Moon-i buruz</string>
     <string name="activity_schedule">Ordutegia</string>
     <string name="activity_timer">Erabilera orduak</string>
-
     <string name="menu_dark_theme">Gai iluna</string>
     <string name="menu_restore_default_filters">Lehenitsitako iragazkiak berreskuratu</string>
     <string name="menu_show_intro">Sarrera berriz ikusi</string>
     <string name="menu_about">Honi buruz</string>
-
     <string name="notification_status_running">Martxan. Itzali apk-k instalatzeko</string>
     <string name="notification_status_running_no_warning">Martxan</string>
     <string name="notification_status_paused">Geldituta</string>
@@ -26,16 +24,13 @@
     <string name="notification_action_whitelist_add">Baztertutako aplikazioak</string>
     <string name="notification_action_whitelist_remove">Aplikazioak iragazi</string>
     <string name="notification_action_next_filter">Hurrengo iragazkia</string>
-
     <string name="pref_category_filter">Iragazkia</string>
     <string name="pref_category_other">Beste bat</string>
     <string name="pref_category_button_backlight_disclaimer">Eraginik gabe galu batzuetan</string>
-
     <string name="pref_title_dim_level">Ilunpera</string>
     <string name="pref_title_intensity">Opakotasuna</string>
     <string name="pref_title_color_temp">Kolorea</string>
     <string name="pref_title_lower_brightness">Sistemaren distira jaitsi</string>
-
     <string name="pref_title_time_toggle">Erlojua</string>
     <string name="pref_category_schedule">Ordutegia</string>
     <string name="pref_title_schedule">Ordutegia</string>
@@ -44,30 +39,85 @@
     <string name="pref_title_start_time">Hasiera ordua</string>
     <string name="pref_title_stop_time">Gelditze ordua</string>
     <string name="pref_summary_use_location">Zure kokapenaren arabera</string>
-
     <string name="button_add_filter">Gehitu</string>
     <string name="button_remove_filter">Ezabatu</string>
-
     <string name="text_switch_on">Piztu</string>
     <string name="text_switch_off">Itzali</string>
-
     <string name="location_not_set">Zehaztugabeko kokapena</string>
     <string name="latitude_short">Latitude</string>
     <string name="longitude_short">Longitude</string>
-
     <string name="pref_title_version">Bertsioa</string>
-
     <string name="pref_title_project_page">Bisitatu proiektuaren hasiera orria</string>
     <string name="pref_summary_project_page">Infortatu eta emaiguzu zure atzeraelikadura</string>
-
     <string name="pref_title_email_developer">Garatzaileei e-posta bat bidali</string>
     <string name="pref_summary_email_developer">Gu kontaktatzeko beste modu bat</string>
     <string name="pref_title_translators">Lagundu itzultzen</string>
     <string name="pref_title_integration">Beste aplikazio batekin integrazioa</string>
     <string name="toast_warning_install">Red Moon martxan dagoen bitartean ezin izango duzu aplikazioak instalatu.</string>
     <string name="toast_warning_secured">Red Moon martxan dagoen bitartean aplikazio honen ezaugarri batzuk ondo ez ibiltzea liteke.</string>
-
     <string name="snackbar_searching_location">Kokapenaren bila</string>
     <string name="snackbar_location_updated">Kokapena aurkitu da!</string>
     <string name="dialog_title_add_filter">Sartu iragazkiaren izena</string>
-    </resources>
+    <string name="filter_name_default"></string>
+    <string name="notification_channel_overlay_description"></string>
+    <string name="pref_value_start_time_sunset"></string>
+    <string name="dialog_message_permission_write_settings"></string>
+    <string name="pref_entry_button_backlight_system"></string>
+    <string name="pref_title_location"></string>
+    <string name="time_toggle_options_array_2"></string>
+    <string name="action_next_profile"></string>
+    <string name="pref_value_stop_time_sunrise"></string>
+    <string name="pref_title_appearance"></string>
+    <string name="help_snackbar_text"></string>
+    <string name="pref_title_use_location"></string>
+    <string name="add_new_profile_edit_hint"></string>
+    <string name="pref_entry_button_backlight_turn_off"></string>
+    <string name="slide_text_protect_eyes"></string>
+    <string name="edit_hint_add_filter"></string>
+    <string name="time_toggle_options_array_0"></string>
+    <string name="dialog_message_permission_usage_stats"></string>
+    <string name="pref_title_dark_theme"></string>
+    <string name="set_dialog"></string>
+    <string name="dialog_button_ok"></string>
+    <string name="pref_title_use_root"></string>
+    <string name="dialog_message_permission_overlay"></string>
+    <string name="slide_text_welcome"></string>
+    <string name="slide_title_get_started"></string>
+    <string name="dialog_title_permission_write_settings"></string>
+    <string name="menu_settings"></string>
+    <string name="filter_name_dim_only"></string>
+    <string name="remove_profile_dialog_title"></string>
+    <string name="slide_title_improve_sleep"></string>
+    <string name="pref_title_secure_suspend"></string>
+    <string name="activity_settings"></string>
+    <string name="pref_title_button_backlight"></string>
+    <string name="dialog_title_remove_filter"></string>
+    <string name="dialog_button_cancel"></string>
+    <string name="add_new_profile_dialog_title"></string>
+    <string name="slide_text_get_started"></string>
+    <string name="filter_name_custom"></string>
+    <string name="pref_summary_start_time_sunset"></string>
+    <string name="activity_secure_suspend"></string>
+    <string name="time_toggle_title"></string>
+    <string name="pref_title_turn_off"></string>
+    <string name="dialog_title_permission_overlay"></string>
+    <string name="slide_title_protect_eyes"></string>
+    <string name="pref_summary_stop_time_sunrise"></string>
+    <string name="searching_location"></string>
+    <string name="snackbar_warning_no_location"></string>
+    <string name="pref_summary_translators"></string>
+    <string name="filter_name_bed_reading"></string>
+    <string name="notification_channel_overlay_name"></string>
+    <string name="pref_title_turn_on"></string>
+    <string name="slide_text_improve_sleep"></string>
+    <string name="slide_title_welcome"></string>
+    <string name="shortcut_title_toggle"></string>
+    <string name="pref_summary_schedule_sun" formatted="false"></string>
+    <string name="pref_title_startup"></string>
+    <string name="toast_warning_no_location"></string>
+    <string name="time_toggle_options_array_1"></string>
+    <string name="pref_summary_integration"></string>
+    <string name="pref_summary_secure_suspend"></string>
+    <string name="dialog_title_permission_usage_stats"></string>
+    <string name="pref_entry_button_backlight_filter_dim_level"></string>
+</resources>
