@@ -42,8 +42,7 @@
     <string name="slide_title_welcome">Bem-vindo!</string>
     <string name="slide_text_welcome">Bem-vindo ao Red Moon!</string>
     <string name="slide_title_protect_eyes">Protegendo seus olhos</string>
-    <string name="slide_text_protect_eyes">À noite, olhar para seu celular
-        machucam seus olhos. Você pode utilizar o Red Moon para escurecer a sua tela.</string>
+    <string name="slide_text_protect_eyes">À noite, olhar para seu celular machucam seus olhos. Você pode utilizar o Red Moon para escurecer a sua tela.</string>
     <string name="slide_title_improve_sleep">Melhorando seu sono</string>
     <string name="slide_text_improve_sleep">Luz azul suprime a produção de Melatonina, o hormônio responsável por te ajudar a adormecer de noite. O Red Moon remove a luz azul da sua tela, garantindo que adormeça mais facilmente.</string>
     <string name="slide_title_get_started">Vamos começar!</string>
@@ -129,4 +128,5 @@
     <string name="pref_value_start_time_sunset">Pôr do sol</string>
     <string name="menu_settings">Configurações</string>
     <string name="activity_settings">Configurações</string>
+    <string name="pref_title_use_root"></string>
 </resources>
