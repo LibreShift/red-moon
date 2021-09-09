@@ -127,4 +127,5 @@
     <string name="pref_summary_start_time_sunset">Coucher du soleil (%s)</string>
     <string name="pref_value_stop_time_sunrise">Lever du soleil</string>
     <string name="pref_summary_stop_time_sunrise">Lever du soleil (%s)</string>
+    <string name="pref_title_use_root"></string>
 </resources>
