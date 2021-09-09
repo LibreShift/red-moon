@@ -32,7 +32,7 @@
     <string name="help_snackbar_text">Appuyer sur le bouton pour activer Red Moon</string>
     <string name="dialog_title_add_filter">Entrez un nom de filtre</string>
     <string name="edit_hint_add_filter">Nom de filtre</string>
-    <string name="dialog_title_remove_filter">Supprimer ce filtre ?</string>
+    <string name="dialog_title_remove_filter">Supprimer ce filtre \?</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_cancel">Annuler</string>
     <string name="shortcut_title_toggle">Activer le filtre</string>
@@ -52,11 +52,9 @@
     <string name="slide_title_welcome">Bienvenue !</string>
     <string name="slide_text_welcome">Bienvenue dans Red Moon !</string>
     <string name="slide_title_protect_eyes">Protéger vos yeux</string>
-    <string name="slide_text_protect_eyes">La nuit, quand fixer votre téléphone vous fait mal aux yeux,
-        vous pouvez utiliser Red Moon pour assombrir votre écran.</string>
+    <string name="slide_text_protect_eyes">La nuit, quand fixer votre téléphone vous fait mal aux yeux, vous pouvez utiliser Red Moon pour assombrir votre écran.</string>
     <string name="slide_title_improve_sleep">Améliorer votre sommeil</string>
-    <string name="slide_text_improve_sleep">La lumière bleue empêche la production de mélatonine, une hormone qui vous aide à vous endormir la nuit.
-        Red Moon bloque la lumière bleue produite par votre écran, ce qui vous permet de vous endormir plus facilement.</string>
+    <string name="slide_text_improve_sleep">La lumière bleue empêche la production de mélatonine, une hormone qui vous aide à vous endormir la nuit. Red Moon bloque la lumière bleue produite par votre écran, ce qui vous permet de vous endormir plus facilement.</string>
     <string name="slide_title_get_started">Commencer !</string>
     <string name="slide_text_get_started">Pour activer Red Moon, appuyez sur le bouton dans le coin supérieur droit.</string>
     <string name="activity_secure_suspend">Suspendre pour les applications exclues</string>
@@ -130,4 +128,5 @@
     <string name="pref_summary_start_time_sunset">Coucher du soleil (%s)</string>
     <string name="pref_value_stop_time_sunrise">Lever du soleil</string>
     <string name="pref_summary_stop_time_sunrise">Lever du soleil (%s)</string>
+    <string name="pref_title_use_root"></string>
 </resources>
