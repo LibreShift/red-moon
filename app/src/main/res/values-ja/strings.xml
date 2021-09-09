@@ -50,15 +50,11 @@
     <string name="slide_title_welcome">ようこそ!</string>
     <string name="slide_text_welcome">Red Moon へようこそ!</string>
     <string name="slide_title_protect_eyes">あなたの目を保護します</string>
-    <string name="slide_text_protect_eyes">夜間、携帯電話を見ていて目が痛いとき、
-        Red Moon を使用して画面を暗くすることができます。</string>
+    <string name="slide_text_protect_eyes">夜間、携帯電話を見ていて目が痛いとき、 Red Moon を使用して画面を暗くすることができます。</string>
     <string name="slide_title_improve_sleep">あなたの睡眠を改善します</string>
-    <string name="slide_text_improve_sleep">ブルーライトは、夜眠りに落ちるために役立つホルモン、
-        メラトニンの生産を抑制します。 Red Moon は、画面から青い光を除去して、
-        容易に眠りに落ちることができるようにします。</string>
+    <string name="slide_text_improve_sleep">ブルーライトは、夜眠りに落ちるために役立つホルモン、 メラトニンの生産を抑制します。 Red Moon は、画面から青い光を除去して、 容易に眠りに落ちることができるようにします。</string>
     <string name="slide_title_get_started">はじめましょう!</string>
-    <string name="slide_text_get_started">右上のスイッチで Red Moon 
-        をオン、オフにします。</string>
+    <string name="slide_text_get_started">右上のスイッチで Red Moon をオン、オフにします。</string>
     <string name="activity_intro">はじめに</string>
     <string name="menu_show_intro">チュートリアル</string>
     <string name="text_switch_on">オン</string>
@@ -68,9 +64,7 @@
 \nこの機能は、端末のバッテリー残量をわずかに消費する可能性があります。
 \n
 \n※いらないアプリを騙してインストールさせるような一部アプリは、干渉から守るためオーバーレイに対し保護されます。Red Moonはオンの時、透明な赤色レイヤーを画面上に描画して動作しているため、このようなアプリはタッチに応答しません。</string>
-    <string name="dialog_message_permission_usage_stats">次の画面で使用状況へのアクセスを許可して、Red Moon がセキュリティで保護されたアプリを一時停止できるようにします。
-
-        Red Moon がオンのときに作動しないと思われるアプリを使用しているかどうかを確認するためだけに、このデータを使用します。</string>
+    <string name="dialog_message_permission_usage_stats">次の画面で使用状況へのアクセスを許可して、Red Moon がセキュリティで保護されたアプリを一時停止できるようにします。 Red Moon がオンのときに作動しないと思われるアプリを使用しているかどうかを確認するためだけに、このデータを使用します。</string>
     <string name="activity_secure_suspend">除外したアプリで一時停止</string>
     <string name="pref_title_secure_suspend">除外したアプリで一時停止</string>
     <string name="dialog_title_permission_usage_stats">使用状況へのアクセス</string>
@@ -130,4 +124,5 @@
     <string name="pref_value_start_time_sunset">日没</string>
     <string name="menu_settings">設定</string>
     <string name="activity_settings">設定</string>
+    <string name="pref_title_use_root"></string>
 </resources>
