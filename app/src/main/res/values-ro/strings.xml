@@ -118,4 +118,14 @@
     <string name="notification_action_stop">Oprește</string>
     <string name="notification_action_whitelist_add">Exclude aplicația</string>
     <string name="notification_action_whitelist_remove">Filtrează aplicația</string>
+    <string name="menu_settings"></string>
+    <string name="activity_settings"></string>
+    <string name="notification_channel_overlay_name"></string>
+    <string name="pref_title_use_root"></string>
+    <string name="pref_summary_stop_time_sunrise"></string>
+    <string name="pref_title_dark_theme"></string>
+    <string name="pref_value_stop_time_sunrise"></string>
+    <string name="pref_summary_start_time_sunset"></string>
+    <string name="pref_value_start_time_sunset"></string>
+    <string name="notification_channel_overlay_description"></string>
 </resources>
