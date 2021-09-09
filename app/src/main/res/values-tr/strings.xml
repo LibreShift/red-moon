@@ -47,7 +47,7 @@
     <string name="notification_action_pause">Duraklat</string>
     <string name="notification_action_turn_on">Aç</string>
     <string name="notification_action_turn_off">Kapat</string>
-    <string name="notification_action_stop">Kapat</string>
+    <string name="notification_action_stop">Durdur</string>
     <string name="notification_action_next_filter">Sonraki süzgeç</string>
     <!-- Preferences -->
     <string name="pref_category_filter">Süzgeç</string>
@@ -71,13 +71,13 @@
     <string name="pref_title_turn_off">Kapatma zamanı</string>
     <string name="pref_title_start_time">Başlangıç zamanı</string>
     <string name="pref_title_stop_time">Bitiş zamanı</string>
-    <string name="pref_title_use_location">Gün Batımından Gün Doğumuna</string>
+    <string name="pref_title_use_location">Gün batımından gün doğumuna</string>
     <string name="pref_summary_use_location">Konumunuza göre</string>
-    <string name="pref_summary_secure_suspend">Bu ayar etkinleştirildiğinde Red Moon belli uygulamalar açıkken kendiliğinden duraklayacaktır. Öntanımlı olarak bu, apk yükleme gibi Red Moon çalışıyorken* çalışmayacak uygulamaları içerir. Bildirimden geçerli uygulamanın geçerli ekranı için bu davranışı değiştirebilirsiniz. Örneğin, kamera gibi renge duyarlı uygulamaları eklemek isteyebilirsiniz. 
-\n 
-\nBu özellik aygıtınızın pil ömrünü biraz düşürebilir. 
-\n 
-\n*Bazı uygulamalar kendilerini etkilemelerden korumak için örten tabakalara karşı korumalıdır, örneğin istemediğiniz bir uygulamayı yüklemek için kandırılmanız gibi. Ekran üzerine saydam kırmızı katman çizerek çalışan Red Moon açıkken, o uygulamalar dokunmaları yanıtlamayacaktır.</string>
+    <string name="pref_summary_secure_suspend">Bu ayar etkinleştirildiğinde Red Moon belli uygulamalar açıkken kendiliğinden duraklayacaktır. Öntanımlı olarak bu, apk kurulumu gibi Red Moon çalışıyorken çalışmayacak uygulamaları* içerir. Bildirimden geçerli uygulamanın geçerli ekranı için bu davranışı değiştirebilirsiniz. Örneğin, kamera gibi renge duyarlı uygulamaları eklemek isteyebilirsiniz.
+\n
+\nBu özellik aygıtınızın pil ömrünü biraz düşürebilir.
+\n
+\n*Bazı uygulamalar kendilerini etkilemelerden korumak için örten tabakalara karşı korumalıdır, örneğin istemediğiniz bir uygulamayı kurmak için kandırılmanız gibi. Ekran üzerine saydam kırmızı katman çizerek çalışan Red Moon açıkken, o uygulamalar dokunmaları yanıtlamayacaktır.</string>
     <!-- Short strings; might be used in multiple places -->
     <string name="button_add_filter">Ekle</string>
     <string name="button_remove_filter">Sil</string>
@@ -90,18 +90,18 @@
     <string name="pref_title_version">Sürüm</string>
     <string name="pref_title_project_page">Proje sayfasını ziyaret et</string>
     <string name="pref_summary_project_page">Daha çok bilgi bulun, geri bildirim gönderin ve katkıda bulunun</string>
-    <string name="pref_title_email_developer">Geliştiricilere e-mail gönder</string>
+    <string name="pref_title_email_developer">Geliştiricilere e-posta gönderin</string>
     <string name="pref_summary_email_developer">Bize ulaşmak için başka bir yol</string>
     <string name="pref_title_translators">Çevirmeye yardımcı olun</string>
     <!-- Add your name or handle here if you would like credit in the app -->
-    <string name="pref_summary_translators">Çevirmenler: mission712, oguz-ismail, onuricen, emintufan</string>
-    <string name="pref_title_integration">Diğer uygulamalarla entegrasyon</string>
-    <string name="pref_summary_integration">LibreTasks veya Tasker gibi bazı uygulamalar, belirli etkinlikler gerçekleştiğinde görevleri kendiliğinden gerçekleştirmenize izin verir. Red Moon, açılıp kapandığıda herkese açık bir bildirim gönderir, böylece bu uygulamalar karşılık verebilir. Bu uygulamalardan birini geliştirmiyor veya kullanmıyorsanız, sonraki paragrafi yok sayabilirsiniz.\n
- \n
- Red Moon, `com.jmstudios.redmoon.RED_MOON_TOGGLED` eylemiyle açık bir \"intent\" yayımlar. Bu \"intent\", Red Moon\'un açılıp kapatıldığını belirten `jmstudios.bundle.key.FILTER_IS_ON` anahtarıyla bir \"boolean extra\" içerir.</string>
+    <string name="pref_summary_translators">Çevirmenler: mission712, oguz-ismail, onuricen, emintufan, Oğuz Ersen</string>
+    <string name="pref_title_integration">Diğer uygulamalarla tümleşme</string>
+    <string name="pref_summary_integration">LibreTasks veya Tasker gibi bazı uygulamalar, belirli etkinlikler gerçekleştiğinde görevleri kendiliğinden gerçekleştirmenize izin verir. Red Moon, açılıp kapandığıda herkese açık bir bildirim gönderir, böylece bu uygulamalar karşılık verebilir. Bu uygulamalardan birini geliştirmiyor veya kullanmıyorsanız, sonraki paragrafı yok sayabilirsiniz.
+\n
+\nRed Moon, `com.jmstudios.redmoon.RED_MOON_TOGGLED` eylemiyle açık bir \"intent\" yayımlar. Bu \"intent\", Red Moon\'un açılıp kapatıldığını belirten `jmstudios.bundle.key.FILTER_IS_ON` anahtarıyla bir \"boolean extra\" içerir.</string>
     <!-- Toasts -->
-    <string name="toast_warning_install">Red Moon çalışırken APK yükleyemezsiniz.</string>
-    <string name="toast_warning_secured">Bu uygulamanın bazı özellikleri Red Moon aktifken çalışmayabilir.</string>
+    <string name="toast_warning_install">Red Moon çalışırken APK kuramazsınız.</string>
+    <string name="toast_warning_secured">Red Moon çalışırken bu uygulamanın bazı özellikleri çalışmayabilir.</string>
     <!-- Snackbar -->
     <string name="snackbar_warning_no_location">Konumu güncellemek için konum hizmetlerini aç</string>
     <string name="snackbar_searching_location">Konum aranıyor</string>
