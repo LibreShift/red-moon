@@ -30,14 +30,14 @@
     <string name="menu_dark_theme">Tema scuro</string>
     <string name="pref_title_email_developer">Contatta gli sviluppatori</string>
     <string name="pref_summary_email_developer">Un metodo alternativo di contatto</string>
-    <string name="pref_title_project_page">Visita la pagina del progetto </string>
+    <string name="pref_title_project_page">Visita la pagina del progetto</string>
     <string name="pref_summary_project_page">Trova più informazioni, lascia commenti e contribuisci</string>
     <string name="toast_warning_install">Non sarai in grado di installare APK quando il filtro è in esecuzione.</string>
     <string name="snackbar_warning_no_location">Attiva is servizi di geolocalizzazione per aggiornare la posizione</string>
     <string name="help_snackbar_text">Premi il pulsante per attivare Red Moon</string>
     <string name="dialog_title_add_filter">Inserisci il nome del profilo</string>
     <string name="edit_hint_add_filter">Nome del profilo</string>
-    <string name="dialog_title_remove_filter">Cancella questo profilo?</string>
+    <string name="dialog_title_remove_filter">Cancella questo profilo\?</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_cancel">Annulla</string>
     <string name="shortcut_title_toggle">Attiva Red Moon</string>
@@ -58,7 +58,7 @@
     <!-- Currently unused -->
     <string name="add_new_profile_dialog_title">Inserisci il nome del profilo</string>
     <string name="add_new_profile_edit_hint">Nome del profilo</string>
-    <string name="remove_profile_dialog_title">Cancella questo profilo?</string>
+    <string name="remove_profile_dialog_title">Cancella questo profilo\?</string>
     <string name="pref_title_appearance">Filtro</string>
     <string name="searching_location">Cercando la posizione</string>
     <string name="toast_warning_no_location">Attiva is servizi di geolocalizzazione per aggiornare la posizione</string>
@@ -128,4 +128,5 @@
     <string name="pref_summary_start_time_sunset">Tramonto (%s)</string>
     <string name="pref_value_stop_time_sunrise">Alba</string>
     <string name="pref_summary_stop_time_sunrise">Alba (%s)</string>
+    <string name="pref_title_use_root"></string>
 </resources>
