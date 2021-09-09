@@ -44,13 +44,9 @@
     <string name="slide_title_welcome">Welcome!</string>
     <string name="slide_text_welcome">Welcome to Red Moon!</string>
     <string name="slide_title_protect_eyes">Protecting your eyes</string>
-    <string name="slide_text_protect_eyes">At night, when looking at your
-        phone hurts your eyes, you can use Red Moon to dim your screen.</string>
+    <string name="slide_text_protect_eyes">At night, when looking at your phone hurts your eyes, you can use Red Moon to dim your screen.</string>
     <string name="slide_title_improve_sleep">Improving your sleep</string>
-    <string name="slide_text_improve_sleep">Blue light suppresses the
-        production of Melatonin, a hormone that helps you fall asleep at
-        night. Red Moon removes the blue light from your screen, ensuring
-        you can fall asleep easily.</string>
+    <string name="slide_text_improve_sleep">Blue light suppresses the production of Melatonin, a hormone that helps you fall asleep at night. Red Moon removes the blue light from your screen, ensuring you can fall asleep easily.</string>
     <string name="slide_title_get_started">Get started!</string>
     <string name="slide_text_get_started">Turn Red Moon on and off with the switch
  in the top right corner.</string>
@@ -133,4 +129,5 @@
     <string name="pref_summary_start_time_sunset">Sunset (%s)</string>
     <string name="pref_value_stop_time_sunrise">Sunrise</string>
     <string name="pref_summary_stop_time_sunrise">Sunrise (%s)</string>
+    <string name="pref_title_use_root"></string>
 </resources>
