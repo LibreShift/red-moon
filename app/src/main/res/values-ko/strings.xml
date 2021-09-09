@@ -120,4 +120,12 @@
     <string name="time_toggle_options_array_2">자동 (사용자 지정)</string>
     <string name="notification_channel_overlay_name">오버레이 조정</string>
     <string name="notification_channel_overlay_description">지속적인 오버레이 감지 알림</string>
+    <string name="pref_summary_start_time_sunset"></string>
+    <string name="activity_settings"></string>
+    <string name="pref_value_stop_time_sunrise"></string>
+    <string name="pref_summary_stop_time_sunrise"></string>
+    <string name="pref_title_dark_theme"></string>
+    <string name="pref_title_use_root"></string>
+    <string name="pref_value_start_time_sunset"></string>
+    <string name="menu_settings"></string>
 </resources>
