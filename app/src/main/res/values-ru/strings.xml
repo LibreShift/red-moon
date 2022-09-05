@@ -141,5 +141,7 @@
     <string name="pref_value_start_time_sunset">Закат</string>
     <string name="menu_settings">Настройки</string>
     <string name="activity_settings">Настройки</string>
-    <string name="pref_title_use_root">Использовать root</string>
+    <string name="pref_title_use_root">Root-режим</string>
+    <string name="pref_summary_use_root">Более качественный фильтр, особенно с тёмным фоном. Требуется рутированное с помощью Magisk устройство.</string>
+    <string name="toast_root_unavailable">Red Moon: Root недоступен. Отключение root-режима.</string>
 </resources>
