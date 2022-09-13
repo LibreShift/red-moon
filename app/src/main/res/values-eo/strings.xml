@@ -127,5 +127,7 @@
     <string name="pref_value_start_time_sunset">Sunsubiro</string>
     <string name="activity_settings">Agordoj</string>
     <string name="menu_settings">Agordoj</string>
-    <string name="pref_title_use_root">Uzi radikon</string>
+    <string name="pref_title_use_root">Radika reĝimo</string>
+    <string name="toast_root_unavailable">Red Moon: Radiko ne disponebla. Malŝaltante radikan reĝimon.</string>
+    <string name="pref_summary_use_root">Pli altkvalita filtrilo, precipe kun malhelaj fonoj. Postulas aparaton kun administraj privilegioj per Magisk.</string>
 </resources>
