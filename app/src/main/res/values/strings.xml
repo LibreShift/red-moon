@@ -202,4 +202,7 @@
     <!-- Notification channel descriptions -->
     <string name="notification_channel_overlay_name">Overlay Control</string>
     <string name="notification_channel_overlay_description">The persistent overlay control notification</string>
+    <string name="overlay_accessibility_service_label">Red Moon Overlay</string>
+    <string name="pref_title_use_accessibility_service">Use Accessibiltiy Service</string>
+    <string name="pref_summary_use_accessibility_service">Cover the home screen (Android 12+) and status/navigation bars (Android 10+)</string>
 </resources>

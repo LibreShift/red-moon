@@ -5,7 +5,9 @@
  */
 package com.jmstudios.redmoon.fragment
 
+import android.content.Intent
 import android.os.Bundle
+import android.provider.Settings
 import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
@@ -56,6 +58,9 @@ class SettingsFragment : PreferenceFragmentCompat() {
 
     private val rootPref: SwitchPreference
         get() = pref(R.string.pref_key_use_root) as SwitchPreference
+
+    private val accessibilityServicePref: SwitchPreference
+        get() = pref(R.string.pref_key_use_accessibility_service) as SwitchPreference
 
     private var mSnackbar: Snackbar? = null
 
@@ -108,6 +113,26 @@ class SettingsFragment : PreferenceFragmentCompat() {
                 val hasRoot = Shell.rootAccess()
                 if (!hasRoot) {
                     Toast.makeText(context, R.string.toast_root_unavailable, Toast.LENGTH_SHORT).show()
+                    return@setOnPreferenceChangeListener false
+                }
+            }
+            if (filterIsOn) {
+                // It would be better to toggle back on again using the new mode but it's more work
+                // to add that, since the filter service needs to restart, so we need to wait until
+                // the fade-out finishes to start again. Or maybe better, the filter service could
+                // listen for this setting changing and automatically toggle itself. But this works.
+                Command.toggle(on = false)
+            }
+            return@setOnPreferenceChangeListener true
+        }
+
+        accessibilityServicePref.setOnPreferenceChangeListener { _, newValue ->
+            // Make sure root is available before enabling
+            if (newValue as Boolean) {
+                val prefString = Settings.Secure.getString(context?.contentResolver, Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES)
+                Log.i("FOO 20 FOO 10 ${context?.contentResolver } $prefString")
+                if(prefString == null || !prefString.contains("com.jmstudios.redmoon.service.AccessibilityFilterService")) {
+                    startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS));
                     return@setOnPreferenceChangeListener false
                 }
             }

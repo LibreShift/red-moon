@@ -30,26 +30,13 @@ import android.app.Service
 import android.content.Intent
 import android.os.IBinder
 import android.widget.Toast
+import com.jmstudios.redmoon.*
 import java.util.concurrent.Executors
 
-import com.jmstudios.redmoon.activeProfile
-import com.jmstudios.redmoon.Command
-import com.jmstudios.redmoon.CommandAnimatorListener
-import com.jmstudios.redmoon.Config
-import com.jmstudios.redmoon.EventBus
-import com.jmstudios.redmoon.Filter
-import com.jmstudios.redmoon.filterIsOn
 import com.jmstudios.redmoon.filter.surfaceflinger.SurfaceFlinger
 import com.jmstudios.redmoon.helper.Logger
 import com.jmstudios.redmoon.helper.Permission
 import com.jmstudios.redmoon.manager.CurrentAppMonitor
-import com.jmstudios.redmoon.Notification
-import com.jmstudios.redmoon.Overlay
-import com.jmstudios.redmoon.overlayPermissionDenied
-import com.jmstudios.redmoon.Profile
-import com.jmstudios.redmoon.ProfileEvaluator
-import com.jmstudios.redmoon.R
-import com.jmstudios.redmoon.secureSuspendChanged
 
 import org.greenrobot.eventbus.Subscribe
 import com.topjohnwu.superuser.Shell
@@ -107,6 +94,11 @@ class FilterService : Service() {
                 Config.useRoot = false;
                 stopForeground(false)
             }
+        } else if (Config.useAccessibilityService) {
+            EventBus.post(accessibilityServiceCommand(Command.getCommand(intent)))
+            filterIsOn = Command.getCommand(intent).turnOn
+            mCurrentAppMonitor.monitoring = Command.getCommand(intent).turnOn && Config.secureSuspend
+            Log.i("$filterIsOn")
         } else {
             if (Permission.Overlay.isGranted) {
                 fadeInOrOut()
@@ -138,12 +130,16 @@ class FilterService : Service() {
             filterIsOn = false
             mCurrentAppMonitor.monitoring = false
         }
+        if(Config.useAccessibilityService) {
+            EventBus.post(accessibilityServiceCommand(Command.OFF))
+        }
         mFilter.onDestroy()
         executor.shutdownNow()
         super.onDestroy()
     }
 
     @Subscribe fun onProfileUpdated(profile: Profile) {
+        Log.i("onProfileUpdated")
         mFilter.profile = profile
         startForeground(NOTIFICATION_ID, mNotification.build(true))
     }
