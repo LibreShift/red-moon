@@ -63,14 +63,14 @@
             android:summary="@string/pref_summary_use_root"
             />
 
-        <SwitchPreference
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:defaultValue="false"
+        <Preference
             android:key="@string/pref_key_use_accessibility_service"
             android:title="@string/pref_title_use_accessibility_service"
             android:summary="@string/pref_summary_use_accessibility_service"
-            />
+            >
+            <intent
+                android:action="Settings.ACTION_ACCESSIBILITY_SETTINGS" />
+        </Preference>
 
         <ListPreference
             android:key="@string/pref_key_button_backlight"

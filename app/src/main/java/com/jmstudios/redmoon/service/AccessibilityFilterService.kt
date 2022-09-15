@@ -50,8 +50,4 @@ class AccessibilityFilterService : AccessibilityService() {
         var enabled = false;
         lateinit var instance: AccessibilityFilterService
     }
-
-//    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
-//        return super.onStartCommand(intent, flags, startId)
-//    }
 }

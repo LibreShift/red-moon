@@ -203,8 +203,6 @@ object Config : Preferences(appContext) {
         }
 
     var useRoot by BooleanPreference(R.string.pref_key_use_root, false)
-
-    var useAccessibilityService by BooleanPreference(R.string.pref_key_use_accessibility_service, false)
     //endregion
 
     //region application

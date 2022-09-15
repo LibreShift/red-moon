@@ -16,23 +16,11 @@ import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreference
 import com.google.android.material.snackbar.Snackbar
-import com.jmstudios.redmoon.Command
+import com.jmstudios.redmoon.*
 
-import com.jmstudios.redmoon.Config
-import com.jmstudios.redmoon.EventBus
-import com.jmstudios.redmoon.filterIsOn
-import com.jmstudios.redmoon.getColor
 import com.jmstudios.redmoon.helper.Logger
 import com.jmstudios.redmoon.helper.Permission
-import com.jmstudios.redmoon.inActivePeriod
-import com.jmstudios.redmoon.locationAccessDenied
-import com.jmstudios.redmoon.locationChanged
-import com.jmstudios.redmoon.locationService
-import com.jmstudios.redmoon.pref
-import com.jmstudios.redmoon.R
-import com.jmstudios.redmoon.scheduleChanged
 import com.jmstudios.redmoon.service.LocationUpdateService
-import com.jmstudios.redmoon.useLocationChanged
 
 import com.topjohnwu.superuser.Shell
 import org.greenrobot.eventbus.Subscribe
@@ -59,8 +47,8 @@ class SettingsFragment : PreferenceFragmentCompat() {
     private val rootPref: SwitchPreference
         get() = pref(R.string.pref_key_use_root) as SwitchPreference
 
-    private val accessibilityServicePref: SwitchPreference
-        get() = pref(R.string.pref_key_use_accessibility_service) as SwitchPreference
+    private val accessibilityServicePref: Preference
+        get() = pref(R.string.pref_key_use_accessibility_service) as Preference
 
     private var mSnackbar: Snackbar? = null
 
@@ -126,24 +114,12 @@ class SettingsFragment : PreferenceFragmentCompat() {
             return@setOnPreferenceChangeListener true
         }
 
-        accessibilityServicePref.setOnPreferenceChangeListener { _, newValue ->
+        accessibilityServicePref.setOnPreferenceClickListener { _ ->
             // Make sure root is available before enabling
-            if (newValue as Boolean) {
-                val prefString = Settings.Secure.getString(context?.contentResolver, Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES)
-                Log.i("FOO 20 FOO 10 ${context?.contentResolver } $prefString")
-                if(prefString == null || !prefString.contains("com.jmstudios.redmoon.service.AccessibilityFilterService")) {
-                    startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS));
-                    return@setOnPreferenceChangeListener false
-                }
+            if(!isAccessibilityServiceOn(context)) {
+                startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
             }
-            if (filterIsOn) {
-                // It would be better to toggle back on again using the new mode but it's more work
-                // to add that, since the filter service needs to restart, so we need to wait until
-                // the fade-out finishes to start again. Or maybe better, the filter service could
-                // listen for this setting changing and automatically toggle itself. But this works.
-                Command.toggle(on = false)
-            }
-            return@setOnPreferenceChangeListener true
+            return@setOnPreferenceClickListener true
         }
 
         updatePrefs()

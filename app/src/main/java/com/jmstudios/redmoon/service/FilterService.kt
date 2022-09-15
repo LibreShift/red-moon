@@ -94,7 +94,7 @@ class FilterService : Service() {
                 Config.useRoot = false;
                 stopForeground(false)
             }
-        } else if (Config.useAccessibilityService) {
+        } else if (isAccessibilityServiceOn(applicationContext)) {
             EventBus.post(accessibilityServiceCommand(Command.getCommand(intent)))
             filterIsOn = Command.getCommand(intent).turnOn
             mCurrentAppMonitor.monitoring = Command.getCommand(intent).turnOn && Config.secureSuspend
@@ -130,7 +130,7 @@ class FilterService : Service() {
             filterIsOn = false
             mCurrentAppMonitor.monitoring = false
         }
-        if(Config.useAccessibilityService) {
+        if(isAccessibilityServiceOn(applicationContext)) {
             EventBus.post(accessibilityServiceCommand(Command.OFF))
         }
         mFilter.onDestroy()
