@@ -115,10 +115,7 @@ class SettingsFragment : PreferenceFragmentCompat() {
         }
 
         accessibilityServicePref.setOnPreferenceClickListener { _ ->
-            // Make sure root is available before enabling
-            if(!isAccessibilityServiceOn(context)) {
-                startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
-            }
+            startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
             return@setOnPreferenceClickListener true
         }
 

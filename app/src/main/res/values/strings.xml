@@ -205,4 +205,5 @@
     <string name="overlay_accessibility_service_label">Red Moon Overlay</string>
     <string name="pref_title_use_accessibility_service">Use Accessibiltiy Service</string>
     <string name="pref_summary_use_accessibility_service">Enable to cover up the home screen and status/navigation bars on Android 12+</string>
+    <string name="accessibility_service_description">On Android 12 or greater, this service lets Red Moon draw over the notification shade, home screen, and navigation buttons. On lower versions of Android, this service isn\'t necessary, so you should leave it off.</string>
 </resources>

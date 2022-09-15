@@ -18,8 +18,6 @@ class AccessibilityFilterService : AccessibilityService() {
     override fun onInterrupt() {}
 
     override fun onServiceConnected() {
-        instance = this;
-        enabled = true;
         mFilter = Overlay(applicationContext)
         val lp = WindowManager.LayoutParams().apply {
             type = WindowManager.LayoutParams.TYPE_ACCESSIBILITY_OVERLAY
@@ -36,18 +34,11 @@ class AccessibilityFilterService : AccessibilityService() {
     override fun onDestroy() {
         super.onDestroy()
         EventBus.unregister(this);
-        enabled = false;
     }
 
     @Subscribe
     fun turnOnOrOff(cmd: accessibilityServiceCommand) {
-        Log.i("${cmd.command}")
         mFilter.setBackgroundColor(activeProfile.filterColor)
         mFilter.visibility = if (cmd.command.turnOn) View.VISIBLE else View.GONE
-    }
-
-    companion object : Logger() {
-        var enabled = false;
-        lateinit var instance: AccessibilityFilterService
     }
 }
