@@ -70,7 +70,7 @@ class FilterService : Service() {
     }
 
     override fun onStartCommand(intent: Intent, flags: Int, startId: Int): Int {
-        Log.i("onStartCommand($intent, $flags, $startId)")
+        Log.i("onStartCommand($intent, ${Command.getCommand(intent)}, $flags, $startId)")
         fun fadeInOrOut() {
             val cmd = Command.getCommand(intent)
             val end = if (cmd.turnOn) activeProfile else mFilter.profile.off
@@ -96,9 +96,10 @@ class FilterService : Service() {
             }
         } else if (isAccessibilityServiceOn(applicationContext)) {
             EventBus.post(accessibilityServiceCommand(Command.getCommand(intent)))
-            filterIsOn = Command.getCommand(intent).turnOn
             mCurrentAppMonitor.monitoring = Command.getCommand(intent).turnOn && Config.secureSuspend
             Log.i("$filterIsOn")
+            Command.getCommand(intent).onAnimationStart(this@FilterService)
+            Command.getCommand(intent).onAnimationEnd(this@FilterService)
         } else {
             if (Permission.Overlay.isGranted) {
                 fadeInOrOut()
@@ -140,7 +141,11 @@ class FilterService : Service() {
 
     @Subscribe fun onProfileUpdated(profile: Profile) {
         Log.i("onProfileUpdated")
-        mFilter.profile = profile
+        if(isAccessibilityServiceOn(applicationContext)) {
+            EventBus.post(accessibilityServiceCommand(Command.ON))
+        } else {
+            mFilter.profile = profile
+        }
         startForeground(NOTIFICATION_ID, mNotification.build(true))
     }
 
