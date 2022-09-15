@@ -4,6 +4,7 @@ import android.accessibilityservice.AccessibilityService
 import android.animation.ValueAnimator
 import android.graphics.PixelFormat
 import android.view.View
+import android.view.ViewGroup
 import android.view.WindowManager
 import android.view.accessibility.AccessibilityEvent
 import com.jmstudios.redmoon.*
@@ -19,20 +20,14 @@ class AccessibilityFilterService : AccessibilityService() {
 
     override fun onServiceConnected() {
         mFilter = Overlay(applicationContext)
-        val lp = WindowManager.LayoutParams().apply {
-            type = WindowManager.LayoutParams.TYPE_ACCESSIBILITY_OVERLAY
-            format = PixelFormat.TRANSLUCENT
-            flags = WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE.or(WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE)
-        }
-        (getSystemService(WINDOW_SERVICE) as WindowManager).addView(mFilter, lp)
-
+        (getSystemService(WINDOW_SERVICE) as WindowManager).addView(mFilter, mFilter.mLayoutParams)
         mFilter.visibility = View.GONE;
-
         EventBus.register(this)
     }
 
     override fun onDestroy() {
         super.onDestroy()
+        (getSystemService(WINDOW_SERVICE) as WindowManager).removeView(mFilter)
         EventBus.unregister(this);
     }
 
