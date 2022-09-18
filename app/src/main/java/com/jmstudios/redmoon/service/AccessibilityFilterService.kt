@@ -26,9 +26,9 @@ class AccessibilityFilterService : AccessibilityService() {
     }
 
     override fun onDestroy() {
-        super.onDestroy()
-        (getSystemService(WINDOW_SERVICE) as WindowManager).removeView(mFilter)
         EventBus.unregister(this);
+        (getSystemService(WINDOW_SERVICE) as WindowManager).removeView(mFilter)
+        super.onDestroy()
     }
 
     @Subscribe

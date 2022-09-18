@@ -97,7 +97,6 @@ class FilterService : Service() {
         } else if (isAccessibilityServiceOn(applicationContext)) {
             EventBus.post(accessibilityServiceCommand(Command.getCommand(intent)))
             mCurrentAppMonitor.monitoring = Command.getCommand(intent).turnOn && Config.secureSuspend
-            Log.i("$filterIsOn")
             Command.getCommand(intent).onAnimationStart(this@FilterService)
             Command.getCommand(intent).onAnimationEnd(this@FilterService)
         } else {
