@@ -7,5 +7,4 @@
     android:accessibilityFeedbackType="feedbackVisual"
     android:notificationTimeout="100"
     android:canRetrieveWindowContent="false"
-    android:settingsActivity="com.example.android.accessibility.ServiceSettingsActivity"
     />
