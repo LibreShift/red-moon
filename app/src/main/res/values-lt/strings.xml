@@ -161,5 +161,7 @@
     <string name="pref_value_start_time_sunset">Saulėlydis</string>
     <string name="menu_settings">Nustatymai</string>
     <string name="activity_settings">Nustatymai</string>
-    <string name="pref_title_use_root">Naudoti root</string>
+    <string name="pref_title_use_root">Šakninis režimas</string>
+    <string name="pref_summary_use_root">Aukštesnės kokybės filtras, ypač tamsiems fonams. Reikalingas įrenginys atrakintas su Magisk.</string>
+    <string name="toast_root_unavailable">Raudonasis mėnulis: šaknis nepasiekiama. Išjungiamas šakninis režimas.</string>
 </resources>
