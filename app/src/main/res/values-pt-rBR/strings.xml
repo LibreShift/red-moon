@@ -128,5 +128,7 @@
     <string name="pref_value_start_time_sunset">Pôr do sol</string>
     <string name="menu_settings">Configurações</string>
     <string name="activity_settings">Configurações</string>
-    <string name="pref_title_use_root">Usar root</string>
+    <string name="pref_title_use_root">Modo root</string>
+    <string name="toast_root_unavailable">Red Moon: Root indisponível. Desativando modo root.</string>
+    <string name="pref_summary_use_root">Filtro de alta qualidade, especialmente com fundos escuros. Requer dispositivo com root e Magisk.</string>
 </resources>
