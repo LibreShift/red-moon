@@ -1,4 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ⵜⴰⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ</string>
+    <string name="activity_main">ⵜⴰⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ</string>
+    <string name="activity_shortcut">ⵙⵙⵔⴼⵓ ⵜⴰⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ</string>
+    <string name="activity_intro">ⵜⴰⵣⵡⵓⵔⵜ</string>
+    <string name="activity_settings">ⵜⵉⵙⵖⴰⵍ</string>
+    <string name="activity_about">ⵅⴼ ⵜⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ</string>
+    <string name="activity_schedule">ⴰⵖⴰⵡⴰⵙ</string>
+    <string name="menu_show_intro">ⴰⵍⵙ ⵜⴰⵣⵡⵓⵔⵜ</string>
+    <string name="menu_settings">ⵜⵉⵙⵖⴰⵍ</string>
+    <string name="menu_about">ⵅⴼ</string>
+    <string name="notification_status_running_no_warning">ⵉⵜⵜⵓⵣⵣⴳⵔ</string>
+    <string name="activity_timer">ⴰⵎⵙⵉⴹⵏ</string>
+    <string name="notification_status_paused">ⵉⵜⵜⵓⵙⴱⴷⴷ</string>
+    <string name="notification_status_off">ⵇⵇⵏ</string>
+    <string name="notification_action_resume">ⴰⵍⵙ</string>
+    <string name="notification_action_pause">ⵙⴱⴷⴷ</string>
+    <string name="notification_action_turn_on">ⵙⵙⵉⵖ</string>
+    <string name="notification_action_turn_off">ⵙⵙⵅⵙⵉ</string>
+    <string name="notification_action_stop">ⵙⴱⴷⴷ</string>
+    <string name="pref_category_other">ⵢⴰⴹⵏ</string>
+    <string name="pref_category_schedule">ⴰⵖⴰⵡⴰⵙ</string>
+    <string name="pref_title_dim_level">ⵜⵉⵍⵍⴰⵙ</string>
+    <string name="pref_title_intensity">ⴰⴳⴳⴰⴹ</string>
+    <string name="pref_title_color_temp">ⴰⴽⵍⵓ</string>
+    <string name="pref_title_lower_brightness">ⴼⵏⵥ ⴰⵙⵉⴷⴷ ⵏ ⵓⵏⴳⵔⴰⵡ</string>
+    <string name="pref_summary_schedule_sun" formatted="false">ⵙⴳ ⵓⵖⵍⵍⵓⵢ (%on) ⴰⵔ ⴰⵏⵇⵇⵔ (%off)</string>
+    <string name="pref_summary_schedule_none">ⵡⴰⵍⵓ</string>
+    <string name="pref_title_start_time">ⵜⵓⴷⴷⵎⴰ</string>
+    <string name="pref_value_start_time_sunset">ⴰⵖⵍⵍⵓⵢ</string>
+    <string name="pref_summary_start_time_sunset">ⴰⵖⵍⵍⵓⵢ (%s)</string>
+    <string name="pref_title_stop_time">ⵜⵉⴳⵉⵔⴰ</string>
+    <string name="pref_value_stop_time_sunrise">ⴰⵏⵇⵇⵔ</string>
+    <string name="pref_summary_stop_time_sunrise">ⴰⵏⵇⵇⵔ (%s)</string>
+    <string name="pref_title_use_location">ⵙⴳ ⵓⵖⵍⵍⵓⵢ ⴰⵔ ⴰⵏⵇⵇⵔ</string>
+    <string name="pref_summary_use_location">ⵅⴼ ⵡⴰⵏⵙⴰ ⵏⵏⴽ</string>
+    <string name="pref_title_location">ⴰⵏⵙⴰ</string>
+    <string name="pref_title_dark_theme">ⵜⴰⴼⵔⵙⵜ ⵜⴰⵎⴰⵍⵍⴰⵙⵜ</string>
+    <string name="button_add_filter">ⵔⵏⵓ</string>
+    <string name="button_remove_filter">ⴽⴽⵙ</string>
+    <string name="text_switch_on">ⵕⵥⵎ</string>
+    <string name="text_switch_off">ⵇⵇⵏ</string>
+    <string name="location_not_set">ⵓⵔ ⵉⵜⵜⴰⵡⵙⵜⴰⵢ ⵡⴰⵏⵙⴰ</string>
+    <string name="latitude_short">ⴰⵣⵔⵉⴳ ⵏ ⵜⵓⵔⵔⵓⵜ</string>
+    <string name="longitude_short">ⴰⵣⵔⵉⴳ ⵏ ⵜⵉⵖⵣⵉ</string>
+    <string name="pref_title_version">ⵜⵓⵏⵖⵉⵍⵜ</string>
+    <string name="pref_title_project_page">ⵥⵕ ⵜⴰⵙⵏⴰ ⵏ ⵓⵙⵖⵏⵓ</string>
+    <string name="pref_entry_button_backlight_turn_off">ⵙⵙⵅⵙⵉ</string>
 </resources>
