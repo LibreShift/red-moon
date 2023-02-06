@@ -91,4 +91,5 @@
     <string name="menu_dark_theme">ⵜⴰⴼⵔⵙⵜ ⵜⴰⵎⴰⵍⵍⴰⵙⵜ</string>
     <string name="pref_title_startup">ⵙⵙⵏⵜ</string>
     <string name="set_dialog">ⵙⵔⵙ</string>
+    <string name="pref_summary_schedule_custom" formatted="false">ⵉⵜⵜⴰⵡⵥⵍⴰⵢ (%on to %off)</string>
 </resources>
