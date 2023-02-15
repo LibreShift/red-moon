@@ -1,2 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="activity_main">ചുവന്ന ചന്ദ്രൻ</string>
+    <string name="activity_intro">ആമുഖം</string>
+    <string name="activity_settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="notification_status_paused">താൽക്കാലികമായി നിർത്തി</string>
+    <string name="notification_action_resume">പുനരാരംഭിക്കുക</string>
+    <string name="notification_action_stop">നിർത്തുക</string>
+    <string name="pref_title_dim_level">അന്ധകാരം</string>
+    <string name="pref_title_color_temp">നിറം</string>
+    <string name="pref_title_time_toggle">ടൈമർ</string>
+    <string name="pref_summary_schedule_none">ഒന്നുമില്ല</string>
+    <string name="pref_summary_start_time_sunset">സൂര്യാസ്തമയം (%s)</string>
+    <string name="pref_value_stop_time_sunrise">സൂര്യോദയം</string>
+    <string name="pref_summary_stop_time_sunrise">സൂര്യോദയം (%s)</string>
+    <string name="pref_summary_use_location">നിങ്ങളുടെ സ്ഥാനം അടിസ്ഥാനമാക്കി</string>
+    <string name="pref_title_location">സ്ഥാനം</string>
+    <string name="button_add_filter">ചേർക്കുക</string>
+    <string name="button_remove_filter">ഇല്ലാതാക്കുക</string>
+    <string name="longitude_short">രേഖാംശം</string>
+    <string name="latitude_short">അക്ഷാംശം</string>
+    <string name="pref_title_version">പതിപ്പ്</string>
+    <string name="pref_summary_project_page">കൂടുതൽ വിവരങ്ങൾ കണ്ടെത്തുക, പ്രതികരണം നൽകുക, സംഭാവന ചെയ്യുക</string>
+    <string name="dialog_button_ok">ശരി</string>
+    <string name="dialog_button_cancel">റദ്ദാക്കുക</string>
+    <string name="slide_title_welcome">സ്വാഗതം!</string>
+    <string name="slide_title_improve_sleep">നിങ്ങളുടെ ഉറക്കം മെച്ചപ്പെടുത്തുന്നു</string>
+    <string name="slide_title_get_started">തുടങ്ങി!</string>
+    <string name="filter_name_bed_reading">വായന</string>
+    <string name="time_toggle_options_array_1">സ്വയമേവ (സൂര്യൻ)</string>
+    <string name="app_name">ചുവന്ന ചന്ദ്രൻ</string>
+    <string name="menu_settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="menu_about">കുറിച്ച്</string>
+    <string name="notification_status_running_no_warning">പ്രവർത്തിക്കുന്ന</string>
+    <string name="notification_status_paused_with_info">താൽക്കാലികമായി നിർത്തി. നിർത്താനുള്ള അറിയിപ്പ് നിരസിക്കുക.</string>
+    <string name="notification_action_pause">താൽക്കാലികമായി നിർത്തുക</string>
+    <string name="pref_category_other">മറ്റുള്ളവ</string>
+    <string name="pref_category_button_backlight_disclaimer">ചില ഉപകരണങ്ങളിൽ സ്വാധീനമില്ല</string>
+    <string name="pref_title_intensity">അതാര്യത</string>
+    <string name="pref_summary_schedule_sun" formatted="false">സൂര്യാസ്തമയം (%ഓൺ) മുതൽ സൂര്യോദയം വരെ (%ഓഫ്)</string>
+    <string name="pref_summary_schedule_custom" formatted="false">ഇഷ്‌ടാനുസൃതം (%ഓൺ മുതൽ %ഓഫ്)</string>
+    <string name="pref_value_start_time_sunset">സൂര്യാസ്തമയം</string>
+    <string name="pref_title_start_time">ആരംഭ സമയം</string>
+    <string name="pref_title_use_location">സൂര്യാസ്തമയം മുതൽ സൂര്യോദയം വരെ</string>
+    <string name="pref_summary_secure_suspend">ഈ സവിശേഷത പ്രവർത്തനക്ഷമമാക്കുമ്പോൾ, ചില ആപ്പുകൾ തുറക്കുമ്പോൾ റെഡ് മൂൺ സ്വയമേവ താൽക്കാലികമായി നിർത്തും. ഡിഫോൾട്ടായി, Red Moon പ്രവർത്തിക്കുമ്പോൾ* പ്രവർത്തിക്കാത്ത ആപ്പുകൾ ഇതിൽ ഉൾപ്പെടുന്നു, apks ഇൻസ്റ്റാൾ ചെയ്യുന്നത് പോലെ. അറിയിപ്പിൽ നിന്ന് നിലവിലെ ആപ്പിന്റെ നിലവിലെ സ്‌ക്രീനിനായി നിങ്ങൾക്ക് ഈ സ്വഭാവം മാറ്റാനാകും. ഉദാഹരണത്തിന്, ക്യാമറ പോലെയുള്ള കളർ സെൻസിറ്റീവ് ആപ്പുകൾ ചേർക്കാൻ നിങ്ങൾ ആഗ്രഹിച്ചേക്കാം.
+\n
+\nഈ ഫീച്ചർ നിങ്ങളുടെ ഉപകരണത്തിന്റെ ബാറ്ററി ലൈഫ് ചെറുതായി കുറച്ചേക്കാം.
+\n
+\n*നിങ്ങൾക്ക് ആവശ്യമില്ലാത്ത ഒരു ആപ്പ് ഇൻസ്റ്റാൾ ചെയ്യാൻ നിങ്ങളെ കബളിപ്പിക്കുന്നത് പോലെയുള്ള ഇടപെടലുകളിൽ നിന്ന് സ്വയം പരിരക്ഷിക്കുന്നതിന് ചില ആപ്പുകൾ ഓവർലേകളിൽ നിന്ന് സുരക്ഷിതമാക്കിയിരിക്കുന്നു. റെഡ് മൂൺ ഓണായിരിക്കുമ്പോൾ അവ സ്പർശനങ്ങളോട് പ്രതികരിക്കില്ല, കാരണം സ്ക്രീനിന് മുകളിൽ സുതാര്യമായ ചുവന്ന പാളി വരച്ചാണ് ഇത് പ്രവർത്തിക്കുന്നത്.</string>
+    <string name="pref_title_translators">വിവർത്തനം ചെയ്യാൻ സഹായിക്കുക</string>
+    <string name="slide_title_protect_eyes">നിങ്ങളുടെ കണ്ണുകളെ സംരക്ഷിക്കുന്നു</string>
+    <string name="slide_text_improve_sleep">രാത്രിയിൽ ഉറങ്ങാൻ സഹായിക്കുന്ന മെലറ്റോണിൻ എന്ന ഹോർമോണിന്റെ ഉൽപാദനത്തെ നീല വെളിച്ചം തടയുന്നു. റെഡ് മൂൺ നിങ്ങളുടെ സ്ക്രീനിൽ നിന്ന് നീല വെളിച്ചം നീക്കം ചെയ്യുന്നു, നിങ്ങൾക്ക് എളുപ്പത്തിൽ ഉറങ്ങാൻ കഴിയുമെന്ന് ഉറപ്പാക്കുന്നു.</string>
+    <string name="filter_name_default">സ്ഥിരസ്ഥിതി</string>
+    <string name="set_dialog">സജ്ജമാക്കുക</string>
+    <string name="filter_name_dim_only">മങ്ങിയത് മാത്രം</string>
+    <string name="time_toggle_options_array_0">സ്വമേധയാ</string>
+</resources>
