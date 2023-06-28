@@ -47,9 +47,9 @@
     <string name="notification_action_pause">暂停</string>
     <!-- Currently unused -->
     <string name="remove_profile_dialog_title">是否删除配置？</string>
-    <string name="add_new_profile_edit_hint">滤镜名称</string>
-    <string name="add_new_profile_dialog_title">输入滤镜名称</string>
-    <string name="pref_title_appearance">滤镜</string>
+    <string name="add_new_profile_edit_hint">配置名称</string>
+    <string name="add_new_profile_dialog_title">输入配置名称</string>
+    <string name="pref_title_appearance">配置</string>
     <string name="searching_location">正在搜索位置</string>
     <string name="toast_warning_no_location">启用位置服务来更新位置</string>
     <string name="set_dialog">设置</string>
@@ -118,7 +118,7 @@
     <string name="pref_title_translators">帮助翻译</string>
     <string name="pref_summary_translators">翻译者：smichel17、raatmarien、Mostafa Ahangarha</string>
     <string name="toast_warning_secured">红月运行时，此应用的某些功能可能会失效。</string>
-    <string name="action_next_profile">下一个滤镜</string>
+    <string name="action_next_profile">下一个配置</string>
     <string name="notification_channel_overlay_name">屏幕叠加层控制</string>
     <string name="notification_channel_overlay_description">屏幕叠加层控制的持久通知</string>
     <string name="activity_settings">设置</string>
