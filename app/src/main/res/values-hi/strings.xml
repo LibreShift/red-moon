@@ -12,4 +12,103 @@
     <string name="menu_restore_default_filters">डिफ़ॉल्ट फ़िल्टर पुनर्स्थापित करें</string>
     <string name="menu_show_intro">परिचय पुनः चलाये</string>
     <string name="menu_about">के बारे में</string>
+    <string name="notification_status_running">ऐप चल रहा है। एपीके इंस्टॉल करने के लिए बंद करें</string>
+    <string name="pref_title_time_toggle">टाइमर</string>
+    <string name="notification_action_pause">रोकें</string>
+    <string name="notification_action_turn_on">चालू करें</string>
+    <string name="pref_value_stop_time_sunrise">सूर्योदय</string>
+    <string name="text_switch_on">चालू करें</string>
+    <string name="pref_title_schedule">शेड्यूल के अनुसार चलाएं</string>
+    <string name="latitude_short">अक्षांश</string>
+    <string name="pref_summary_project_page">अधिक जानकारी पाएं, प्रतिक्रिया छोड़ें और योगदान दें</string>
+    <string name="pref_title_translators">अनुवाद करने में मदद करें</string>
+    <string name="snackbar_searching_location">स्थान खोजा जा रहा है</string>
+    <string name="dialog_title_permission_write_settings">सिस्टम सेटिंग्स को संशोधित करना</string>
+    <string name="notification_status_off">बंद</string>
+    <string name="notification_action_whitelist_remove">एप्लिकेशन को फ़िल्टर करें</string>
+    <string name="pref_title_secure_suspend">बहिष्कृत एप्लिकेशन में रोकें</string>
+    <string name="pref_summary_stop_time_sunrise">सूर्योदय (%s)</string>
+    <string name="pref_title_use_location">सूर्यास्त से सूर्योदय</string>
+    <string name="notification_status_running_no_warning">ऐप चल रहा है</string>
+    <string name="dialog_title_permission_usage_stats">उपयोग की पहुंच</string>
+    <string name="help_snackbar_text">रेड मून को सक्षम करने के लिए स्विच दबाएं</string>
+    <string name="pref_title_integration">अन्य ऐप्स के साथ एकीकरण</string>
+    <string name="dialog_title_remove_filter">यह फ़िल्टर को हटाएं\?</string>
+    <string name="notification_status_paused">ऐप रुका हुआ है</string>
+    <string name="notification_action_turn_off">बंद करें</string>
+    <string name="pref_title_intensity">अस्पष्टता</string>
+    <string name="pref_title_color_temp">रंग</string>
+    <string name="notification_action_whitelist_add">ऐप को बहिष्कृत करें</string>
+    <string name="pref_title_start_time">समय शुरू करें</string>
+    <string name="button_add_filter">बनाएं</string>
+    <string name="dialog_title_add_filter">फ़िल्टर नाम को दर्ज करें</string>
+    <string name="searching_location">स्थान खोजा जा रहा है</string>
+    <string name="location_not_set">स्थान निर्धारित नहीं है</string>
+    <string name="notification_action_stop">बंद करें</string>
+    <string name="notification_action_next_filter">अगला फ़िल्टर</string>
+    <string name="pref_value_start_time_sunset">सूर्यास्त</string>
+    <string name="text_switch_off">बंद करें</string>
+    <string name="pref_title_dark_theme">डार्क थीम</string>
+    <string name="longitude_short">देशान्तर</string>
+    <string name="time_toggle_title">स्वचालित टॉगल</string>
+    <string name="slide_title_protect_eyes">आपकी आँखों की सुरक्षा</string>
+    <string name="pref_summary_start_time_sunset">सूर्यास्त (%s)</string>
+    <string name="pref_title_stop_time">समय रोकें</string>
+    <string name="menu_settings">सेटिंग्स</string>
+    <string name="pref_category_schedule">अनुसूची</string>
+    <string name="pref_title_button_backlight">हार्डवेयर बटन बैकलाइट</string>
+    <string name="pref_category_other">अन्य</string>
+    <string name="pref_title_use_root">रूट मोड</string>
+    <string name="pref_summary_translators">Translators: smichel17, raatmarien, Mostafa Ahangarha, Snwglb</string>
+    <string name="pref_entry_button_backlight_system">सिस्टम से प्रबंधित</string>
+    <string name="toast_warning_install">रेड मून चालू होने पर आप एपीके इंस्टॉल नहीं कर सकते।</string>
+    <string name="pref_summary_schedule_custom" formatted="false">कस्टम (%on से %off) तक</string>
+    <string name="snackbar_warning_no_location">स्थान के अपडेट करने के लिए स्थान सेवाएँ सक्षम करें</string>
+    <string name="pref_summary_schedule_sun" formatted="false">सूर्यास्त (%on) से सूर्योदय (%off) तक</string>
+    <string name="toast_warning_no_location">स्थान के अपडेट करने के लिए स्थान सेवाएँ सक्षम करें</string>
+    <string name="pref_category_filter">फ़िल्टर</string>
+    <string name="pref_category_button_backlight_disclaimer">कुछ उपकरणों पर प्रभाव नहीं</string>
+    <string name="button_remove_filter">हटाएं</string>
+    <string name="pref_title_project_page">प्रोजेक्ट पेज पर जाएं</string>
+    <string name="pref_summary_email_developer">हमसे संपर्क करने का एक द्वितीयक तरीका</string>
+    <string name="slide_text_welcome">रेड मून में आपका स्वागत है!</string>
+    <string name="activity_settings">सेटिंग्स</string>
+    <string name="dialog_button_ok">ठीक है</string>
+    <string name="dialog_button_cancel">रद्द करें</string>
+    <string name="notification_action_resume">शुरू करें</string>
+    <string name="edit_hint_add_filter">फ़िल्टर नाम</string>
+    <string name="notification_status_paused_with_info">ऐप रुका हुआ है। रोकने के लिए अधिसूचना ख़ारिज करें।</string>
+    <string name="pref_summary_schedule_none">कोई नहीं</string>
+    <string name="pref_title_dim_level">अंधकार</string>
+    <string name="pref_summary_use_location">आपके स्थान पर आधारित</string>
+    <string name="pref_title_lower_brightness">सिस्टम की चमक कम करें</string>
+    <string name="pref_title_turn_off">पर बंद करें</string>
+    <string name="pref_title_turn_on">पर चालू करें</string>
+    <string name="pref_title_email_developer">डेवलपर्स को Email करें</string>
+    <string name="pref_title_version">संस्करण</string>
+    <string name="pref_title_location">स्थान</string>
+    <string name="toast_root_unavailable">रेड मून: रूट अनुपलब्ध है। रूट मोड का अक्षम किया जा रहा है।</string>
+    <string name="pref_entry_button_backlight_turn_off">बंद करें</string>
+    <string name="toast_warning_secured">रेड मून चलने के दौरान इस ऐप की कुछ सुविधाएं शायद काम न करें।</string>
+    <string name="slide_title_get_started">शुरू करें!</string>
+    <string name="slide_text_get_started">ऊपरी दाएं कोने में स्थित स्विच से रेड मून को चालू और बंद करें।</string>
+    <string name="filter_name_default">डिफ़ॉल्ट</string>
+    <string name="slide_text_protect_eyes">रात में, जब अपने फ़ोन को देखने से आपकी आँखों में दर्द होता है, तो आप अपनी स्क्रीन को मंद करने के लिए रेड मून का उपयोग कर सकते हैं।</string>
+    <string name="slide_text_improve_sleep">नीली रोशनी मेलाटोनिन के उत्पादन को दबा देती है, एक हार्मोन जो आपको रात में सो जाने में मदद करता है। रेड मून आपकी स्क्रीन से नीली रोशनी को हटा देता है, जिससे यह सुनिश्चित होता है कि आप आसानी से सो सकें।</string>
+    <string name="filter_name_custom">कस्टम</string>
+    <string name="snackbar_location_updated">स्थान मिल गया!</string>
+    <string name="slide_title_welcome">नमस्ते!</string>
+    <string name="pref_summary_use_root">ज़यादा बेहतर फ़िलटर, विशेष रूप से गहरे रंग की पृष्ठभूमि के साथ। मैजिसक के साथ रूट किए गए डिवाइस की आवश्यकता है।</string>
+    <string name="pref_summary_secure_suspend">जब यह सुविधा सक्षम हो जाती है, तो कुछ एप्लिकेशन खुले होने पर रेड मून अपने आप रुक जाएगा। डिफ़ॉल्ट रूप से, इसमें एप्स शामिल हैं जो काम नहीं करेगा जब रेड मून चल रहा है*, जैसे एप्स इंस्टॉल करना।आप इस व्यवहार को एप्लिकेशन की वर्तमान स्क्रीन के लिए अधिसूचना से बदल सकते हैं।उदाहरण के लिए, आप कैमरे की तरह रंग-संवेदनशील ऐप जोड़ना चाहते हैं।
+\n
+\nयह सुविधा आपके डिवाइस के बैटरी जीवन को थोड़ा कम कर सकती है।
+\n
+\n* कुछ एप्स को खुद को हस्तक्षेप से बचाने के लिए ओवरले के खिलाफ सुरक्षित किया जाता है, जैसे कि आपको ऐसा ऐप इंस्टॉल करना जो आपको नहीं चाहिए। जब लाल चंद्रमा चालू होता है तो वे स्पर्श का जवाब नहीं देते हैं, क्योंकि यह स्क्रीन पर एक पारदर्शी लाल परत खींचकर काम करता है।</string>
+    <string name="shortcut_title_toggle">रेड मून टाॅगस करें</string>
+    <string name="pref_summary_integration">कुछ ऐप्स, जैसे Libretasks या Tasker, आपको कुछ घटनाएं घटित होने पर कार्यों को स्वचालित करने की अनुमति देते हैं। रेड मून चालू और बंद होने पर एक सार्वजनिक सूचना भेजता है, ताकि वे ऐप्स प्रतिक्रिया दे सकें। यदि आप उनमें से किसी एक ऐप का उपयोग या विकास नहीं करते हैं, तो आप अगले पैराग्राफ को अनदेखा कर सकते हैं।
+\n
+\nRed Moon broadcasts a public intent with the action `com.jmstudios.redmoon.RED_MOON_TOGGLED`. The intent contains a boolean extra with the key `jmstudios.bundle.key.FILTER_IS_ON`, which indicates whether Red Moon is toggling on or off।</string>
+    <string name="dialog_message_permission_usage_stats">रेड मून को सुरक्षित ऐप्स में रुकने की अनुमति देने के लिए अगली स्क्रीन में उपयोग पहुंच की अनुमति दें।
+\n
+\nरेड मून इस डेटा का उपयोग केवल यह निर्धारित करने के लिए करेगा कि क्या आप एक ऐप का उपयोग कर रहे हैं जो रेड मून चालू होने पर काम नहीं करेगा।</string>
 </resources>
