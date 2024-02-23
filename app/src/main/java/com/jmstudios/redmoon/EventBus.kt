@@ -38,4 +38,6 @@ class overlayPermissionDenied  : Event
 class locationAccessDenied     : Event
 class changeBrightnessDenied   : Event
 
+class accessibilityServiceCommand(val command: Command) : Event
+
 data class locationService(val isSearching: Boolean, val isRunning: Boolean = true) : Event

@@ -5,7 +5,9 @@
  */
 package com.jmstudios.redmoon.fragment
 
+import android.content.Intent
 import android.os.Bundle
+import android.provider.Settings
 import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
@@ -14,23 +16,11 @@ import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreference
 import com.google.android.material.snackbar.Snackbar
-import com.jmstudios.redmoon.Command
+import com.jmstudios.redmoon.*
 
-import com.jmstudios.redmoon.Config
-import com.jmstudios.redmoon.EventBus
-import com.jmstudios.redmoon.filterIsOn
-import com.jmstudios.redmoon.getColor
 import com.jmstudios.redmoon.helper.Logger
 import com.jmstudios.redmoon.helper.Permission
-import com.jmstudios.redmoon.inActivePeriod
-import com.jmstudios.redmoon.locationAccessDenied
-import com.jmstudios.redmoon.locationChanged
-import com.jmstudios.redmoon.locationService
-import com.jmstudios.redmoon.pref
-import com.jmstudios.redmoon.R
-import com.jmstudios.redmoon.scheduleChanged
 import com.jmstudios.redmoon.service.LocationUpdateService
-import com.jmstudios.redmoon.useLocationChanged
 
 import com.topjohnwu.superuser.Shell
 import org.greenrobot.eventbus.Subscribe
@@ -56,6 +46,9 @@ class SettingsFragment : PreferenceFragmentCompat() {
 
     private val rootPref: SwitchPreference
         get() = pref(R.string.pref_key_use_root) as SwitchPreference
+
+    private val accessibilityServicePref: Preference
+        get() = pref(R.string.pref_key_use_accessibility_service) as Preference
 
     private var mSnackbar: Snackbar? = null
 
@@ -119,6 +112,11 @@ class SettingsFragment : PreferenceFragmentCompat() {
                 Command.toggle(on = false)
             }
             return@setOnPreferenceChangeListener true
+        }
+
+        accessibilityServicePref.setOnPreferenceClickListener { _ ->
+            startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
+            return@setOnPreferenceClickListener true
         }
 
         updatePrefs()

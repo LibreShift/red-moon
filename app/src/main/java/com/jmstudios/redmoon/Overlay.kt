@@ -25,13 +25,16 @@
 package com.jmstudios.redmoon
 
 import android.content.Context
+import android.content.res.Resources
 import android.graphics.Canvas
+import android.graphics.PixelFormat
+import android.os.Build
 import android.view.View
+import android.view.WindowInsets
 import android.view.WindowManager
 
 import com.jmstudios.redmoon.helper.Logger
 import com.jmstudios.redmoon.manager.BrightnessManager
-import com.jmstudios.redmoon.manager.ScreenManager
 import com.jmstudios.redmoon.receiver.OrientationChangeReceiver
 
 import kotlin.properties.Delegates
@@ -42,7 +45,6 @@ class Overlay(context: Context) : View(context), Filter,
         OrientationChangeReceiver.OnOrientationChangeListener {
 
     private val mWindowManager = context.getSystemService(Context.WINDOW_SERVICE) as WindowManager
-    private val mScreenManager = ScreenManager(context, mWindowManager)
     private val mOrientationReceiver = OrientationChangeReceiver(context, this)
     private val mBrightnessManager = BrightnessManager(context)
 
@@ -71,7 +73,6 @@ class Overlay(context: Context) : View(context), Filter,
     }
 
     private fun show() {
-        updateLayoutParams()
         mWindowManager.addView(this, mLayoutParams)
         mBrightnessManager.brightnessLowered = profile.lowerBrightness
         mOrientationReceiver.register()
@@ -93,18 +94,40 @@ class Overlay(context: Context) : View(context), Filter,
         mBrightnessManager.brightnessLowered = profile.lowerBrightness
     }
 
-    private var mLayoutParams = mScreenManager.layoutParams
-        get() = field.apply {
-            buttonBrightness = Config.buttonBacklightLevel
-            type = if (atLeastAPI(26)) {
-                WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY
-            } else {
-                WindowManager.LayoutParams.TYPE_SYSTEM_OVERLAY
-            }
+    val mLayoutParams = WindowManager.LayoutParams().apply {
+        buttonBrightness = Config.buttonBacklightLevel
+        // TODO: why is cutout always null?
+        // if(atLeastAPI(Build.VERSION_CODES.P)) {
+        //     val cutout = WindowInsets.Builder().build().displayCutout
+        //     val top = cutout?.boundingRectTop?.height() ?: 0
+        //     val bottom = cutout?.boundingRectBottom?.height() ?: 0
+        //     val left = cutout?.boundingRectLeft?.width() ?: 0
+        //     val right = cutout?.boundingRectRight?.width() ?: 0
+        //     height = Resources.getSystem().displayMetrics.heightPixels + top + bottom
+        //     width = Resources.getSystem().displayMetrics.widthPixels + left + right
+        //     x = -left
+        //     y = -top
+        // } else {
+            height = Resources.getSystem().displayMetrics.heightPixels + 4000
+            width = Resources.getSystem().displayMetrics.widthPixels + 4000
+            x = -1000
+            y = -1000
+        // }
+        format = PixelFormat.TRANSLUCENT
+        type = if (isAccessibilityServiceOn(context) && atLeastAPI(Build.VERSION_CODES.M)) {
+            WindowManager.LayoutParams.TYPE_ACCESSIBILITY_OVERLAY
+        } else if (atLeastAPI(Build.VERSION_CODES.O)) {
+            WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY
+        } else {
+            WindowManager.LayoutParams.TYPE_SYSTEM_OVERLAY
         }
-
-    private fun updateLayoutParams() {
-        mLayoutParams = mScreenManager.layoutParams
+        flags = WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE
+            .or(WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE)
+            .or(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS)
+            .or(WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN)
+        if (atLeastAPI(Build.VERSION_CODES.P)) {
+            layoutInDisplayCutoutMode = WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES
+        }
     }
 
     private fun reLayout() = mWindowManager.updateViewLayout(this, mLayoutParams)
@@ -112,7 +135,6 @@ class Overlay(context: Context) : View(context), Filter,
     override fun onDraw(canvas: Canvas) = canvas.drawColor(profile.filterColor)
 
     override fun onOrientationChanged() {
-        updateLayoutParams()
         reLayout()
     }
 
