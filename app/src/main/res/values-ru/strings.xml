@@ -17,7 +17,7 @@
     <string name="pref_title_dim_level">Уровень затемнения</string>
     <string name="pref_title_intensity">Прозрачность</string>
     <string name="pref_title_color_temp">Цвет</string>
-    <string name="pref_title_lower_brightness">Снижать яркость в системных настройках</string>
+    <string name="pref_title_lower_brightness">Понижать системную яркость</string>
     <string name="time_toggle_title">Режим переключения</string>
     <string name="pref_title_turn_on">Включить в</string>
     <string name="pref_title_turn_off">Приостановить в</string>
@@ -39,9 +39,9 @@
     <!-- Snackbar -->
     <string name="help_snackbar_text">Нажмите на переключатель, чтобы включить Red Moon</string>
     <!-- Dialog -->
-    <string name="dialog_title_add_filter">Введите название профиля</string>
-    <string name="edit_hint_add_filter">Название профиля</string>
-    <string name="dialog_title_remove_filter">Удалить этот профиль?</string>
+    <string name="dialog_title_add_filter">Введите название фильтра</string>
+    <string name="edit_hint_add_filter">Название фильтра</string>
+    <string name="dialog_title_remove_filter">Удалить этот фильтр?</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_cancel">Отмена</string>
     <!-- Shortcuts -->
@@ -59,7 +59,7 @@
     <string name="activity_intro">Введение</string>
     <string name="menu_show_intro">Повторить введение</string>
     <string name="notification_action_pause">Приостановить</string>
-    <string name="notification_action_resume">Продолжить</string>
+    <string name="notification_action_resume">Возобновить</string>
     <string name="activity_secure_suspend">Приостанавливать в исключенных приложениях</string>
     <string name="pref_title_secure_suspend">Приостанавливать в исключенных приложениях</string>
     <string name="pref_summary_secure_suspend">Если эта функция включена, Red Moon будет автоматически останавливаться при запуске определенных приложений. По умолчанию это приложения, которые не могут быть запущены при работающем Red Moon*, например установка APK-файлов. Вы можете изменить это поведение для текущего экрана текущего приложения из уведомления. Например, вы можете добавить приложения, чувствительные к цвету, такие как камера.
@@ -74,18 +74,17 @@
 \nRed Moon будет использовать эти данные только чтобы определять, является ли запущенное приложение привилегированным.</string>
     <string name="slide_title_welcome">Добро пожаловать!</string>
     <string name="slide_text_welcome">Добро пожаловать в Red Moon!</string>
-    <string name="slide_title_protect_eyes">Защита глаз</string>
-    <string name="slide_text_protect_eyes">Ночью, когда экран вашего телефона
-режет вам глаза, вы можете использовать Red Moon, чтобы затемнить экран.</string>
-    <string name="slide_title_improve_sleep">Улучшение сна</string>
+    <string name="slide_title_protect_eyes">Защитите глаза</string>
+    <string name="slide_text_protect_eyes">Ночью, когда экран телефона режет ваши глаза, вы можете использовать Red Moon, чтобы затемнить экран.</string>
+    <string name="slide_title_improve_sleep">Улучшите сон</string>
     <string name="slide_text_improve_sleep">Синий свет подавляет выработку мелатонина — гормона, помогающего заснуть ночью. Red Moon убирает синий свет с вашего экрана, чтобы вы могли легко заснуть.</string>
-    <string name="slide_title_get_started">Начать!</string>
+    <string name="slide_title_get_started">Начните!</string>
     <string name="slide_text_get_started">Включайте и выключайте Red Moon нажатием на кнопку
 в правом верхнем углу.</string>
     <string name="dialog_title_permission_usage_stats">Разрешить доступ к запущенным приложениям</string>
     <!-- Currently unused -->
-    <string name="add_new_profile_dialog_title">Введите названия профиля</string>
-    <string name="add_new_profile_edit_hint">Названия профиля</string>
+    <string name="add_new_profile_dialog_title">Введите название профиля</string>
+    <string name="add_new_profile_edit_hint">Название профиля</string>
     <string name="remove_profile_dialog_title">Удалить этот профиль?</string>
     <string name="pref_title_appearance">Профиль</string>
     <string name="searching_location">Поиск местоположения</string>
@@ -95,7 +94,7 @@
     <string name="dialog_title_permission_overlay">Поверх других приложений</string>
     <string name="dialog_message_permission_overlay">Разрешите наложение поверх других приложений в следующем окне, чтобы позволить Red Moon функционировать корректно.</string>
     <string name="dialog_title_permission_write_settings">Изменение настроек системы</string>
-    <string name="dialog_message_permission_write_settings">Разрешите изменение настроек системы в следующем окне, чтобы позволить Red Moon изменять уровень яркости на уровне системы.</string>
+    <string name="dialog_message_permission_write_settings">Чтобы позволить Red Moon изменять уровень системной яркости, разрешите изменение настроек системы в следующем окне.</string>
     <string name="notification_status_off">Выкл.</string>
     <string name="notification_action_turn_on">Включить</string>
     <string name="notification_action_turn_off">Выключить</string>
@@ -111,17 +110,17 @@
 \nRed Moon выполняет рассылку действия `com.jmstudios.redmoon.RED_MOON_TOGGLED`. Рассылка содержит ключ `jmstudios.bundle.key.FILTER_IS_ON` типа boolean, указывающий на включение и выключение Red Moon.</string>
     <string name="pref_title_version">Версия</string>
     <string name="snackbar_location_updated">Местоположение найдено!</string>
-    <string name="pref_entry_button_backlight_system">Системный</string>
+    <string name="pref_entry_button_backlight_system">Доверить системе</string>
     <string name="pref_entry_button_backlight_filter_dim_level">По фильтру затемнения</string>
     <string name="pref_entry_button_backlight_turn_off">Выключить</string>
     <string name="action_next_profile">Следующий профиль</string>
     <string name="set_dialog">Настроить</string>
-    <string name="notification_status_running">Запущено. Остановите перед установкой новых приложений</string>
+    <string name="notification_status_running">Запущено. Остановите перед установкой APK</string>
     <string name="notification_status_running_no_warning">Запущено</string>
     <string name="menu_restore_default_filters">Восстановить фильтры по умолчанию</string>
     <string name="filter_name_dim_only">Только затемнение</string>
     <string name="activity_schedule">Расписание</string>
-    <string name="notification_status_paused_with_info">Приостановлено. Смахните уведомление, чтобы остановить.</string>
+    <string name="notification_status_paused_with_info">Приостановлено. Чтобы остановить, смахните уведомление.</string>
     <string name="pref_category_schedule">Расписание</string>
     <string name="pref_title_schedule">Запускать по расписанию</string>
     <string name="pref_summary_schedule_sun" formatted="false">От заката (%on) до рассвета (%off)</string>
