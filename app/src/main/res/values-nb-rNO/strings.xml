@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Rød Måne</string>
     <string name="activity_main">Rød Måne</string>
-    <string name="activity_shortcut">Veksle Rød Måne</string>
+    <string name="activity_shortcut">Rød Måne av/på</string>
     <string name="notification_status_paused">Satt på pause</string>
     <string name="pref_category_filter">Filter</string>
     <string name="activity_timer">Filtreringstider</string>
@@ -26,15 +26,15 @@
     <string name="pref_summary_email_developer">En alternativ måte å kontakte oss</string>
     <string name="pref_title_project_page">Besøk prosjektsiden</string>
     <string name="pref_summary_project_page">Finn mer info, gi tilbakemelding, og bidra</string>
-    <string name="toast_warning_install">Du vil ikke kunne installere APK-er mens Red Moon er aktivert.</string>
+    <string name="toast_warning_install">Du vil ikke kunne installere APK-er mens Rød Måne er aktivert.</string>
     <string name="snackbar_warning_no_location">Skru på lokasjonstjenester for å bestemme plassering</string>
     <string name="help_snackbar_text">Trykk på bryteren for å skru på Rød Måne</string>
-    <string name="dialog_title_add_filter">Skriv inn profilnavn</string>
+    <string name="dialog_title_add_filter">Skriv inn filternavn</string>
     <string name="edit_hint_add_filter">Profilnavn</string>
-    <string name="dialog_title_remove_filter">Slett denne profilen?</string>
+    <string name="dialog_title_remove_filter">Slett dette filteret\?</string>
     <string name="dialog_button_ok">OK</string>
     <string name="dialog_button_cancel">Avbryt</string>
-    <string name="shortcut_title_toggle">Veksle</string>
+    <string name="shortcut_title_toggle">Rød Måne av/på</string>
     <string name="filter_name_custom">Egendefinert</string>
     <string name="filter_name_default">Original verdi</string>
     <string name="filter_name_bed_reading">Leser</string>
@@ -53,7 +53,7 @@
     <string name="slide_text_protect_eyes">Når du får vondt i øynene av å se på mobilskjermen om kvelden kan du bruke Rød Måne for å gjøre den mer behagelig å se på.</string>
     <string name="slide_title_improve_sleep">Forbedrer søvnen din</string>
     <string name="slide_text_improve_sleep">Blått lys reduserer produksjonen av melatonin, et hormon som påvirker innsovningen din. Rød Måne fjerner det blå lyset fra skjermen, noe som gjør at du sovner enklere.</string>
-    <string name="slide_title_get_started">Begynn.</string>
+    <string name="slide_title_get_started">Kom igang!</string>
     <string name="slide_text_get_started">Trykk på knappen øverst i høyre hjørne for å aktivere Rød Måne.</string>
     <!-- Currently unused -->
     <string name="add_new_profile_dialog_title">Skriv inn profilnavn</string>
@@ -102,7 +102,6 @@ lysstyrkenivå.</string>
 \nRød Måne vil bruke denne dataen bare til å bestemme hvorvidt du bruker et annet program som ikke vil fungere når Rød Måne er påslått.</string>
     <string name="pref_summary_integration">Programmer som LibreTasks eller Tasker lar deg automatisere oppgaver når bestemte hendelser inntreffer. Rød Måne sender en offentlig merknad når det skrur seg på og av, slik at de andre programmene kan svare. Hvis du ikke bruker eller utvikler en av disse programmene, kan du hoppe over neste avsnitt.
 \n
-\n
 \nRød Måne kringkaster en offentlig intensjon med handlingen `com.jmstudios.redmoon.RED_MOON_TOGGLED`. Denne intensjonen inneholder en boolsk ekstra med nøkkelen `jmstudios.bundle.key.FILTER_IS_ON`, som indikerer hvorvidt Rød Måne skrur seg på eller av.</string>
     <string name="set_dialog">Sett</string>
     <string name="notification_status_running">Kjører. Sett på pause for å installere APK-er</string>
@@ -132,6 +131,6 @@ lysstyrkenivå.</string>
     <string name="pref_value_stop_time_sunrise">Soloppgang</string>
     <string name="pref_summary_stop_time_sunrise">Soloppgang (%s)</string>
     <string name="pref_title_use_root">Rot-tilgang</string>
-    <string name="toast_root_unavailable">Rød måne: Mangler rot-tilgang. Skrur av rot-modus.</string>
-    <string name="pref_summary_use_root">Høykvalitetsfilter, spesielt framhevet med mørke bakgrunner. Krever at Magisk har blitt brukt til å gi enheten rot-tilgang.</string>
+    <string name="toast_root_unavailable">Rød måne: Mangler root-tilgang. Skrur av root-modus.</string>
+    <string name="pref_summary_use_root">Høykvalitetsfilter, spesielt framhevet med mørke bakgrunner. Krever at Magisk har blitt brukt til å gi enheten root-tilgang.</string>
 </resources>

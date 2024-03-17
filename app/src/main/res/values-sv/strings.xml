@@ -127,5 +127,7 @@
     <string name="activity_secure_suspend">Pausa i undantagna appar</string>
     <string name="activity_settings">Inställningar</string>
     <string name="activity_shortcut">Röd Måne på/av</string>
-    <string name="pref_title_use_root">Använd root</string>
+    <string name="pref_title_use_root">Rootläge</string>
+    <string name="pref_summary_use_root">Filter av högre kvalitet, speciellt med mörka bakgrunder. Kräver enhet rootad med Magisk.</string>
+    <string name="toast_root_unavailable">Red Moon: Root ej tillgänglig. Inaktiverar rootläge.</string>
 </resources>

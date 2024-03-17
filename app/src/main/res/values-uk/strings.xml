@@ -19,7 +19,7 @@
     <string name="notification_action_pause">Пауза</string>
     <string name="notification_action_turn_on">Ввімкнути</string>
     <string name="notification_action_turn_off">Вимкнути</string>
-    <string name="notification_action_stop">Вимкнути</string>
+    <string name="notification_action_stop">Припинити</string>
     <string name="notification_action_next_filter">Наступний фільтр</string>
     <string name="pref_category_filter">Фільтр</string>
     <string name="pref_category_other">Інше</string>
