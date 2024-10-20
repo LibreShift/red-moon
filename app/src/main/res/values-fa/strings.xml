@@ -143,5 +143,7 @@
     <string name="pref_value_start_time_sunset">غروب</string>
     <string name="menu_settings">تنظیمات</string>
     <string name="activity_settings">تنظیمات</string>
-    <string name="pref_title_use_root">از root استفاده کنید</string>
+    <string name="pref_title_use_root">حالت ریشه</string>
+    <string name="toast_root_unavailable">ماه سرخ: ریشه موجود نیست. از کار انداختن حالت ریشه.</string>
+    <string name="pref_summary_use_root">پالایه با کیفیت بالا، مخصوصاً با پس‌زمینه‌های تیره. نیازمند روت بودن افزاره با مجیسک.</string>
 </resources>

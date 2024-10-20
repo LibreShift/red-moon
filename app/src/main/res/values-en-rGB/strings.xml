@@ -133,4 +133,7 @@
     <string name="pref_summary_start_time_sunset">Sunset (%s)</string>
     <string name="pref_value_stop_time_sunrise">Sunrise</string>
     <string name="pref_summary_stop_time_sunrise">Sunrise (%s)</string>
+    <string name="pref_summary_use_root">Higher quality filter, especially with dark backgrounds. Requires device rooted with Magisk.</string>
+    <string name="toast_root_unavailable">Red Moon: Root unavailable. Disabling root mode.</string>
+    <string name="pref_title_use_root">Root mode</string>
 </resources>

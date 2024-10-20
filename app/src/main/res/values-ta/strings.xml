@@ -2,51 +2,51 @@
 <resources>
     <string name="app_name">செந்நிலவு</string>
     <string name="activity_main">செந்நிலவு</string>
-    <string name="activity_shortcut">செந்நிலவு நிலையை மாற்று</string>
+    <string name="activity_shortcut">செந்நிலவு நிலைமாற்று</string>
     <string name="activity_intro">அறிமுகம்</string>
     <string name="activity_about">செந்நிலவு பற்றி</string>
-    <string name="activity_secure_suspend">விலக்கப்பட்ட செயலிகளில் நிறுத்து</string>
+    <string name="activity_secure_suspend">தவிரஂகஂகப்பட்ட செயலிகளில் இடைநிறுத்து</string>
     <string name="menu_about">பற்றி</string>
     <string name="slide_text_protect_eyes">இரவில், நீங்கள் உங்கள் தொலைபேசியைப் பார்க்கும்போது அது உங்கள் கண்களை காயப்படுத்துகிறது. உங்கள் திரையை மங்கச்செய்ய நீங்கள் செந்நிலவைப் பயன்படுத்தலாம்.</string>
     <string name="slide_text_get_started">மேல் வலது மூலையில் உள்ள பொத்தான் மூலம் செந்நிலவை இயக்கவும் மற்றும் நிறுத்தவும் செய்யலாம்.</string>
-    <string name="shortcut_title_toggle">செந்நிலவை நிலையை மாற்று</string>
-    <string name="dialog_title_add_filter">வடிப்பான் பெயரை உள்ளிடவும்</string>
-    <string name="dialog_title_permission_write_settings">கணினி அமைப்புகளை மாற்றியமைத்தல்</string>
+    <string name="shortcut_title_toggle">செந்நிலவினஂ நிலைமாற்று</string>
+    <string name="dialog_title_add_filter">சலிப்பான் பெயரை உள்ளிடவும்</string>
+    <string name="dialog_title_permission_write_settings">அமைப்புகளை மாற்றியமைத்தல்</string>
     <string name="filter_name_default">இயல்பு நிலை</string>
-    <string name="edit_hint_add_filter">வடிப்பான் பெயர்</string>
-    <string name="dialog_title_remove_filter">இந்த வடிப்பானை நீக்கவா\?</string>
-    <string name="menu_restore_default_filters">இயல்பு நிலை வடிப்பான்களை மீட்டமை</string>
+    <string name="edit_hint_add_filter">சலிப்பான் பெயர்</string>
+    <string name="dialog_title_remove_filter">இந்த சலிப்பானை நீக்கவா?</string>
+    <string name="menu_restore_default_filters">பூரஂவ சலிபஂபான்களை மீட்டமை</string>
     <string name="pref_title_stop_time">முடியும் நேரம்</string>
     <string name="pref_title_secure_suspend">தவிர்க்கப்பட்ட செயலிகளில் இடைநிறுத்து</string>
-    <string name="pref_title_lower_brightness">குறைந்த கணினி பிரகாசம்</string>
+    <string name="pref_title_lower_brightness">குறைநஂத பிரகாசமஂ</string>
     <string name="notification_action_whitelist_add">செயலியைத் தவிர்</string>
     <string name="slide_text_welcome">செந்நிலவுக்கு வருக!</string>
     <string name="toast_warning_secured">செந்நிலா இயங்கும்போது இந்த செயலியின் சில அம்சங்கள் இயங்காது.</string>
     <string name="toast_warning_install">செந்நிலா இயங்கும்போது உங்களால் செயலிகளை நிறுவ முடியாது.</string>
-    <string name="help_snackbar_text">ரெட் மூனை இயக்க சொடிக்கியை அழுத்தவும்</string>
+    <string name="help_snackbar_text">செநஂநிலவு இயஙஂக சொடுக்கியை அழுத்தவும்</string>
     <string name="pref_title_time_toggle">நேரங்கணிப்பி</string>
     <string name="filter_name_dim_only">மங்கலானது மட்டும்</string>
-    <string name="menu_show_intro">மறு அறிமுகம்</string>
+    <string name="menu_show_intro">மறு அறிமுகம் செயஂ</string>
     <string name="activity_timer">நேரங்கணிப்பி</string>
     <string name="pref_entry_button_backlight_turn_off">நிறுத்து</string>
-    <string name="pref_title_intensity">ஒளிபுகா தன்மை</string>
+    <string name="pref_title_intensity">ஒளிபுகாதஂதிறனஂ</string>
     <string name="pref_title_start_time">தொடங்கும் நேரம்</string>
     <string name="toast_warning_no_location">இருப்பிடத்தைப் புதுப்பிக்க இருப்பிட சேவைகளை இயக்கவும்</string>
     <string name="snackbar_warning_no_location">இருப்பிடத்தைப் புதுப்பிக்க இருப்பிட சேவைகளை இயக்கவும்</string>
     <string name="dialog_button_cancel">ரத்து செய்</string>
     <string name="activity_schedule">திட்டமிடு</string>
-    <string name="pref_category_filter">வடிகட்டு</string>
-    <string name="notification_action_next_filter">அடுத்த வடிகட்டி</string>
-    <string name="notification_status_running">இயங்கிக்கொண்டிருக்கிறது. செயலிகளை நிறுவ நிறுத்தவும்</string>
-    <string name="pref_title_dim_level">கருமை</string>
-    <string name="pref_category_button_backlight_disclaimer">சில சாதானங்களில் செயல்படாது</string>
-    <string name="notification_action_whitelist_remove">வடிகட்டும் செயலி</string>
+    <string name="pref_category_filter">சலி</string>
+    <string name="notification_action_next_filter">அடுத்த சலிபஂபானஂ</string>
+    <string name="notification_status_running">இயங்குகிறது. APK-களை நிறுவ நிறுத்தவும்</string>
+    <string name="pref_title_dim_level">இருள்</string>
+    <string name="pref_category_button_backlight_disclaimer">சில சாதானங்களில் செயல்படவிலஂலை</string>
+    <string name="notification_action_whitelist_remove">செயலியை சலி</string>
     <string name="pref_summary_translators">மொழிபெயர்ப்பாளர்கள்: smichel17, raatmarien, Mostafa Ahangarha</string>
     <string name="snackbar_location_updated">இருப்பிடம் கிடைத்தது!</string>
     <string name="pref_summary_project_page">மேலும் தகவலைக் கண்டறியவும், கருத்து தெரிவிக்கவும், பங்களிக்கவும்</string>
-    <string name="pref_title_project_page">திட்டப் பக்கத்தைப் பார்வையிடவும்</string>
+    <string name="pref_title_project_page">திட்டப்பக்கத்தைப் பார்வையிடவும்</string>
     <string name="pref_title_email_developer">உருவாக்குபவர்களுக்கு மின்னஞ்சல் அனுப்புங்கள்</string>
-    <string name="text_switch_off">நிறுத்து</string>
+    <string name="text_switch_off">நிறுதஂது</string>
     <string name="text_switch_on">இயக்கு</string>
     <string name="slide_title_welcome">வரவேற்கிறோம்!</string>
     <string name="snackbar_searching_location">இருப்பிடத்தைத் தேடுகிறது</string>
@@ -60,23 +60,23 @@
     <string name="action_next_profile">அடுத்த சுயவிவரம்</string>
     <string name="dialog_button_ok">சரி</string>
     <string name="location_not_set">இருப்பிடம் அமைக்கப்படவில்லை</string>
-    <string name="notification_action_resume">தொடர்க</string>
-    <string name="notification_status_paused">இடை நிறுத்தப்பட்டுள்ளது</string>
+    <string name="notification_action_resume">தொடரு</string>
+    <string name="notification_status_paused">இடைநிறுத்தப்பட்டுள்ளது</string>
     <string name="notification_action_pause">இடைநிறுத்து</string>
-    <string name="notification_status_off">நிறுத்து</string>
-    <string name="pref_title_integration">பிற செயலிகளுடன் ஒருங்கிணைப்பு</string>
+    <string name="notification_status_off">அணை</string>
+    <string name="pref_title_integration">மறஂற செயலிகளுடன் ஒருங்கிணைப்பு</string>
     <string name="longitude_short">தீர்க்கரேகை</string>
     <string name="latitude_short">அட்சரேகை</string>
-    <string name="notification_action_turn_off">நிறுத்து</string>
+    <string name="notification_action_turn_off">அணை</string>
     <string name="notification_action_turn_on">இயக்கு</string>
-    <string name="pref_value_start_time_sunset">அந்தி</string>
-    <string name="pref_summary_start_time_sunset">அந்தி (%s)</string>
+    <string name="pref_value_start_time_sunset">சூரிய மறைவு</string>
+    <string name="pref_summary_start_time_sunset">சூரிய மறைவு (%s)</string>
     <string name="remove_profile_dialog_title">இந்த சுயவிவரத்தை நீக்கவா\?</string>
     <string name="pref_title_appearance">சுயவிவரம்</string>
-    <string name="pref_title_use_location">அந்தி முதல் சூரிய உதயம் வரை</string>
+    <string name="pref_title_use_location">"சூரிய மறைவு முதல் சூரிய  உதயம் வரை"</string>
     <string name="pref_summary_stop_time_sunrise">சூரிய உதயம் (%s )</string>
-    <string name="pref_summary_email_developer">எங்களை தொடர்பு கொள்ள இரண்டாம் வழி</string>
-    <string name="notification_status_running_no_warning">இயங்கிக் கொண்டிருக்கிறது</string>
+    <string name="pref_summary_email_developer">எங்களைதஂ தொடர்பு கொள்ள இரண்டாம் வழி</string>
+    <string name="notification_status_running_no_warning">இயங்குகிறது</string>
     <string name="pref_title_translators">மொழிபெயர்க்க உதவுங்கள்</string>
     <string name="pref_title_version">பதிப்பு</string>
     <string name="button_add_filter">சேர்</string>
@@ -87,34 +87,34 @@
     <string name="pref_category_schedule">திட்டமிடு</string>
     <string name="pref_title_color_temp">நிறம்</string>
     <string name="pref_title_schedule">திட்டமிட்டபடி இயக்கு</string>
-    <string name="pref_summary_schedule_none">எதுவும் இல்லை</string>
+    <string name="pref_summary_schedule_none">இல்லை</string>
     <string name="notification_action_stop">நிறுத்து</string>
     <string name="pref_category_other">மற்றவை</string>
     <string name="menu_settings">அமைப்புகள்</string>
     <string name="activity_settings">அமைப்புகள்</string>
-    <string name="notification_status_paused_with_info">இடைநிறுத்தப்பட்டது. நிறுத்த அறிவிப்பை நிராகரிக்கவும்.</string>
+    <string name="notification_status_paused_with_info">இடைநிறுத்தப்பட்டுள்ளது. நிறுத்துவதறஂகு அறிவிப்பை நீக்கு.</string>
     <string name="pref_title_button_backlight">வன்பொருள் பொத்தான் பின்னொளி</string>
-    <string name="dialog_message_permission_overlay">ரெட் மூனை இயக்க அனுமதிக்க, அடுத்த திரையில் உள்ள பிற பயன்பாடுகளின் மீது வரைய அனுமதிக்கவும்.</string>
-    <string name="dialog_message_permission_write_settings">ரெட் மூன் உங்கள் பிரகாச அளவை மாற்ற அனுமதிக்க, அடுத்த திரையில் கணினி அமைப்புகளை மாற்ற அனுமதிக்கவும்.</string>
-    <string name="dialog_title_permission_usage_stats">பயன்பாட்டு அணுகல்</string>
+    <string name="dialog_message_permission_overlay">செநஂநிலவு இயஙஂக அனுமதிக்க, அடுத்த திரையில் உள்ள பிற பயன்பாடுகளின் மீது வரைய அனுமதிக்கவும்.</string>
+    <string name="dialog_message_permission_write_settings">செநஂநிலவு உங்கள் பிரகாச அளவை மாற்ற அனுமதிக்க, அடுத்த திரையில் கணினி அமைப்புகளை மாற்ற அனுமதிக்கவும்.</string>
+    <string name="dialog_title_permission_usage_stats">உபயோக அணுகல்</string>
     <string name="slide_text_improve_sleep">இரவில் தூங்குவதற்கு உதவும் மெலடோனின் என்ற ஹார்மோனின் உற்பத்தியை நீல ஒளி தடுக்கிறது. சிவப்பு நிலவு உங்கள் திரையில் இருந்து நீல ஒளியை நீக்கி, நீங்கள் எளிதாக தூங்க முடியும்.</string>
     <string name="filter_name_custom">தனிப்பயன்</string>
-    <string name="pref_summary_schedule_sun" formatted="false">சூரிய அஸ்தமனம் (%on) முதல் சூரிய உதயம் (%off)</string>
-    <string name="pref_summary_schedule_custom" formatted="false">தனிப்பயன் (%on முதல் %off)</string>
-    <string name="pref_title_use_root">ரூட் பயன்படுத்தவும்</string>
-    <string name="pref_summary_integration">LibreTasks அல்லது Tasker போன்ற சில பயன்பாடுகள், சில நிகழ்வுகள் நிகழும்போது பணிகளை தானியக்கமாக்க உங்களை அனுமதிக்கின்றன. ரெட் மூன் ஆன் மற்றும் ஆஃப் ஆகும் போது பொது அறிவிப்பை அனுப்புகிறது, அதனால் அந்த ஆப்ஸ் பதிலளிக்க முடியும். அந்த ஆப்ஸில் ஒன்றை நீங்கள் பயன்படுத்தவில்லை அல்லது உருவாக்கவில்லை என்றால், அடுத்த பத்தியைப் புறக்கணிக்கலாம்.
+    <string name="pref_summary_schedule_sun" formatted="false">சூரிய மறைவு (%on) முதல் சூரிய உதயம் (%off)</string>
+    <string name="pref_summary_schedule_custom" formatted="false">விருபஂபபஂபடி (%on முதல் %off)</string>
+    <string name="pref_title_use_root">மூலமுறை</string>
+    <string name="pref_summary_integration">LibreTasks அல்லது Tasker போன்ற சில செயலிகளஂ, சில நிகழ்வுகள் நிகழும்போது பணிகளை தானியக்கமாக்க உங்களை அனுமதிக்கின்றன. செநஂநிலா தொடஙஂகுமஂ மற்றும் நிறுதஂதுமஂ போது பொது அறிவிப்பை அனுப்புகிறது, அதனால் அந்த செயலிகளாலஂ பதிலளிக்க முடியும். அந்த செயலிகளிலஂ ஒன்றை நீங்கள் பயன்படுத்தவில்லை அல்லது உருவாக்கவில்லை என்றால், அடுத்த பத்தியைதஂ தவிரஂகஂகலாமஂ.
 \n
-\nரெட் மூன் `com.jmstudios.redmoon.RED_MOON_TOGGLED` செயல் மூலம் பொது நோக்கத்தை ஒளிபரப்புகிறது. உள்நோக்கத்தில் `jmstudios.bundle.key.FILTER_IS_ON` விசையுடன் கூடிய பூலியன் கூடுதல் உள்ளது, இது ரெட் மூன் ஆன் அல்லது ஆஃப் ஆகுமா என்பதைக் குறிக்கிறது.</string>
-    <string name="dialog_title_permission_overlay">பிற பயன்பாடுகளின் மீது வரைதல்</string>
+\nசெநஂநிலா `com.jmstudios.redmoon.RED_MOON_TOGGLED` செயல் மூலம் பொது intent-ஐ ஒளிபரப்புகிறது. `jmstudios.bundle.key.FILTER_IS_ON` விசையுடன் கூடிய பூலியன் கூடுதல் அநஂத intent கொணஂடுள்ளது, இது செநஂநிலா தொடஙஂகுகிறதா அல்லது நிறுதஂதுகிறதா என்பதைக் குறிக்கிறது.</string>
+    <string name="dialog_title_permission_overlay">மறஂற செயலிகளின் மீது வரைதல்</string>
     <string name="dialog_message_permission_usage_stats">பாதுகாப்பான பயன்பாடுகளில் ரெட் மூனை இடைநிறுத்த அனுமதிக்க, அடுத்த திரையில் பயன்பாட்டு அணுகலை அனுமதிக்கவும்.
 \n
 \nரெட் மூன் இயக்கத்தில் இருக்கும் போது வேலை செய்யாத ஆப்ஸை நீங்கள் பயன்படுத்துகிறீர்களா என்பதைத் தீர்மானிக்க மட்டுமே ரெட் மூன் இந்தத் தரவைப் பயன்படுத்தும்.</string>
     <string name="filter_name_bed_reading">படித்தல்</string>
-    <string name="pref_summary_secure_suspend">இந்த அம்சம் இயக்கப்பட்டால், குறிப்பிட்ட ஆப்ஸ் திறந்திருக்கும் போது ரெட் மூன் தானாகவே இடைநிறுத்தப்படும். இயல்பாக, Red Moon இயங்கும் போது வேலை செய்யாத பயன்பாடுகள் இதில் அடங்கும், apks ஐ நிறுவுவது போன்றவை. அறிவிப்பிலிருந்து தற்போதைய பயன்பாட்டின் தற்போதைய திரையில் இந்த நடத்தையை மாற்றலாம். எடுத்துக்காட்டாக, கேமரா போன்ற வண்ண உணர்திறன் பயன்பாடுகளை நீங்கள் சேர்க்க விரும்பலாம்.
+    <string name="pref_summary_secure_suspend">"இந்த அம்சம் இயக்கப்பட்டால், குறிப்பிட்ட செயலிகளஂ திறந்திருக்கும் போது செநஂநிலவு தானாகவே இடைநிறுத்தப்படும். இயல்பாக, செநஂநிலவு இயங்கும் போது*, வேலை செய்யாத செயலிகளஂ இதில் அடங்கும், apk-களை நிறுவுவது போன்றவை. அறிவிப்பிலிருந்து தற்போதைய செயலியினஂ தற்போதைய திரையில் இந்த நடத்தையை மாற்றலாம். எடுத்துக்காட்டாக, கேமரா போன்ற வண்ண உணர்திறன் பயன்பாடுகளை நீங்கள் சேர்க்க விரும்பலாம்.
 \n
-\nஇந்த அம்சம் உங்கள் சாதனத்தின் பேட்டரி ஆயுளை சற்று குறைக்கலாம்.
+\nஇந்த அம்சம் உங்கள் சாதனத்தின் மின்கல ஆயுளை சற்று குறைக்கலாம்.
 \n
-\n*நீங்கள் விரும்பாத பயன்பாட்டை நிறுவ உங்களை ஏமாற்றுவது போன்ற குறுக்கீடுகளிலிருந்து தங்களைப் பாதுகாத்துக் கொள்ள சில பயன்பாடுகள் மேலடுக்குகளுக்கு எதிராகப் பாதுகாக்கப்படுகின்றன. ரெட் மூன் இயக்கத்தில் இருக்கும்போது அவை தொடுவதற்குப் பதிலளிக்காது, ஏனெனில் இது திரையில் ஒரு வெளிப்படையான சிவப்பு அடுக்கை வரைவதன் மூலம் செயல்படுகிறது.</string>
+\n*உங்களை ஏமாற்றி நீங்கள் விரும்பாத செயலியை நிறுவுதலஂ  போன்ற குறுக்கீடுகளிலிருந்து தங்களைப் பாதுகாத்துக் கொள்ள சில செயலிகளஂ மேலடுக்குகளுக்கு எதிராகப் பாதுகாக்கப்படுகின்றன. செநஂநிலவு இயக்கத்தில் இருக்கும்போது அவை தொடுவதற்குப் பதிலளிக்காது, ஏனெனில் இது திரையில் ஒரு வெளிப்படையான சிவப்பு அடுக்கை வரைவதன் மூலம் செயல்படுகிறது."</string>
     <string name="pref_title_startup">தொடக்கம்</string>
     <string name="pref_title_turn_on">இல் இயக்கவும்</string>
     <string name="pref_title_turn_off">இல் அணைக்கவும்</string>
@@ -127,4 +127,7 @@
     <string name="pref_entry_button_backlight_filter_dim_level">வடிகட்டி மங்கலான அளவைப் பயன்படுத்தவும்</string>
     <string name="menu_dark_theme">இருண்ட தீம்</string>
     <string name="pref_entry_button_backlight_system">அமைப்பு நிர்வகிக்கப்படுகிறது</string>
+    <string name="pref_title_dark_theme">இருளஂ தோறஂறமஂ</string>
+    <string name="pref_summary_use_root">உயரஂதர சலிபஂபானஂ, குறிப்பாக இருணஂட பின்னணியுடனஂ. Magisk-ஆலஂ மூலமான சாதனமஂ தேவை.</string>
+    <string name="toast_root_unavailable">செநஂநிலவு: மூலமஂ கிடைகஂகவிலஂலை. மூலமுறை முடகஂகபஂபடுகிறது.</string>
 </resources>

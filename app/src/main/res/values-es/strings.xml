@@ -27,10 +27,10 @@
     <string name="toast_warning_install">Al activarlo no podrás instalar APK.</string>
     <string name="snackbar_warning_no_location">Activa los servicios de ubicación para actualizar tu posición</string>
     <string name="help_snackbar_text">Activa Red Moon para empezar</string>
-    <string name="dialog_title_add_filter">Escribe un nombre de perfil</string>
+    <string name="dialog_title_add_filter">Escribe un nombre de filtro</string>
     <string name="edit_hint_add_filter">Nombre del perfil</string>
     <string name="dialog_title_remove_filter">¿Seguro que quieres borrarlo?</string>
-    <string name="slide_text_welcome">¡Bienvenido a Red Moon!</string>
+    <string name="slide_text_welcome">¡Te damos la bienvenida a Red Moon!</string>
     <string name="slide_title_protect_eyes">Protege tus ojos</string>
     <string name="slide_title_improve_sleep">Te ayuda a dormir</string>
     <string name="slide_title_get_started">¡Empecemos!</string>
@@ -47,15 +47,11 @@
     <string name="pref_title_lower_brightness">Reducir brillo del sistema</string>
     <string name="location_not_set">Sin establecer</string>
     <string name="pref_summary_project_page">Para más información, proporcionar comentarios y contribuir a su desarrollo</string>
-    <string name="slide_text_protect_eyes">De noche, cuando mirar al teléfono
-        daña la vista, puedes utilizar Red Moon para limitar el brillo de tu pantalla.</string>
-    <string name="slide_text_get_started">Utiliza el control de la esquina superior
-        derecha para des/activar Red Moon.</string>
+    <string name="slide_text_protect_eyes">De noche, cuando mirar al teléfono hace daño a los ojos, puedes utilizar Red Moon para limitar el brillo de tu pantalla.</string>
+    <string name="slide_text_get_started">Utiliza el botón de la esquina superior derecha para activar y pausar Red Moon.</string>
     <string name="pref_title_intensity">Opacidad</string>
     <string name="pref_title_dim_level">Oscuridad</string>
-    <string name="slide_text_improve_sleep">La luz azul inhibe la
-        producción de melatonina, una hormona que ayuda a que nos durmamos
-        por la noche. Red Moon elimina la luz azul de la pantalla para que puedas dormir bien.</string>
+    <string name="slide_text_improve_sleep">La luz azul inhibe la producción de melatonina, una hormona que ayuda a que nos durmamos por la noche. Red Moon reduce la luz azul de la pantalla para que puedas dormir bien.</string>
     <string name="latitude_short">Latitud</string>
     <string name="longitude_short">Longitud</string>
     <string name="time_toggle_options_array_0">Manual</string>
@@ -78,10 +74,10 @@
     <string name="notification_action_turn_on">Reanudar</string>
     <string name="notification_action_turn_off">Detener</string>
     <string name="notification_action_stop">Detener</string>
-    <string name="dialog_message_permission_overlay">Activa las superposiciones en la siguiente pantalla para que Red Moon pueda activar el filtro.</string>
+    <string name="dialog_message_permission_overlay">Activa poder mostrarse sobre otras aplicaciones en la siguiente pantalla para que Red Moon pueda mostrar el filtro de color.</string>
     <string name="dialog_message_permission_write_settings">Activa el permiso en la siguiente pantalla para que Red Moon pueda ajustar el brillo de la pantalla según sea necesario.</string>
     <string name="dialog_title_permission_write_settings">Cambiar ajustes del sistema</string>
-    <string name="notification_action_next_filter">Siguiente perfil</string>
+    <string name="notification_action_next_filter">Siguiente filtro</string>
     <string name="menu_about">Acerca de</string>
     <string name="activity_about">Acerca de Red Moon</string>
     <string name="pref_title_version">Versión</string>
@@ -101,11 +97,11 @@
     <string name="snackbar_location_updated">¡Se encontró la ubicación!</string>
     <string name="pref_entry_button_backlight_system">Gestionado por el sistema</string>
     <string name="pref_entry_button_backlight_turn_off">Apagar</string>
-    <string name="pref_entry_button_backlight_filter_dim_level">Filtrar igual que la pantalla</string>
+    <string name="pref_entry_button_backlight_filter_dim_level">Seguir el brillo de la pantalla</string>
     <string name="pref_title_button_backlight">Botones retroiluminados</string>
     <string name="set_dialog">Establecer</string>
     <string name="pref_title_location">Ubicación</string>
-    <string name="notification_status_running">Activo, pausa para instalar APK</string>
+    <string name="notification_status_running">Activo, pausa para instalar APKs</string>
     <string name="notification_status_running_no_warning">En funcionamiento</string>
     <string name="menu_restore_default_filters">Restaurar filtros originales</string>
     <string name="filter_name_dim_only">Brillo tenue</string>
