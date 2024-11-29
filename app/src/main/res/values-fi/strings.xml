@@ -127,5 +127,7 @@
     <string name="pref_summary_start_time_sunset">Auringonlasku (%s)</string>
     <string name="pref_value_stop_time_sunrise">Auringonnousu</string>
     <string name="pref_summary_stop_time_sunrise">Auringonnousu (%s)</string>
-    <string name="pref_title_use_root">Käyttää pääkäyttäjä</string>
+    <string name="pref_title_use_root">Juuritila</string>
+    <string name="toast_root_unavailable">Red Moon: juuri ei saatavilla. Juuritilan poistaminen käytöstä.</string>
+    <string name="pref_summary_use_root">Korkeampilaatuinen suodatin, erityisesti tummilla taustoilla. Edellyttää Magiskilla juurtunutta laitetta.</string>
 </resources>
