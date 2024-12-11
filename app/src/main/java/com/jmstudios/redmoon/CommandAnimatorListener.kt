@@ -25,11 +25,14 @@
 package com.jmstudios.redmoon
 
 import android.animation.Animator
+import android.app.Service
+import com.jmstudios.redmoon.service.AccessibilityFilterService
 import com.jmstudios.redmoon.service.FilterService
 
 class CommandAnimatorListener(
-        private val cmd: Command,
-        private val svc: FilterService)
+    private val cmd: Command,
+    private val svc: FilterService,
+)
     : Animator.AnimatorListener {
 
     override fun onAnimationStart (a: Animator?) = cmd.onAnimationStart (svc)

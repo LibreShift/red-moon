@@ -24,7 +24,9 @@
  */
 package com.jmstudios.redmoon
 
+import android.content.Context
 import android.content.Intent
+import android.provider.Settings
 import androidx.preference.Preference
 import androidx.core.content.ContextCompat
 import androidx.preference.PreferenceFragmentCompat
@@ -59,6 +61,11 @@ var filterIsOn: Boolean = false
         field = value
         Config.filterIsOn = value
     }
+
+fun isAccessibilityServiceOn(context: Context?): Boolean {
+    val prefString = Settings.Secure.getString(context?.contentResolver, Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES)
+    return prefString != null && prefString.contains("com.jmstudios.redmoon.service.AccessibilityFilterService")
+}
 
 fun inActivePeriod(Log: KLog? = null): Boolean {
     val now = Calendar.getInstance()
