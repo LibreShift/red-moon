@@ -63,6 +63,13 @@
             android:summary="@string/pref_summary_use_root"
             />
 
+        <Preference
+            android:key="@string/pref_key_use_accessibility_service"
+            android:title="@string/pref_title_use_accessibility_service"
+            android:summary="@string/pref_summary_use_accessibility_service"
+            >
+        </Preference>
+
         <ListPreference
             android:key="@string/pref_key_button_backlight"
             android:title="@string/pref_title_button_backlight"

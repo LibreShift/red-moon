@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/accessibility_service_description"
+    android:packageNames="com.jmstudios.redmoon"
+    android:accessibilityEventTypes="typeAnnouncement"
+    android:accessibilityFlags="flagDefault"
+    android:accessibilityFeedbackType="feedbackVisual"
+    android:notificationTimeout="100"
+    android:canRetrieveWindowContent="false"
+    />
