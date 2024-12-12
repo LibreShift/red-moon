@@ -131,4 +131,8 @@
     <string name="pref_title_use_root">Root 模式</string>
     <string name="toast_root_unavailable">Red Moon：Root 不可用。 禁用 root 模式。</string>
     <string name="pref_summary_use_root">更高质量的滤镜，尤其是深色背景。 需要安装了 Magisk 的已 root 设备。</string>
+    <string name="pref_summary_use_accessibility_service">开启后在 Android 12+ 系统上盖住主屏幕和状态/导航栏</string>
+    <string name="overlay_accessibility_service_label">Red Moon 遮罩</string>
+    <string name="accessibility_service_description">在 Android 12 或更新版本系统上，此服务让 Red Moon 可以遮盖通知阴影、主屏幕和导航按钮。在较低版本的 Android 系统上，此服务不是必需的，你应当不启用它。</string>
+    <string name="pref_title_use_accessibility_service">使用无障碍服务</string>
 </resources>
