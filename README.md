@@ -17,7 +17,7 @@ use your phone comfortably at night.
 * Automatically pause in apps secured against overlays, or those you choose.
 * Quickly start, stop, and switch profiles via notification, tile (Android 7.0+), or widget.
 
-[<img src="https://gitlab.com/fdroid/artwork/raw/master/badge/get-it-on.png"
+[<img src="https://f-droid.org/badge/get-it-on.png"
       alt="Get it on F-Droid"
       height="80">](https://f-droid.org/repository/browse/?fdid=com.jmstudios.redmoon)
 [<img src="art/direct-apk-download.png"
