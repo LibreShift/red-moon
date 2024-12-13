@@ -137,4 +137,8 @@
     <string name="pref_title_use_root">Tryb root</string>
     <string name="toast_root_unavailable">Red Moon: Root niedostępny. Wyłączenie trybu roota.</string>
     <string name="pref_summary_use_root">Wyższa jakość filtra, szczególnie przy ciemnych tłach. Wymaga urządzenia zrootowanego za pomocą Magisk.</string>
+    <string name="pref_title_use_accessibility_service">Skorzystaj z usługi ułatwień dostępu</string>
+    <string name="overlay_accessibility_service_label">Nakładka Red Moon</string>
+    <string name="pref_summary_use_accessibility_service">Włącz, aby przyciemnić ekran blokady i paski stanu/nawigacji w systemie Android 12 i nowszych</string>
+    <string name="accessibility_service_description">W systemie Android 12 lub nowszym usługa ta pozwala aplikacji Red Moon wyświetlać się na obszarze powiadomień, ekranie blokady i przyciskach nawigacyjnych. W starszych wersjach Androida ta usługa nie jest konieczna, więc należy ją wyłączyć.</string>
 </resources>
