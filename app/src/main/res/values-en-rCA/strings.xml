@@ -127,4 +127,11 @@
     <string name="pref_summary_start_time_sunset">Sunset (%s)</string>
     <string name="pref_value_stop_time_sunrise">Sunrise</string>
     <string name="pref_summary_stop_time_sunrise">Sunrise (%s)</string>
+    <string name="pref_title_use_root">Root mode</string>
+    <string name="toast_root_unavailable">Red Moon: Root unavailable. Disabling root mode.</string>
+    <string name="pref_summary_use_root">Higher quality filter, especially with dark backgrounds. Requires device rooted with Magisk.</string>
+    <string name="pref_summary_use_accessibility_service">Enable to cover up the home screen and status/navigation bars on Android 12+</string>
+    <string name="accessibility_service_description">On Android 12 or greater, this service lets Red Moon draw over the notification shade, home screen, and navigation buttons. On lower versions of Android, this service isn\'t necessary, so you should leave it off.</string>
+    <string name="overlay_accessibility_service_label">Red Moon Overlay</string>
+    <string name="pref_title_use_accessibility_service">Use Accessibility Service</string>
 </resources>
