@@ -49,15 +49,15 @@
     <string name="notification_action_pause">Wstrzymaj</string>
     <string name="pref_title_secure_suspend">Wstrzymuj filtr w wykluczanych aplikacjach</string>
     <string name="dialog_message_permission_usage_stats">W następnym oknie zezwól aplikacji Red Moon na dostęp do użytkowania, aby włączyć tą funkcję.
-
-        Red Moon potrzebuje dostępu do użytkowania, żeby zobaczyć czy używasz aplikacji, która nie będzie współpracować z filtrem.</string>
+\n
+\nRed Moon potrzebuje dostępu do użytkowania, żeby zobaczyć czy używasz aplikacji, która nie będzie współpracować z filtrem.</string>
     <string name="dialog_title_permission_usage_stats">Dostęp do użytkowania</string>
     <string name="text_switch_on">Włączone</string>
     <string name="text_switch_off">Wyłączone</string>
-    <string name="pref_summary_secure_suspend">Gdy ta funkcja jest włączona, Red Moon automatycznie zatrzyma się po otwarciu niektórych aplikacji. Domyślnie są to aplikacje niedziałające* z Red Moonem, np. instalatory aplikacji. Możesz zmienić to zachowanie dla aktualnie uruchomionej aplikacji z paska powiadomień. Przykładowo możesz dodać dodać aplikacje w których barwa ma znaczenie, jak aplikacja aparatu. 
-\n 
-\nTa funkcja może w niewielkim stopniu zmniejszyć żywotność baterii Twojego telefonu. 
-\n 
+    <string name="pref_summary_secure_suspend">Gdy ta funkcja jest włączona, Red Moon automatycznie zatrzyma się po otwarciu niektórych aplikacji. Domyślnie są to aplikacje niedziałające* z Red Moonem, np. instalatory aplikacji. Możesz zmienić to zachowanie dla aktualnie uruchomionej aplikacji z paska powiadomień. Przykładowo możesz dodać aplikacje w których barwa ma znaczenie, jak aplikacja aparatu.
+\n
+\nTa funkcja może w niewielkim stopniu zmniejszyć żywotność baterii Twojego telefonu.
+\n
 \n*Niektóre aplikacje są zabezpieczone przed nakładkami, aby chronić się przed zakłóceniami, na przykład nakłaniając Cię do zainstalowania aplikacji, której nie chcesz. Nie reagują na dotknięcia, gdy włączony jest Red Moon, ponieważ działa on poprzez narysowanie przezroczystej czerwonej warstwy na ekranie.</string>
     <string name="slide_title_welcome">Witaj!</string>
     <string name="slide_text_welcome">Witaj w Red Moon!</string>
@@ -87,8 +87,8 @@
     <string name="activity_about">O Red Moon</string>
     <string name="pref_title_integration">Integracja z innymi aplikacjami</string>
     <string name="pref_summary_integration">Niektóre aplikacje, takie jak LibreTasks lub Tasker pozwalają na wywoływanie zadań pod wpływem określonych zdarzeń. Red Moon wysyła publiczne powiadomienie podczas włączania i wyłączania, więc te aplikacje mogą odpowiedzieć. Jeżeli nie używasz lub nie programujesz tych aplikacji, możesz pominąć następny akapit.
-
-        Red Moon rozsyła publiczny zamiar (intent) \'com.jmstudios.redmoon.RED_MOON_TOGGLED\'. Ten zamiar zawiera dodatkową wartość logiczną z kluczem \'jmstudios.bundle.key.FILTER_IS_ON\', która wskazuje czy Red Moon jest włączany, czy wyłączany.</string>
+\n
+\nRed Moon rozsyła publiczny zamiar (intent) \'com.jmstudios.redmoon.RED_MOON_TOGGLED\'. Ten zamiar zawiera dodatkową wartość logiczną z kluczem \'jmstudios.bundle.key.FILTER_IS_ON\', która wskazuje czy Red Moon jest włączany, czy wyłączany.</string>
     <string name="pref_title_version">Wersja</string>
     <!-- Currently unused -->
     <string name="add_new_profile_dialog_title">Wpisz nazwę profilu</string>
@@ -134,4 +134,11 @@
     <string name="pref_value_start_time_sunset">Zachód słońca</string>
     <string name="menu_settings">Ustawienia</string>
     <string name="activity_settings">Ustawienia</string>
+    <string name="pref_title_use_root">Tryb root</string>
+    <string name="toast_root_unavailable">Red Moon: Root niedostępny. Wyłączenie trybu roota.</string>
+    <string name="pref_summary_use_root">Wyższa jakość filtra, szczególnie przy ciemnych tłach. Wymaga urządzenia zrootowanego za pomocą Magisk.</string>
+    <string name="pref_title_use_accessibility_service">Skorzystaj z usługi ułatwień dostępu</string>
+    <string name="overlay_accessibility_service_label">Nakładka Red Moon</string>
+    <string name="pref_summary_use_accessibility_service">Włącz, aby przyciemnić ekran blokady i paski stanu/nawigacji w systemie Android 12 i nowszych</string>
+    <string name="accessibility_service_description">W systemie Android 12 lub nowszym usługa ta pozwala aplikacji Red Moon wyświetlać się na obszarze powiadomień, ekranie blokady i przyciskach nawigacyjnych. W starszych wersjach Androida ta usługa nie jest konieczna, więc należy ją wyłączyć.</string>
 </resources>

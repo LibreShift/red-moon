@@ -47,9 +47,9 @@
     <string name="notification_action_pause">暂停</string>
     <!-- Currently unused -->
     <string name="remove_profile_dialog_title">是否删除配置？</string>
-    <string name="add_new_profile_edit_hint">滤镜名称</string>
-    <string name="add_new_profile_dialog_title">输入滤镜名称</string>
-    <string name="pref_title_appearance">滤镜</string>
+    <string name="add_new_profile_edit_hint">配置名称</string>
+    <string name="add_new_profile_dialog_title">输入配置名称</string>
+    <string name="pref_title_appearance">配置</string>
     <string name="searching_location">正在搜索位置</string>
     <string name="toast_warning_no_location">启用位置服务来更新位置</string>
     <string name="set_dialog">设置</string>
@@ -118,7 +118,7 @@
     <string name="pref_title_translators">帮助翻译</string>
     <string name="pref_summary_translators">翻译者：smichel17、raatmarien、Mostafa Ahangarha</string>
     <string name="toast_warning_secured">红月运行时，此应用的某些功能可能会失效。</string>
-    <string name="action_next_profile">下一个滤镜</string>
+    <string name="action_next_profile">下一个配置</string>
     <string name="notification_channel_overlay_name">屏幕叠加层控制</string>
     <string name="notification_channel_overlay_description">屏幕叠加层控制的持久通知</string>
     <string name="activity_settings">设置</string>
@@ -131,4 +131,8 @@
     <string name="pref_title_use_root">Root 模式</string>
     <string name="toast_root_unavailable">Red Moon：Root 不可用。 禁用 root 模式。</string>
     <string name="pref_summary_use_root">更高质量的滤镜，尤其是深色背景。 需要安装了 Magisk 的已 root 设备。</string>
+    <string name="pref_summary_use_accessibility_service">开启后在 Android 12+ 系统上盖住主屏幕和状态/导航栏</string>
+    <string name="overlay_accessibility_service_label">Red Moon 遮罩</string>
+    <string name="accessibility_service_description">在 Android 12 或更新版本系统上，此服务让 Red Moon 可以遮盖通知阴影、主屏幕和导航按钮。在较低版本的 Android 系统上，此服务不是必需的，你应当不启用它。</string>
+    <string name="pref_title_use_accessibility_service">使用无障碍服务</string>
 </resources>

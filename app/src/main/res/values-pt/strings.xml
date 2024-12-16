@@ -127,5 +127,7 @@
     <string name="notification_status_paused">Pausado</string>
     <string name="notification_action_resume">Retomar</string>
     <string name="notification_status_off">Desligado</string>
-    <string name="pref_title_use_root">Usar root</string>
+    <string name="pref_title_use_root">Modo root</string>
+    <string name="toast_root_unavailable">Red Moon: modo root indisponível. A desativar o modo root.</string>
+    <string name="pref_summary_use_root">Filtro de maior qualidade, especialmente com fundos escuros. Requer dispositivo no modo root com Magisk.</string>
 </resources>

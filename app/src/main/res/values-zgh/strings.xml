@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ⵜⴰⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ</string>
+    <string name="activity_main">ⵜⴰⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ</string>
+    <string name="activity_shortcut">ⵙⵙⵔⴼⵓ ⵜⴰⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ</string>
+    <string name="activity_intro">ⵜⴰⵣⵡⵓⵔⵜ</string>
+    <string name="activity_settings">ⵜⵉⵙⵖⴰⵍ</string>
+    <string name="activity_about">ⵅⴼ ⵜⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ</string>
+    <string name="activity_schedule">ⴰⵖⴰⵡⴰⵙ</string>
+    <string name="menu_show_intro">ⴰⵍⵙ ⵜⴰⵣⵡⵓⵔⵜ</string>
+    <string name="menu_settings">ⵜⵉⵙⵖⴰⵍ</string>
+    <string name="menu_about">ⵅⴼ</string>
+    <string name="notification_status_running_no_warning">ⵉⵜⵜⵓⵣⵣⴳⵔ</string>
+    <string name="activity_timer">ⴰⵎⵙⵉⴹⵏ</string>
+    <string name="notification_status_paused">ⵉⵜⵜⵓⵙⴱⴷⴷ</string>
+    <string name="notification_status_off">ⵇⵇⵏ</string>
+    <string name="notification_action_resume">ⴰⵍⵙ</string>
+    <string name="notification_action_pause">ⵙⴱⴷⴷ</string>
+    <string name="notification_action_turn_on">ⵙⵙⵉⵖ</string>
+    <string name="notification_action_turn_off">ⵙⵙⵅⵙⵉ</string>
+    <string name="notification_action_stop">ⵙⴱⴷⴷ</string>
+    <string name="pref_category_other">ⵢⴰⴹⵏ</string>
+    <string name="pref_category_schedule">ⴰⵖⴰⵡⴰⵙ</string>
+    <string name="pref_title_dim_level">ⵜⵉⵍⵍⴰⵙ</string>
+    <string name="pref_title_intensity">ⴰⴳⴳⴰⴹ</string>
+    <string name="pref_title_color_temp">ⴰⴽⵍⵓ</string>
+    <string name="pref_title_lower_brightness">ⴼⵏⵥ ⴰⵙⵉⴷⴷ ⵏ ⵓⵏⴳⵔⴰⵡ</string>
+    <string name="pref_summary_schedule_sun" formatted="false">ⵙⴳ ⵓⵖⵍⵍⵓⵢ (%on) ⴰⵔ ⴰⵏⵇⵇⵔ (%off)</string>
+    <string name="pref_summary_schedule_none">ⵡⴰⵍⵓ</string>
+    <string name="pref_title_start_time">ⵜⵓⴷⴷⵎⴰ</string>
+    <string name="pref_value_start_time_sunset">ⴰⵖⵍⵍⵓⵢ</string>
+    <string name="pref_summary_start_time_sunset">ⴰⵖⵍⵍⵓⵢ (%s)</string>
+    <string name="pref_title_stop_time">ⵜⵉⴳⵉⵔⴰ</string>
+    <string name="pref_value_stop_time_sunrise">ⴰⵏⵇⵇⵔ</string>
+    <string name="pref_summary_stop_time_sunrise">ⴰⵏⵇⵇⵔ (%s)</string>
+    <string name="pref_title_use_location">ⵙⴳ ⵓⵖⵍⵍⵓⵢ ⴰⵔ ⴰⵏⵇⵇⵔ</string>
+    <string name="pref_summary_use_location">ⵅⴼ ⵡⴰⵏⵙⴰ ⵏⵏⴽ</string>
+    <string name="pref_title_location">ⴰⵏⵙⴰ</string>
+    <string name="pref_title_dark_theme">ⵜⴰⴼⵔⵙⵜ ⵜⴰⵎⴰⵍⵍⴰⵙⵜ</string>
+    <string name="button_add_filter">ⵔⵏⵓ</string>
+    <string name="button_remove_filter">ⴽⴽⵙ</string>
+    <string name="text_switch_on">ⵕⵥⵎ</string>
+    <string name="text_switch_off">ⵇⵇⵏ</string>
+    <string name="location_not_set">ⵓⵔ ⵉⵜⵜⴰⵡⵙⵜⴰⵢ ⵡⴰⵏⵙⴰ</string>
+    <string name="latitude_short">ⴰⵣⵔⵉⴳ ⵏ ⵜⵓⵔⵔⵓⵜ</string>
+    <string name="longitude_short">ⴰⵣⵔⵉⴳ ⵏ ⵜⵉⵖⵣⵉ</string>
+    <string name="pref_title_version">ⵜⵓⵏⵖⵉⵍⵜ</string>
+    <string name="pref_title_project_page">ⵥⵕ ⵜⴰⵙⵏⴰ ⵏ ⵓⵙⵖⵏⵓ</string>
+    <string name="pref_entry_button_backlight_turn_off">ⵙⵙⵅⵙⵉ</string>
+    <string name="menu_restore_default_filters">ⵔⴰⵔ ⵜⵉⵙⵜⴰⵢⵉⵏ ⴳ ⵓⵙⵓⵔⵙ ⵏ ⵓⵙⵎⵙⴰⵙⴰ</string>
+    <string name="notification_status_running">ⵉⵜⵜⵡⴰⵣⵣⴳⵔ. ⵙⴱⴷⴷ ⵜ ⵃⵎⴰ ⴰⴷ ⴽⵛⵎⵏⵜ ⵜⵙⵏⵙⵉⵡⵉⵏ</string>
+    <string name="activity_secure_suspend">ⵙⴱⴷⴷ ⴳ ⵜⵙⵏⵙⵉⵡⵉⵏ ⵢⴰⴹⵏⵉⵏ</string>
+    <string name="notification_status_paused_with_info">ⵉⵜⵜⵓⵙⴱⴷⴷ, ⴰⴳⵉ ⵉⵙⵓⴼⵔⵉⵜⵏ ⵃⵎⴰ ⴰⴷ ⵉⴱⴷⴷ.</string>
+    <string name="notification_action_whitelist_add">ⵔⵎⵣ ⵜⵉⵙⵏⵙⵉ</string>
+    <string name="notification_action_whitelist_remove">ⵙⵜⵉ ⵜⵉⵙⵏⵙⵉ</string>
+    <string name="notification_action_next_filter">ⴰⵙⵜⴰⵢ ⵢⴰⴹⵏ</string>
+    <string name="pref_category_filter">ⵜⴰⵙⵜⴰⵢⵜ</string>
+    <string name="pref_category_button_backlight_disclaimer">ⵓⵔ ⵉⵍⵍⵉ ⵢⵉⴹⵉⵚ ⵅⴼ ⴽⵔⴰ ⵏ ⵡⴰⵍⵍⴰⵍⵏ</string>
+    <string name="pref_title_time_toggle">ⴰⵎⵙⵉⴹⵏ</string>
+    <string name="pref_title_secure_suspend">ⵙⴱⴷⴷ ⴳ ⵜⵙⵏⵙⵉⵡⵉⵏ ⵢⴰⴹⵏⵉⵏ</string>
+    <string name="pref_title_button_backlight">ⴰⵙⴼⴰⵡ ⵏ ⵜⴳⵎⵎⵓⵜⵉⵏ ⵏ ⵡⴰⵍⵍⴰⵍ</string>
+    <string name="pref_summary_email_developer">ⵢⴰⵜ ⵜⵎⴰⵎⴽⵜ ⵢⴰⴹⵏⵉⵏ ⵏ ⵓⵎⵢⴰⵡⴰⴹ ⴷⵉⴷⵏⵖ</string>
+    <string name="pref_title_email_developer">ⴰⵣⵏ ⵉ ⵉⵎⵙⵖⵉⵡⵙⵏ ⴳ ⵉⵎⴰⵢⵍ</string>
+    <string name="pref_title_integration">ⴰⵙⵉⴷⴼ ⴷ ⵜⵙⵏⵙⵉⵡⵉⵏ ⵢⴰⴹⵏ</string>
+    <string name="pref_title_translators">ⴱⵣⵔ ⴳ ⵓⵙⵓⵖⵍ</string>
+    <string name="pref_summary_translators">ⵉⵎⵙⵙⵓⵖⵍⵏ: smichel17, raatmarien, Mostafa Ahangarha</string>
+    <string name="snackbar_warning_no_location">ⵙⵙⵔⴼⵓ ⵜⵉⵏⵓⴼⴰ ⵏ ⵉ ⵓⵙⴷⵖⵉ ⵏ ⵡⴰⵏⵙⴰ</string>
+    <string name="snackbar_searching_location">ⴰⵔⵣⵣⵓ ⵅⴼ ⵡⴰⵏⵙⴰ</string>
+    <string name="snackbar_location_updated">ⵉⵜⵜⵡⴰⴼ ⵡⴰⵏⵙⴰ!</string>
+    <string name="help_snackbar_text">ⴰⴷⵔ ⵅⴼ ⵜⴳⵎⵎⵓⵜ ⵃⵎⴰ ⴰⴷ ⵜⵙⵡⵓⵔⵉ ⵜⵙⵏⵙⵉ</string>
+    <string name="dialog_title_add_filter">ⵙⵙⵉⴷⴼ ⵉⵙⵎ ⵏ ⵜⵙⵜⴰⵢⵜ</string>
+    <string name="edit_hint_add_filter">ⵉⵙⵎ ⵏ ⵜⵙⵜⴰⵢⵜ</string>
+    <string name="dialog_title_remove_filter">ⴽⴽⵙ ⵜⴰⵙⵜⴰⵢⵜ ⴰⴷ\?</string>
+    <string name="dialog_title_permission_write_settings">ⴰⵙⴳⴳⴷ ⵏ ⵜⵙⵖⴰⵍ ⵏ ⵓⵏⴳⵔⴰⵡ</string>
+    <string name="dialog_button_ok">ⵡⴰⵅⵅⴰ</string>
+    <string name="dialog_button_cancel">ⵙⵙⵔ</string>
+    <string name="shortcut_title_toggle">ⵙⵙⵔⴼⵓ ⵜⵉⵙⵏⵙⵉ</string>
+    <string name="slide_title_welcome">ⴰⵏⵙⵓⴼ ⵉⵙⴽ!</string>
+    <string name="slide_text_welcome">ⴰⵏⵙⵓⴼ ⵉⵙⴽ ⴳ ⵜⵙⵏⵙⵉ!</string>
+    <string name="slide_title_protect_eyes">ⴼⵔⴳ ⵜⵉⵟⵟⴰⵡⵉⵏ ⵏⵏⴽ</string>
+    <string name="slide_title_improve_sleep">ⵙⵖⵓⴷⵓ ⵉⴹⵚ ⵏⵏⴽ</string>
+    <string name="slide_title_get_started">ⵙⵙⵏⵜ!</string>
+    <string name="filter_name_default">ⴰⵎⵔⴷⵓ</string>
+    <string name="filter_name_bed_reading">ⵜⵉⵖⵔⵉ</string>
+    <string name="filter_name_dim_only">ⵙⵙⵓⵍⵍⵙ ⵀⵍⵍⵉ</string>
+    <string name="pref_entry_button_backlight_system">ⵉⵜⵜⵓⵙⵡⵓⴷⴷⵓ ⵓⵏⴳⵔⵡⴰ</string>
+    <string name="time_toggle_options_array_1">ⴰⵡⵓⵔⵎⴰⵏ (ⵜⴰⴼⵓⴽⵜ)</string>
+    <string name="time_toggle_options_array_0">ⵙ ⵓⴼⵓⵙ</string>
+    <string name="pref_title_turn_off">ⵙⴱⴷⴷ ⴳ</string>
+    <string name="pref_title_turn_on">ⵕⵥⵎ ⴳ</string>
+    <string name="menu_dark_theme">ⵜⴰⴼⵔⵙⵜ ⵜⴰⵎⴰⵍⵍⴰⵙⵜ</string>
+    <string name="pref_title_startup">ⵙⵙⵏⵜ</string>
+    <string name="set_dialog">ⵙⵔⵙ</string>
+    <string name="pref_summary_schedule_custom" formatted="false">ⵉⵜⵜⴰⵡⵥⵍⴰⵢ (%on to %off)</string>
+    <string name="pref_summary_integration">ⴰⵔ ⴰⴽ ⵜⵜⴰⵊⵊⴰⵏⵜ ⴽⵔⴰ ⵏ ⵜⵙⵏⵙⵉⵡⵉⵏ, ⴰⵎ LibreTasks ⵏⵉⵖ Tasker, ⴰⴷ ⵜⵙⴽⵔⴷ ⴽⵔⴰ ⵏ ⵜⵎⵀⴰⵍ ⵜⵉⵡⵓⵔⵎⴰⵏⵉⵏ ⵉⵖ ⵍⵍⴰⵏⵜ ⴽⵔⴰ ⵏ ⵉⵣⵎⵣⵣⴰ. ⴰⵔ ⵜⴻⵜⵜⴰⵣⵏ ⵜⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ ⵢⴰⵏ ⵓⵙⵓⴼⵔⵉ ⴰⴳⴷⵓⴷⴰⵏ ⴰⴷⴷⴰⵢ ⵜⴻⵜⵜⵓⵙⵎⵔⵙ ⵏⵉⵖ ⴰⴷⴷⴰⵢ ⵜⴻⵜⵜⵓⵙⴱⴷⴷ, ⵃⵎⴰ ⴰⴷ ⵣⵎⵔⵏⵜ ⵜⵙⵏⵙⵉⵡⵉⵏ ⴰⴷ ⴰⴷ ⵙⴰⴷⵎⵔⵏⵜ. ⵎⵛ ⵓⵔ ⵜⵙⵎⵔⴰⵙⴷ ⵏⵉⵖ ⵓⵔ ⵜⵙⵖⵉⵡⵉⵙⴷ ⴽⵔⴰ ⵙⴳ ⵜⵙⵏⵙⵉⵡⵉⵏ ⴰⴷ, ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⵣⵔⵉⴷ ⴰⴳⵟⵟⵓⵎ ⴰⴷ.
+\n
+\nⴰⵔ ⵜⵣⵓⵣⵣⵓⵔ ⵜⵙⵏⵙⵉ ⴰⴷ ⵢⴰⵜ ⵜⵏⵎⵎⵉⵍⵜ ⵜⴰⴳⴷⵓⴷⴰⵏⵜ ⵙⴳ ⵜⵎⴳⴳⵉⵢⵉⵏ `com.jmstudios.redmoon.RED_MOON_TOGGLED`. ⵉⵍⵍⴰ ⴳ ⵜⵏⵎⵎⵉⵍⵜ ⵢⴰⵏ ⵡⴰⵜⵉⴳ ⵓⴹⴼⵉⵕ ⴰⵎⵥⵍⴰⵏ `jmstudios.bundle.key.FILTER_IS_ON`, ⵏⵏⴰ ⵉⵎⵎⴰⵍⵏ ⵉⵙ ⵜⴻⵜⵜⵎⵔⴰⵔⴰ ⵜⵙⵏⵙⵉ ⵏⴳⵔ ⵓⵙⵡⵓⵔⵉ ⴷ ⵓⵙⴱⴷⴷ.</string>
+    <string name="toast_root_unavailable">ⵜⴰⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ: ⵓⵔ ⵉⵍⵍⵉ ⵓⴳⵔⵎⵣⴷⴰⵢ. ⵙⵏⵏⴳⵣⵓ ⴰⵙⵓⵔⵙ ⵏ ⵓⴳⵔⵎⵣⴷⴰⵢ.</string>
+    <string name="pref_title_schedule">ⵙⴽⵔ ⴰⵎ ⵉⵜⵜⴰⵡⵙⵖⵉⵡⵙ</string>
+    <string name="pref_title_use_root">ⴰⵙⵓⵔⵙ ⵏ ⵓⴳⵔⵎⵣⴷⴰⵢ</string>
+    <string name="pref_summary_use_root">ⵜⴰⵙⵜⴰⵢⵜ ⵍⴰⵍ ⵏ ⵜⵕⵡⵉ ⵉⵖⵓⴷⴰⵏ, ⵙⵍⴰⵡⴰⵏ ⴰⴽⴽⵯ ⴷ ⵡⴰⵡⵔⵏ ⵉⴱⵔⴽⴰⵏⵏ. ⵉⵔⴰ ⵡⴰⵍⵍⴰⵍ ⴰⴷ ⵉⵎⵣⴷⴰⵢ ⴷ Magisk.</string>
+    <string name="pref_summary_secure_suspend">ⵙ ⵜⵎⵥⵍⵉⵜ ⴰⴷ, ⵔⴰⴷ ⵜⴱⴷⴷ ⵜⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ ⵙ ⵜⵎⴰⵎⴽⵜ ⵜⴰⵡⵓⵔⵎⴰⵏⵜ ⴳ ⵓⵕⵥⵥⵓⵎ ⵏ ⴽⵔⴰ ⵏ ⵜⵙⵏⵙⵉⵡⵉⵏ. ⵙ ⵓⵎⵔⴷⵓ, ⴰⵢⴰⴷ ⴷⵉⴳⵙ ⵜⵉⵙⵏⵙⵉⵡⵉⵏ ⵏⵏⴰ ⵓⵔ ⵕⵥⵥⵎⵏⵜ ⴳ ⵓⵣⵎⵣ ⵏ ⵓⵙⵡⵓⵔⵉ ⵏ ⵜⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ*, ⴰⵎ ⵡⴰⴳⴰⵎ ⵏ ⵜⵙⵏⵙⵉⵡⵉⵏ. ⵜⵥⴹⴰⵕⴷ ⴰⴷ ⵜⵙⵏⴼⵍⴷ ⵏ ⵜⵎⵙⴽⵔⵜ ⵏ ⵓⵎⵉⵥⴰⵕ ⵏ ⵜⵙⵏⵙⵉ ⴰⴷ ⵙⴳ ⵉⵙⵓⴼⵔⵉⵜⵏ. ⵙ ⵓⵎⴷⵢⴰ, ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⵔⵏⵓⴷ ⴽⵔⴰ ⵏ ⵜⵙⵏⵙⵉⵡⵉⵏ ⵏ ⵉⴽⵯⵍⴰⵏ ⵉⵎⵥⵍⴰⵏ, ⴰⵎ ⵍⴽⴰⵎⵉⵔⴰ.
+\n
+\nⵜⵣⵎⵔ ⵜⵎⵥⵍⵉⵜ ⴰⴷ ⴰⴷ ⵜⵙⵓⴷⵔⵙ ⵉⵎⵉⴽ ⵜⵓⴷⵔⵜ ⵏ ⵡⴰⵍⵍⴰⵍ ⵏⵏⴽ.
+\n
+\n*ⵉⵜⵜⵉⵍⵉ ⵓⵙⴼⵍⵙ ⵏⴽⵔⴰ ⵏ ⵜⵙⵏⵙⵉⵡⵉⵏ ⵎⴳⴰⵍ ⴽⵔⴰ ⵏ ⵜⵙⴷⴷⴰⵙⵉⵏ ⵃⵎⴰ ⴰⴷ ⴼⵔⴳⵏⵜ ⵉⵅⴼⴰⵡⵏ ⵏⵏⵙⵏⵜ ⵙⴳ ⵓⵔⵎⵙⴰⵙⴰ, ⴰⵎ ⵓⵣⵍⴰⵖ ⵙ ⵡⴰⴳⴰⵎ ⵏ ⴽⵔⴰ ⵏ ⵜⵙⵏⵙⵉ ⵏⵏⴰ ⵓⵔ ⵜⵅⵙⴷ. ⵓⵔ ⵙⴰⴷⵎⴰⵔⵏⵜ ⵉ ⵜⴹⵓⴹⵉⵏ ⴳ ⵓⵙⵡⵓⵔⵉ ⵏ ⵜⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ, ⴰⵛⴽⵓ ⴰⵔ ⵜⵙⵡⵓⵔⵉ ⵙ ⵜⴼⵔⵉⵙⵜ ⵏ ⵢⴰⵜ ⵜⴰⵔⴰⵢⵜ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ ⵜⴰⵎⵙⵙⵓⵙⴰⵖⵜ ⵏⵏⵉⴳ ⵏ ⵓⵎⵉⵥⴰⵕ.</string>
+    <string name="pref_summary_project_page">ⵉ ⵓⴳⴰⵔ ⵏ ⵉⵏⵖⵎⵉⵙⵏ, ⴱⵣⵔ ⴷ ⴰⵊⵊ ⴽⵔⴰ ⵏ ⵓⵅⴼⴰⵡⴰⵍ</string>
+    <string name="toast_warning_install">ⵓⵔ ⵜⵣⵎⵎⵔⴷ ⴰⴷ ⵜⴰⴳⵎⴷ ⵉⴼⴰⵢⵍⵓⵜⵏ ⵏ APK ⴰⴷⴷⴰⵢ ⵜⵙⵎⵔⴰⵙⴷ ⵜⵉⵙⵏⵙⵉ.</string>
+    <string name="toast_warning_secured">ⵓⵔ ⵥⴹⴰⵕⵏⵜ ⴰⴷ ⵙⵡⵓⵔⵉⵏⵜ ⴽⵔⴰ ⵏ ⵜⵎⵥⵍⴰⵢ ⵏ ⵜⵙⵏⵙⵉ ⴰⴷ ⴰⴷⴷⴰⵢ ⵜⵙⵡⵓⵔⵉ ⵜⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ.</string>
+    <string name="dialog_title_permission_overlay">ⵜⴰⴼⵔⵉⵙⵜ ⵏⵏⵉⴳ ⵏ ⵜⵙⵏⵙⵉⵡⵉⵏ ⵢⴰⴹⵏ</string>
+    <string name="dialog_message_permission_overlay">ⴰⵊⵊ ⵜⴰⴼⵔⵉⵙⵜ ⵏⵏⵉⴳ ⵏ ⵜⵙⵏⵙⵉⵡⵉⵏ ⵢⴰⴹⵏ ⴳ ⵓⵎⵉⵥⴰⵕ ⴰⵎⴹⴼⴰⵕ ⵃⵎⴰ ⴰⴷ ⵜⵙⵡⵓⵔⵉⵜⵙⵏⵙⵉ.</string>
+    <string name="dialog_message_permission_write_settings">ⵙⵙⵓⵔⴳ ⴰⵙⴳⴳⴷ ⵏ ⵜⵙⵖⴰⵍ ⵏ ⵓⵏⴳⵔⴰⵡ ⴳ ⵓⵎⵉⵥⴰⵕ ⴰⵎⴹⴼⴰⵕ ⵃⵎⴰ ⴰⴷ ⵜⵙⵙⵏⴼⵍ ⵜⵙⵏⵙⵉ ⴰⵙⵡⵉⵔ ⵏ ⵓⵙⵉⴷⴷ.</string>
+    <string name="dialog_title_permission_usage_stats">ⴰⵙⴰⴷⴼ ⵏ ⵓⵙⵎⵔⵙ</string>
+    <string name="dialog_message_permission_usage_stats">ⴰⵊⵊ ⴰⵙⴰⴷⴼ ⵏ ⵓⵙⵎⵔⵙ ⴳ ⵓⵎⵉⵥⴰⵕ ⴰⵎⴹⴼⴰⵕ ⴰⴼⴰⴷ ⴰⴷ ⵜⴱⴷⴷ ⵜⵙⵏⵙⵉ ⴳ ⵜⵙⵏⵙⵉⵡⵉⵏ ⵉⴼⵍⵙⵏ.
+\n
+\nⵔⴰⴷ ⵜⵙⵎⵔⵙ ⵜⵙⵏⵙⵉ ⵖⴰⵙ ⵜⵉⵎⵓⵛⴰ ⴰⴷ ⵃⵎⴰ ⴰⴷ ⵜⵥⵕ ⵉⵙ ⵜⵙⵎⵔⴰⵙⴷ ⴽⵔⴰ ⵏ ⵜⵙⵏⵙⵉ ⵏⵏⴰ ⵓⵔ ⵉⵙⵡⵓⵔⵉⵏ ⴰⴷⴷⴰⵢ ⵜⴻⵜⵜⵓⵙⵎⵔⵙ ⵜⵙⵏⵙⵉ ⴰⴷ.</string>
+    <string name="slide_text_protect_eyes">ⴳ ⵢⵉⴹ, ⴰⴷⴷⴰⵢ ⵜⵙⵎⵓⵇⵇⵓⵍⴷ ⴳ ⵜⵜⵉⵍⵉⴼⵓⵏ ⵏⵏⴽ ⴰⵔ ⴰⴽ ⵙⴷⵖⴷⵉⵖⵏ ⴰⵍⵍⵏ ⵏⵏⴽ, ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⵙⵎⵔⵙⴷ ⵜⴰⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ ⵃⵎⴰ ⴰⴷ ⵉⵙⵙⵓⵍⵍⵙ ⵓⵎⵉⵥⴰⵕ ⵏⵏⴽ.</string>
+    <string name="slide_text_improve_sleep">ⵉⵜⵜⴰⴳⵉ ⵓⵙⵉⴷⴷ ⴰⵏⵉⵍⵉ ⴰⴼⴰⵔⵙ ⵏ ⵎⵉⵍⴰⵜⵓⵏⵉⵏ, ⵉⴳⴰⵏ ⵢⴰⵏ ⵓⵀⵓⵔⵎⵓⵏ ⵏⵏⴰ ⴰⴽ ⵉⵜⵜⴰⵡⵙⵏ ⴰⴷ ⵜⵟⵟⵚⴷ ⴳ ⵢⵉⴹ, ⴰⵔ ⵜⴻⵜⵜⴽⴽⵙ ⵜⵣⵉⵔⵉ ⵜⴰⵣⴳⴳⵯⴰⵖⵜ ⴰⵙⵉⴷⴷ ⴰⵏⵉⵍⵉ ⵙⴳ ⵓⵎⵉⵥⴰⵕ ⵏⵏⵙ, ⵙ ⵓⵢⴰⴷ ⵉⵜⵜⴰⵊⵊⴰ ⴽ ⴰⴷ ⵜⵟⵟⵚⴷ ⴷⵖⵢⴰ.</string>
+    <string name="slide_text_get_started">ⵉ ⵓⵙⵡⵓⵔⵉ ⵏⵉⵖ ⴰⵙⴱⴷⴷ ⵏ ⵜⵙⵏⵙⵉ, ⴰⴷⵔ ⵅⴼ ⵜⵙⴰⵔⵓⵜ ⵉⵍⵍⴰⵏ ⴳ ⵜⵖⵎⵔⵜ ⵜⴰⴼⵓⵙⵉⵜ ⵜⴰⵏⴰⴼⵍⵍⴰⵜ .</string>
+    <string name="filter_name_custom">ⵉⵜⵜⴰⵡⵥⵍⴰⵢ</string>
+    <string name="action_next_profile">ⴰⵙⴷⴰⵡ ⴰⵎⴹⴼⴰⵕ</string>
+    <string name="add_new_profile_dialog_title">ⵙⵙⵉⴷⴼ ⵉⵙⵎ ⵏ ⵓⵙⴷⴰⵡ</string>
+    <string name="add_new_profile_edit_hint">ⵉⵙⵎ ⵏ ⵓⵙⴷⴰⵡ</string>
+    <string name="remove_profile_dialog_title">ⴽⴽⵙ ⴰⵙⴷⴰⵡ ⴰⴷ\?</string>
+    <string name="pref_entry_button_backlight_filter_dim_level">ⵙⵎⵔⵙ ⵜⴰⵙⵜⴰⵢⵜ ⵏ ⵓⵙⵉⴷⴷ</string>
+    <string name="time_toggle_options_array_2">ⴰⵡⵓⵔⵎⴰⵏ (ⵉⵜⵜⴰⵡⵥⵍⴰⵢ)</string>
+    <string name="notification_channel_overlay_name">ⵜⵉⴹⴰⴼ ⵏ ⵓⵎⵢⴰⴷⴰⵙ</string>
+    <string name="pref_title_appearance">ⴰⵙⴷⴰⵡ</string>
+    <string name="searching_location">ⴰⵔⵣⵣⵓ ⵅⴼ ⵓⴷⵖⴰⵔ</string>
+    <string name="toast_warning_no_location">ⵙⵙⵓⵔⴳ ⵜⵉⵏⵓⴼⴰ ⵏ ⵜⴷⵖⵔⴰⵏⵜ ⵉ ⵓⵙⴷⵖⵉ ⵏ ⵓⴷⵖⴰⵔ</string>
+    <string name="time_toggle_title">ⴰⵙⵓⵔⵙ ⵏ ⵓⴱⵥⵥⵕ</string>
+    <string name="notification_channel_overlay_description">ⴰⵙⵓⴼⵔⵉ ⴰⵙⵓⵍⴰⵏ ⵏ ⵜⵉⴹⴰⴼ ⵏ ⵓⵎⵢⴰⴷⴰⵙ</string>
+</resources>
