@@ -131,4 +131,8 @@
     <string name="pref_title_use_root">Modo superusuario («root»)</string>
     <string name="toast_root_unavailable">Red Moon: El modo superusuario no está disponible; desactivando la funcionalidad.</string>
     <string name="pref_summary_use_root">Un filtro con colores mejorados, sobre todo sobre fondos oscuros. Es necesario tener privilegios de superusuario con Magisk para poder usarlo.</string>
+    <string name="overlay_accessibility_service_label">Superposición de Red Moon</string>
+    <string name="pref_title_use_accessibility_service">Utilice el servicio de accesibilidad</string>
+    <string name="pref_summary_use_accessibility_service">Habilitar para cubrir la pantalla de inicio y estado/ barras de navegación en Android 12 +</string>
+    <string name="accessibility_service_description">En Android 12 o superior, este servicio permite que Red Moon dibuje sobre la sombra de notificación, pantalla de inicio y botones de navegación. En las versiones inferiores de Android, este servicio no es necesario, por lo que debe dejar desactivado.</string>
 </resources>
