@@ -130,4 +130,8 @@
     <string name="pref_title_use_root">Rootläge</string>
     <string name="pref_summary_use_root">Filter av högre kvalitet, speciellt med mörka bakgrunder. Kräver enhet rootad med Magisk.</string>
     <string name="toast_root_unavailable">Red Moon: Root ej tillgänglig. Inaktiverar rootläge.</string>
+    <string name="overlay_accessibility_service_label">Red Moon Overlay</string>
+    <string name="pref_title_use_accessibility_service">Använd tillgänglighetstjänsten</string>
+    <string name="pref_summary_use_accessibility_service">Aktivera för att täcka hemskärmen och status/navigeringsfälten på Android 12+</string>
+    <string name="accessibility_service_description">På Android 12 eller senare låter den här tjänsten Red Moon rita över aviseringspanelen, startskärmen och navigeringsknapparna. På lägre versioner av Android är den här tjänsten inte nödvändig, så du bör lämna den avstängd.</string>
 </resources>
