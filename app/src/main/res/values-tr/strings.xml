@@ -171,4 +171,8 @@
     <string name="pref_title_use_root">Kök modu</string>
     <string name="toast_root_unavailable">Red Moon: Kök mevcut değil. Kök modu iptal ediliyor.</string>
     <string name="pref_summary_use_root">Özellikle karanlık arkaplanlarda daha yüksek kaliteli filtre. Magisk ile rootlanmış cihaz gereklidir.</string>
+    <string name="pref_title_use_accessibility_service">Erişebilirlik Hizmetini Kullan</string>
+    <string name="overlay_accessibility_service_label">Red Moon Örtüsü</string>
+    <string name="pref_summary_use_accessibility_service">Android 12+ üstünde ana ekranı ve durum/gezinti çubuklarını örtmek için etkinleştir</string>
+    <string name="accessibility_service_description">Bu hizmet Red Moon\'un Android 12 ve üstünde bildirim gölgesi, ana ekran ve gezinti düğmelerini örtmesini sağlar. Daha eski Android sürümlerinde bu hizmet gereksizdir, bu nedenle kapalı tutabilirsiniz.</string>
 </resources>
