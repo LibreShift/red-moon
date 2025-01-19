@@ -130,4 +130,7 @@
     <string name="pref_title_use_root">Juuritila</string>
     <string name="toast_root_unavailable">Red Moon: juuri ei saatavilla. Juuritilan poistaminen käytöstä.</string>
     <string name="pref_summary_use_root">Korkeampilaatuinen suodatin, erityisesti tummilla taustoilla. Edellyttää Magiskilla juurtunutta laitetta.</string>
+    <string name="pref_summary_use_accessibility_service">Ota käyttöön aloitusnäytön ja tila-/navigointipalkkien peittäminen Android 12+:ssa</string>
+    <string name="pref_title_use_accessibility_service">Käytä esteettömyyspalvelua</string>
+    <string name="accessibility_service_description">Android 12:ssa tai uudemmassa tämä palvelu antaa Red Moonin piirtää ilmoitusalueen, aloitusnäytön ja navigointipainikkeiden päälle. Androidin alemmissa versioissa tämä palvelu ei ole välttämätön, joten sinun kannattaa jättää se pois käytöstä.</string>
 </resources>
