@@ -119,13 +119,13 @@
     <string name="pref_title_turn_on">இல் இயக்கவும்</string>
     <string name="pref_title_turn_off">இல் அணைக்கவும்</string>
     <string name="time_toggle_options_array_1">தானியங்கி (சூரியன்)</string>
-    <string name="notification_channel_overlay_name">மேலடுக்கு கட்டுப்பாடு</string>
+    <string name="notification_channel_overlay_name">கட்டுப்பாடு மேலடுக்கு</string>
     <string name="notification_channel_overlay_description">தொடர்ச்சியான மேலடுக்கு கட்டுப்பாட்டு அறிவிப்பு</string>
     <string name="time_toggle_title">தானியங்கு நிலைமாற்றம்</string>
     <string name="time_toggle_options_array_0">கையேடு</string>
     <string name="time_toggle_options_array_2">தானியங்கி (தனிப்பயன்)</string>
     <string name="pref_entry_button_backlight_filter_dim_level">வடிகட்டி மங்கலான அளவைப் பயன்படுத்தவும்</string>
-    <string name="menu_dark_theme">இருண்ட தீம்</string>
+    <string name="menu_dark_theme">இருண்ட கருப்பொருள்</string>
     <string name="pref_entry_button_backlight_system">அமைப்பு நிர்வகிக்கப்படுகிறது</string>
     <string name="pref_title_dark_theme">இருளஂ தோறஂறமஂ</string>
     <string name="pref_summary_use_root">உயரஂதர சலிபஂபானஂ, குறிப்பாக இருணஂட பின்னணியுடனஂ. Magisk-ஆலஂ மூலமான சாதனமஂ தேவை.</string>
