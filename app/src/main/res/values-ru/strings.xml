@@ -143,4 +143,8 @@
     <string name="pref_title_use_root">Root-режим</string>
     <string name="pref_summary_use_root">Более качественный фильтр, особенно с тёмным фоном. Требуется рутированное с помощью Magisk устройство.</string>
     <string name="toast_root_unavailable">Red Moon: Root недоступен. Отключение root-режима.</string>
+    <string name="overlay_accessibility_service_label">Накладка Red Moon</string>
+    <string name="pref_title_use_accessibility_service">Использовать Службу доступности</string>
+    <string name="pref_summary_use_accessibility_service">Включите чтобы затемнять домашний экран и панель статуса и навигации на Android 12+</string>
+    <string name="accessibility_service_description">На Android 12 или позднее эта служба позволяет Red Moon рисовать на оттенке уведомлений, домашнем экране и кнопках навигации. На более ранних версиях Android эта служба не нужна, поэтому вы должны её выключить.</string>
 </resources>
