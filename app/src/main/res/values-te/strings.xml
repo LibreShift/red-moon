@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">రెడ్ మూన్</string>
-    <string name="activity_main">రెడ్ మూన్</string>
+    <string name="app_name">అరుణ చంద్రిక</string>
+    <string name="activity_main">అరుణ చంద్రిక</string>
     <string name="activity_intro">పరిచయం</string>
-    <string name="activity_about">రెడ్ మూన్ గురించి</string>
+    <string name="activity_about">అరుణ చంద్రిక గురించి</string>
     <string name="menu_about">గురించి</string>
     <string name="pref_category_other">ఇతర</string>
     <string name="pref_title_intensity">అకిరణ్యత</string>
@@ -25,7 +25,7 @@
     <string name="location_not_set">స్థానం సెట్ చేయబడలేదు</string>
     <string name="longitude_short">దీర్ఘ</string>
     <string name="pref_summary_email_developer">మమ్మల్ని సంప్రదించడానికి ద్వితీయ మార్గం</string>
-    <string name="toast_warning_secured"></string>
+    <string name="toast_warning_secured"/>
     <string name="snackbar_searching_location">స్థానం కోసం శోధిస్తోంది</string>
     <string name="snackbar_location_updated">స్థానం కనుగొనబడింది</string>
     <string name="dialog_title_permission_usage_stats">వినియోగ ప్రాప్యత</string>
