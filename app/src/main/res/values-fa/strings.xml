@@ -146,4 +146,6 @@
     <string name="pref_title_use_root">حالت ریشه</string>
     <string name="toast_root_unavailable">ماه سرخ: ریشه موجود نیست. از کار انداختن حالت ریشه.</string>
     <string name="pref_summary_use_root">پالایه با کیفیت بالا، مخصوصاً با پس‌زمینه‌های تیره. نیازمند روت بودن افزاره با مجیسک.</string>
+    <string name="overlay_accessibility_service_label">روکش ردمون</string>
+    <string name="pref_title_use_accessibility_service">خدمت دسترسی‌پذیری کاربر</string>
 </resources>
