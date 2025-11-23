@@ -54,5 +54,13 @@
         android:defaultValue="false"
         app:iconSpaceReserved="false"
         />
+
+    <CheckBoxPreference
+        android:key="@string/pref_key_monochrome"
+        android:title="@string/pref_title_monochrome"
+        android:summary="@string/pref_summary_monochrome"
+        android:defaultValue="false"
+        app:iconSpaceReserved="false"
+        />
   </PreferenceCategory>
 </PreferenceScreen>

@@ -13,6 +13,7 @@ private const val KEY_COLOR     = "color"
 private const val KEY_INTENSITY = "intensity"
 private const val KEY_DIM_LEVEL = "dim"
 private const val KEY_LOWER_BRIGHTNESS = "lower-brightness"
+private const val KEY_MONOCHROME = "monochrome"
 
 /**
  * Color, intensity, and dimLevel range from 0 to 100, inclusive. Regardless of
@@ -28,7 +29,8 @@ data class Profile(
         val color: Int,
         val intensity: Int,
         val dimLevel: Int,
-        val lowerBrightness: Boolean)
+        val lowerBrightness: Boolean,
+        val monochrome: Boolean = false)
     : Event, Comparable<Profile> {
 
     override fun toString() = JSONObject().run {
@@ -36,6 +38,7 @@ data class Profile(
         put(KEY_INTENSITY, intensity)
         put(KEY_DIM_LEVEL, dimLevel )
         put(KEY_LOWER_BRIGHTNESS, lowerBrightness)
+        put(KEY_MONOCHROME, monochrome)
         toString()
     }
 
@@ -48,6 +51,8 @@ data class Profile(
 
     val multFilterColor: Int
         get() {
+            // Don't apply grayscale here - that's done in SurfaceFlinger via color matrix
+            // This just provides the color temperature
             val rgbColor = rgbFromColor(color)
             val intensityColor = intensity / 100.0f
             val dim = dimLevel / 100.0f
@@ -59,6 +64,7 @@ data class Profile(
 
     val filterColor: Int
         get() {
+            // Overlay mode can't do grayscale, so ignore monochrome flag here
             val rgbColor = rgbFromColor(color)
             val intensityColor = Color.argb(floatToColorBits(intensity.toFloat() / 100.0f),
                                             Color.red  (rgbColor),
@@ -111,7 +117,8 @@ data class Profile(
             val intensity = optInt(KEY_INTENSITY)
             val dim       = optInt(KEY_DIM_LEVEL)
             val lowerBrightness = optBoolean(KEY_LOWER_BRIGHTNESS)
-            Profile(color, intensity, dim, lowerBrightness)
+            val monochrome = optBoolean(KEY_MONOCHROME, false)
+            Profile(color, intensity, dim, lowerBrightness, monochrome)
         }
 
         fun getColorTemperature(color: Int): Int = 500 + color * 30

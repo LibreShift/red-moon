@@ -84,6 +84,10 @@ object Config : Preferences(appContext) {
         activeProfile.run { if (it != lowerBrightness) activateProfile(copy(lowerBrightness = it)) }
     }
 
+    var monochrome by BooleanPreference(R.string.pref_key_monochrome, false) {
+        activeProfile.run { if (it != monochrome) activateProfile(copy(monochrome = it)) }
+    }
+
     private fun activateProfile(profile: Profile) {
         Log.i("Activating profile: $profile")
         custom = profile
