@@ -1,6 +1,6 @@
-## Low Maintenance Mode
+## Not Actively Maintained
 
-Red Moon is currently maintained to the level of "works on my device". Pull Requests are still accepted and if you're interested in becoming a co-maintainer, I'm willing to spend time walking you through the code base. [**Read More**](https://github.com/LibreShift/red-moon/issues/281)
+Red Moon is no longer maintained, but Pull Requests are still accepted. I'm also willing to deputize PR authors as co-maintainers. [**Read More**](https://github.com/LibreShift/red-moon/issues/281)
 
 ---
 
