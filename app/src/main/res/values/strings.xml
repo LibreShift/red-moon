@@ -68,6 +68,9 @@
     <string name="pref_title_intensity">Opacity</string>
     <string name="pref_title_color_temp">Color</string>
     <string name="pref_title_lower_brightness">Lower system brightness</string>
+    <string name="pref_title_monochrome">Monochrome mode</string>
+    <string name="pref_summary_monochrome">Apply black-and-white filter before color temperature. Preserves contrast with extreme color temperatures.</string>
+    <string name="pref_summary_monochrome_requires_root">Requires root mode (enable in Settings)</string>
 
     <string name="pref_title_time_toggle">Timer</string>
     <string name="pref_title_schedule">Run as scheduled</string>

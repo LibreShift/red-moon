@@ -32,6 +32,7 @@
   <string name="pref_key_intensity" translatable="false">pref_key_shades_intensity_level</string>
   <string name="pref_key_color" translatable="false">pref_key_shades_color_temp</string>
   <string name="pref_key_lower_brightness" translatable="false">pref_key_control_brightness</string>
+  <string name="pref_key_monochrome" translatable="false">pref_key_monochrome</string>
   <string name="pref_key_custom_profile" translatable="false">pref_key_custom_profile</string>
   <string name="pref_key_keep_running_after_reboot" translatable="false">pref_key_keep_running_after_reboot</string>
   <string name="pref_key_always_open_on_startup" translatable="false">pref_key_always_open_on_startup</string>

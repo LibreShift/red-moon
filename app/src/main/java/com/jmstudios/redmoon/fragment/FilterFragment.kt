@@ -60,6 +60,9 @@ class FilterFragment : PreferenceFragmentCompat() {
     private val lowerBrightnessPref: TwoStatePreference
         get() = pref(R.string.pref_key_lower_brightness) as TwoStatePreference
 
+    private val monochromePref: TwoStatePreference?
+        get() = pref(R.string.pref_key_monochrome) as? TwoStatePreference
+
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
         setPreferencesFromResource(R.xml.filter_preferences, rootKey)
 
@@ -72,6 +75,24 @@ class FilterFragment : PreferenceFragmentCompat() {
                     val checked = newValue as Boolean
                     if (checked) Permission.WriteSettings.request(requireActivity()) else true
                 }
+        
+        // Monochrome only works with root mode
+        updateMonochromeVisibility()
+    }
+    
+    private fun updateMonochromeVisibility() {
+        monochromePref?.let { pref ->
+            pref.isVisible = Config.useRoot
+            pref.summary = if (Config.useRoot) {
+                getString(R.string.pref_summary_monochrome)
+            } else {
+                getString(R.string.pref_summary_monochrome_requires_root)
+            }
+            // If root is disabled and monochrome was on, turn it off
+            if (!Config.useRoot && Config.monochrome) {
+                Config.monochrome = false
+            }
+        }
     }
 
     override fun onStart() {
@@ -94,7 +115,9 @@ class FilterFragment : PreferenceFragmentCompat() {
             intensityPref.setProgress(intensity)
             dimLevelPref.setProgress(dimLevel)
             lowerBrightnessPref.isChecked = lowerBrightness
+            monochromePref?.isChecked = monochrome
         }
+        updateMonochromeVisibility()
     }
     //endregion
 }
