@@ -53,7 +53,7 @@
     <string name="searching_location">正在搜索位置</string>
     <string name="toast_warning_no_location">启用位置服务来更新位置</string>
     <string name="set_dialog">设置</string>
-    <string name="notification_status_running">运行中……须要安装APK时会暂停</string>
+    <string name="notification_status_running">运行中。安装 apk 文件需要关闭屏幕过滤</string>
     <string name="activity_intro">简介</string>
     <string name="activity_about">关于红月</string>
     <string name="activity_secure_suspend">被排除的应用在运行时，暂停红月</string>
