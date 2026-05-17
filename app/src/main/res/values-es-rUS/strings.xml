@@ -127,4 +127,11 @@
     <string name="pref_value_stop_time_sunrise">Amanecer</string>
     <string name="pref_summary_start_time_sunset">Puesta del sol (%s)</string>
     <string name="pref_value_start_time_sunset">Puesta del sol</string>
+    <string name="toast_root_unavailable">Red Moon: raíz indisponible. Inhabilitar modo root.</string>
+    <string name="pref_title_use_root">Modo root</string>
+    <string name="pref_title_use_accessibility_service">Utilizar servicio de accesibilidad</string>
+    <string name="pref_summary_use_root">Filtro de mayor calidad, especialmente con fondos oscuros. Requiere un dispositivo rooteado con Magisk.</string>
+    <string name="overlay_accessibility_service_label">Superposición de Luna Roja</string>
+    <string name="pref_summary_use_accessibility_service">Habilitar para ocultar la pantalla de inicio y las barras de estado/navegación en Android 12+</string>
+    <string name="accessibility_service_description">En Android 12 o superior, este servicio permite que Red Moon dibuje sobre el panel de notificaciones, la pantalla de inicio y los botones de navegación. En versiones anteriores de Android, este servicio no es necesario, por lo que conviene desactivarlo.</string>
 </resources>
