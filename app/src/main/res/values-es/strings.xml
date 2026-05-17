@@ -43,7 +43,7 @@
     <string name="dialog_button_ok">Aceptar</string>
     <string name="dialog_button_cancel">Cancelar</string>
     <string name="shortcut_title_toggle">Des/activar filtro</string>
-    <string name="activity_shortcut">Des/activar Red Moon</string>
+    <string name="activity_shortcut">Conmutar Red Moon</string>
     <string name="pref_title_lower_brightness">Reducir brillo del sistema</string>
     <string name="location_not_set">Sin establecer</string>
     <string name="pref_summary_project_page">Para más información, proporcionar comentarios y contribuir a su desarrollo</string>
@@ -57,11 +57,7 @@
     <string name="time_toggle_options_array_0">Manual</string>
     <string name="activity_secure_suspend">Pausar en aplicaciones excluidas</string>
     <string name="pref_title_secure_suspend">Pausar en aplicaciones excluidas</string>
-    <string name="pref_summary_secure_suspend">Con esta opción activada la superposición de Red Moon se pausará automáticamente cuando se abran determinadas aplicaciones. Esto incluye de serie aplicaciones que no funcionarían con Red Moon estando encima*, como la pantalla de confirmación de instalación de APKs. Aparte de eso tienes control manual desde la notificación para detener el filtro, por ejemplo; al utilizar la cámara, donde ver los colores bien y sin adulterar es importante.
-\n 
-\nActivarlo puede conllevar un gasto de batería extra en tu dispositivo. 
-\n 
-\n*Algunas aplicaciones se protegen de las superposiciones para evitar problemas de seguridad, como engañarte para que aprietes botones falsos alterando lo que ves en pantalla y así poder instalar otros programas fraudulentos... por lo que partes de su interfaz no irán, ya que Red Moon funciona dibujando en todo momento una capa roja semitransparente.</string>
+    <string name="pref_summary_secure_suspend">Con esta opción activada la superposición de Red Moon se pausará automáticamente cuando se abran determinadas aplicaciones. Esto incluye de serie aplicaciones que no funcionarían con Red Moon estando encima*, como la pantalla de confirmación de instalación de las APK. Aparte de eso tienes control manual desde la notificación para detener el filtro, por ejemplo; al utilizar la cámara, donde ver los colores bien y sin adulterar es importante. \n \nEsta característica puede reducir levemente la vida de batería en tu dispositivo. \n \n*Algunas aplicaciones se protegen de las superposiciones para evitar problemas de seguridad, como engañarte para que aprietes botones falsos alterando lo que ves en pantalla y así poder instalar otros programas fraudulentos... por lo que partes de su interfaz no irán, ya que Red Moon funciona dibujando en todo momento una capa roja semitransparente.</string>
     <string name="text_switch_on">Activado</string>
     <string name="text_switch_off">Desactivado</string>
     <string name="dialog_title_permission_usage_stats">Permitir recopilar aplicaciones en ejecución</string>
@@ -71,7 +67,7 @@
     <string name="dialog_title_permission_overlay">Superponerse sobre otras aplicaciones</string>
     <string name="notification_status_off">No</string>
     <string name="pref_summary_use_location">Teniendo en cuenta el desfase horario de la ubicación actual</string>
-    <string name="notification_action_turn_on">Reanudar</string>
+    <string name="notification_action_turn_on">Encender</string>
     <string name="notification_action_turn_off">Detener</string>
     <string name="notification_action_stop">Detener</string>
     <string name="dialog_message_permission_overlay">Activa poder mostrarse sobre otras aplicaciones en la siguiente pantalla para que Red Moon pueda mostrar el filtro de color.</string>
@@ -101,7 +97,7 @@
     <string name="pref_title_button_backlight">Botones retroiluminados</string>
     <string name="set_dialog">Establecer</string>
     <string name="pref_title_location">Ubicación</string>
-    <string name="notification_status_running">Activo, pausa para instalar APKs</string>
+    <string name="notification_status_running">Activo. Apaga para instalar las APK</string>
     <string name="notification_status_running_no_warning">En funcionamiento</string>
     <string name="menu_restore_default_filters">Restaurar filtros originales</string>
     <string name="filter_name_dim_only">Brillo tenue</string>
