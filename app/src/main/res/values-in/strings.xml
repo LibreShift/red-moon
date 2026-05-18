@@ -130,4 +130,8 @@
     <string name="pref_title_use_root">Mode root</string>
     <string name="toast_root_unavailable">Red Moon: Root tidak tersedia. Menonaktifkan mode root.</string>
     <string name="pref_summary_use_root">Filter berkualitas tinggi, terutama dengan latar belakang gelap. Memerlukan perangkat yang di-root dengan Magisk.</string>
+    <string name="overlay_accessibility_service_label">Hamparan Red Moon</string>
+    <string name="pref_title_use_accessibility_service">Gunakan Layanan Aksesibilitas</string>
+    <string name="pref_summary_use_accessibility_service">Memungkinkan untuk menutupi layar beranda dan bilah status/navigasi pada Android 12+</string>
+    <string name="accessibility_service_description">Pada Android 12 atau yang lebih tinggi, layanan ini memungkinkan Red Moon menggambar di atas bayangan notifikasi, layar beranda, dan tombol navigasi. Pada versi Android yang lebih rendah, layanan ini tidak diperlukan, jadi Anda harus menonaktifkannya.</string>
 </resources>

@@ -130,4 +130,8 @@
     <string name="pref_title_use_root">Modo root</string>
     <string name="toast_root_unavailable">Red Moon: modo root indisponível. A desativar o modo root.</string>
     <string name="pref_summary_use_root">Filtro de maior qualidade, especialmente com fundos escuros. Requer dispositivo no modo root com Magisk.</string>
+    <string name="pref_title_use_accessibility_service">Usar Serviço de Acessibilidade</string>
+    <string name="pref_summary_use_accessibility_service">Permitir cobrir o ecrã inicial e barras de estado e navegação em Android 12+</string>
+    <string name="overlay_accessibility_service_label">Sobreposição Red Moon</string>
+    <string name="accessibility_service_description">Em Android 12 e superiores, este serviço permite que o Red Moon desenhe por cima da barra de notificação, ecrã inicial e botões de navegação. Em versões inferiores do Android, este serviço não é necessário, pelo que o deve deixar desativado.</string>
 </resources>

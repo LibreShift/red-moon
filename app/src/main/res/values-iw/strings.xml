@@ -130,4 +130,8 @@
     <string name="notification_channel_overlay_description">הודעת בקרת שכבת-על המתמשכת</string>
     <string name="toast_root_unavailable">Red Moon: השורש אינו זמין. השבתת מצב שורש.</string>
     <string name="pref_summary_use_root">מסנן באיכות גבוהה יותר, במיוחד עם רקע כהה. דורש מכשיר מושרש עם Magisk.</string>
+    <string name="pref_title_use_accessibility_service">שימוש בשירותי נגישות</string>
+    <string name="overlay_accessibility_service_label">כיסוי ירח אדום</string>
+    <string name="accessibility_service_description">באנדרואיד 12 ומעלה, שירות זה מאפשר ל-Red Moon לצייר מעל גוון ההתראות, מסך הבית וכפתורי הניווט. בגרסאות נמוכות יותר של אנדרואיד, שירות זה אינו נחוץ, אז כדאי להשאיר אותו כבוי.</string>
+    <string name="pref_summary_use_accessibility_service">אפשר לכסות את מסך הבית ואת פסי המצב/ניווט ב-Android 12+</string>
 </resources>
