@@ -1,0 +1,15 @@
+Niebieskie światło może hamować produkcję melatoniny, hormonu snu. Red Moon filtruje niebieskie światło i przyciemnia ekran poniżej normalnego minimum, dzięki czemu możesz wygodnie korzystać z telefonu w nocy.
+
+Funkcje:
+
+- Zaplanuj działanie Red Moon od zachodu do wschodu słońca lub w wybranych godzinach.
+- Użyj domyślnych profili kolorów lub ustaw własny kolor, intensywność i przyciemnienie.
+- Automatycznie wstrzymuj działanie w aplikacjach zabezpieczonych przed nakładkami lub tych, które wybierzesz.
+- Szybko uruchamiaj, zatrzymuj i przełączaj profile za pomocą powiadomienia, kafelka (Android 7.0+) lub widżetu.
+
+Uprawnienia:
+
+- Modyfikowanie ustawień systemu: aby automatycznie obniżyć jasność ekranu, gdy filtr jest włączony
+- Przybliżona lokalizacja (na podstawie sieci): aby określić wschód i zachód słońca w Twojej lokalizacji. Będzie używana tylko wtedy, gdy skonfigurujesz Red Moon tak, aby automatycznie uruchamiał się w nocy
+- Wyświetlanie nad innymi aplikacjami: aby zmienić kolor i jasność ekranu we wszystkich aplikacjach
+- Uruchamianie przy starcie: aby przywrócić poprzedni filtr podczas uruchamiania urządzenia
